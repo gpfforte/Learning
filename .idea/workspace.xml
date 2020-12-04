@@ -27,7 +27,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Second" />
+    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Second">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="e1def878-c762-4cba-b948-7fe014721e1e" name="Second" comment="Second&#10;&#10;(cherry picked from commit 006a531c48d1a27bbe2e734fd82733b03ea995b9)">
       <changelist_data name="gpfforte" email="gpf_forte@hotmail.com" date="1607032294000" />
     </list>
@@ -140,9 +142,6 @@
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\gpf_f\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Data/GPF/Python" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -274,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607117212332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Second">
+      <created>1607118106815</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607118106815</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -293,6 +299,31 @@
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -329,10 +360,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="500" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1606605324073" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1607032272364">
+    <state x="99" y="73" width="1350" height="638" key="DiffContextDialog" timestamp="1607118883876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607032272364" />
+    <state x="99" y="73" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607118883876" />
     <state x="549" y="167" width="714" height="489" key="FileChooserDialogImpl" timestamp="1607031508808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -381,10 +412,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606686890633" />
-    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1607117774524">
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1607118154887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1607117774524" />
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1607118154887" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1606943799173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -397,10 +428,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1606768098780" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607032319328">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607118452589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607032319328" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607118452589" />
     <state x="-6" y="178" width="1547" height="652" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606773810337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -413,10 +444,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="347" y="143" width="1173" height="575" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1606055338561" />
-    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607031489675">
+    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607117922226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607031489675" />
+    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607117922226" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1606598417895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
