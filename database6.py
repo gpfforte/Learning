@@ -120,11 +120,13 @@ def delete(record_id,tree):
 def add(tree):
     if f_name.get() > "":
         try:
+            response = messagebox.askquestion("Aggiunta Cliente",
+                                              "Sei sicuro di aggiungere il nuovo cliente " + f_name.get() +" " +l_name.get() + " con un nuovo id?", parent=tabella)
             # Create or connect a database
             conn = sqlite3.connect('address_book.db')
             # Create cursor
             cursor = conn.cursor()
-            riga = [f_name.get(), l_name.get(), l_name.get(), city.get(), state.get(), zipcode.get()]
+            riga = [f_name.get(), l_name.get(), address.get(), city.get(), state.get(), zipcode.get()]
             # riga=["ciao","ciao","ciao","ciao","ciao",1]
             # print(riga)
 
@@ -281,6 +283,7 @@ def crea_tabella_win(cursor):
     id_cliente_label.grid(row=3, column=0,padx=10, pady=5)
     id_cliente = Entry(mediumframe, width=30)
     id_cliente.grid(row=3, column=1,padx=10, pady=5)
+    id_cliente.configure(state="disabled")
 
     # Create Delete Button
     delete_btn = Button(bottomframe, text="Delete Record", command=lambda: delete(id_selezionato,tree))
