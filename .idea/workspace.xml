@@ -27,9 +27,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Second">
-      <change beforePath="$PROJECT_DIR$/.idea/Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Corretto add che inseriva last name nell'indirizzo e messa messaggebox aull'add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/address_book.db" beforeDir="false" afterPath="$PROJECT_DIR$/address_book.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database6.py" beforeDir="false" afterPath="$PROJECT_DIR$/database6.py" afterDir="false" />
@@ -201,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607118106815</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Corretto add che inseriva last name nell'indirizzo e messa messaggebox aull'add">
+      <created>1607175542304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607175542304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -254,6 +259,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="Second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second" />
+    <MESSAGE value="Corretto add che inseriva last name nell'indirizzo e messa messaggebox aull'add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corretto add che inseriva last name nell'indirizzo e messa messaggebox aull'add" />
   </component>
 </project>

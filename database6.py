@@ -1,16 +1,17 @@
-from tkinter import *
-from PIL import ImageTk, Image
-from tkinter import messagebox, Entry
-from tkinter import filedialog
+# from tkinter import *
+# from PIL import ImageTk, Image
+from tkinter import messagebox  #  , Entry
+# from tkinter import filedialog
 import sqlite3
 import csv
-import locale
+# import locale
 from tkinter import ttk
 from tkinter import *
 from tkinter.ttk import *
-import os
+# import os
 
 global dati_mostrati
+global search_label_entry
 
 
 root = Tk()
@@ -19,7 +20,8 @@ root.iconphoto(True, PhotoImage(file='Images/Icona.png'))
 # root.iconbitmap("Images/Icona.bmp")
 root.geometry("400x600")
 
-def aggiorna_tree_search(tree,*search):
+
+def aggiorna_tree_search(tree, *search):
     # Questa funzione riceve in input il tree da aggiornare o un ulteriore parametro per fare una ricerca con il like
     global dati_mostrati
     tree.delete(*tree.get_children())
@@ -29,7 +31,7 @@ def aggiorna_tree_search(tree,*search):
         # print(search)
         # Create cursor
         cursor = conn.cursor()
-        if not search or search[0]=="":
+        if not search or search[0] == "":
             cursor.execute("SELECT * FROM addresses")
         else:
             search = search[0]
@@ -41,7 +43,8 @@ def aggiorna_tree_search(tree,*search):
              or state like ?
              or zipcode like ?
              or id_cliente like ?""",
-            ('%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%'))
+             ('%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%', '%'+search+'%',
+              '%'+search+'%'))
         records = cursor.fetchall()  # one --- many ---
         for i in records:
             tree.insert("", "end", values=i)
@@ -58,7 +61,7 @@ def save(record_id,tree):
         if record_id > "":
             conn = sqlite3.connect('address_book.db')
             cursor = conn.cursor()
-            riga=[f_name.get(),l_name.get(),address.get(),city.get(),state.get(),zipcode.get(),record_id]
+            riga = [f_name.get(),l_name.get(),address.get(),city.get(),state.get(),zipcode.get(),record_id]
             #cursor.execute("INSERT INTO addresses VALUES (?,?,?,?,?,?,NULL)", riga)
             cursor.execute("""UPDATE addresses SET 
                 first_name=?,
@@ -97,7 +100,8 @@ def delete(record_id,tree):
                 cursor = conn.cursor()
                 cursor.execute("SELECT * FROM addresses WHERE id_cliente=" + record_id)
                 records = cursor.fetchall()  # one --- many ---
-                response=messagebox.askquestion("Cancellazione Cliente", "Sei sicuro di cancellare il cliente "+record_id+" ?",parent=tabella)
+                response=messagebox.askquestion("Cancellazione Cliente", "Sei sicuro di cancellare il cliente "
+                                                +records[0][0]+" "+records[0][1]+" "+record_id+" ?",parent=tabella)
                 # print(response)
                 if response=="yes":
 
@@ -105,7 +109,7 @@ def delete(record_id,tree):
                         cursor.execute("DELETE FROM addresses WHERE id_cliente=" + record_id
                                        )
                     else:
-                        messagebox.showinfo("Errore update", "Non esiste alcun record con id = " + record_id, parent=tabella)
+                        messagebox.showinfo("Errore Delete", "Non esiste alcun record con id = " + record_id, parent=tabella)
 
                 conn.commit()
                 conn.close()
@@ -114,7 +118,7 @@ def delete(record_id,tree):
             messagebox.showinfo("Errore nella cancellazione", ex, parent=tabella)
     else:
         messagebox.showinfo("Errore cancellazione", "l'Id deve essere popolato",parent=tabella)
-    aggiorna_tree_search(tree)
+    aggiorna_tree_search(tree, search_label_entry.get())
     clear()
 
 def add(tree):
@@ -122,40 +126,41 @@ def add(tree):
         try:
             response = messagebox.askquestion("Aggiunta Cliente",
                                               "Sei sicuro di aggiungere il nuovo cliente " + f_name.get() +" " +l_name.get() + " con un nuovo id?", parent=tabella)
-            # Create or connect a database
-            conn = sqlite3.connect('address_book.db')
-            # Create cursor
-            cursor = conn.cursor()
-            riga = [f_name.get(), l_name.get(), address.get(), city.get(), state.get(), zipcode.get()]
-            # riga=["ciao","ciao","ciao","ciao","ciao",1]
-            # print(riga)
+            if response == "yes":
+                # Create or connect a database
+                conn = sqlite3.connect('address_book.db')
+                # Create cursor
+                cursor = conn.cursor()
+                riga = [f_name.get(), l_name.get(), address.get(), city.get(), state.get(), zipcode.get()]
+                # riga=["ciao","ciao","ciao","ciao","ciao",1]
+                # print(riga)
 
-            cursor.execute("INSERT INTO addresses VALUES (?,?,?,?,?,?,NULL)", riga)
+                cursor.execute("INSERT INTO addresses VALUES (?,?,?,?,?,?,NULL)", riga)
 
-            # cursor.execute("INSERT INTO addresses VALUES (:f_name,:l_name,:address,:city,:state,:zipcode)",
-            #                {
-            #                    'f_name': f_name.get(),
-            #                    'l_name': l_name.get(),
-            #                    'address': l_name.get(),
-            #                    'city': city.get(),
-            #                    'state': state.get(),
-            #                    'zipcode': zipcode.get()
-            #                })
-            f_name.delete(0, END)
-            l_name.delete(0, END)
-            address.delete(0, END)
-            city.delete(0, END)
-            state.delete(0, END)
-            zipcode.delete(0, END)
-            id_cliente.configure(state="enabled")
-            id_cliente.delete(0, END)
-            id_cliente.configure(state="disabled")
+                # cursor.execute("INSERT INTO addresses VALUES (:f_name,:l_name,:address,:city,:state,:zipcode)",
+                #                {
+                #                    'f_name': f_name.get(),
+                #                    'l_name': l_name.get(),
+                #                    'address': l_name.get(),
+                #                    'city': city.get(),
+                #                    'state': state.get(),
+                #                    'zipcode': zipcode.get()
+                #                })
+                f_name.delete(0, END)
+                l_name.delete(0, END)
+                address.delete(0, END)
+                city.delete(0, END)
+                state.delete(0, END)
+                zipcode.delete(0, END)
+                id_cliente.configure(state="enabled")
+                id_cliente.delete(0, END)
+                id_cliente.configure(state="disabled")
 
 
-            conn.commit()
+                conn.commit()
 
-            conn.close()
-            aggiorna_tree_search(tree)
+                conn.close()
+                aggiorna_tree_search(tree, search_label_entry.get())
         except Exception as ex:
             messagebox.showinfo("Errore nell'inserimento", ex, parent=tabella)
     else:
@@ -194,6 +199,7 @@ def crea_tabella_win(cursor):
     global zipcode
     global id_cliente
     global dati_mostrati
+    global search_label_entry
     dati_mostrati=""
     id_selezionato = ""
     # tabella = Tk()
