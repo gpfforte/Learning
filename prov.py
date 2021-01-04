@@ -4,7 +4,7 @@ def function():
 def function(self):
 	pass
 
-for x in xrange(1,10):
+for x in range(1,10):
 	pass
-while :
+while 1 :
 	pass
