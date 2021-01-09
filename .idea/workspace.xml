@@ -225,12 +225,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Spreadsheet2" />
-      <item itemvalue="Python.Spreadsheet3" />
-      <item itemvalue="Python.Spreadsheet" />
-      <item itemvalue="Python.dataframe" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.provaclasse" />
+      <item itemvalue="Python.dataframe" />
+      <item itemvalue="Python.Spreadsheet" />
+      <item itemvalue="Python.Spreadsheet2" />
+      <item itemvalue="Python.Spreadsheet3" />
     </list>
     <recent_temporary>
       <list>
