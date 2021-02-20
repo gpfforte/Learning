@@ -27,8 +27,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Spreadsheet">
-      <change afterPath="$PROJECT_DIR$/Cities.xlsx" afterDir="false" />
+    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="FTP e Rinominare file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="e1def878-c762-4cba-b948-7fe014721e1e" name="Second" comment="Second&#10;&#10;(cherry picked from commit 006a531c48d1a27bbe2e734fd82733b03ea995b9)">
@@ -225,12 +224,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.provaclasse" />
-      <item itemvalue="Python.dataframe" />
-      <item itemvalue="Python.Spreadsheet" />
       <item itemvalue="Python.Spreadsheet2" />
       <item itemvalue="Python.Spreadsheet3" />
+      <item itemvalue="Python.Spreadsheet" />
+      <item itemvalue="Python.dataframe" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.provaclasse" />
     </list>
     <recent_temporary>
       <list>
@@ -317,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610039502139</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="FTP e Rinominare file">
+      <created>1610231697138</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610231697138</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FTP e Rinominare file">
+      <created>1610231805315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610231805315</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -373,6 +386,7 @@
     <MESSAGE value="Corretto add che inseriva last name nell'indirizzo e messa messaggebox aull'add" />
     <MESSAGE value="Entryformat" />
     <MESSAGE value="Spreadsheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spreadsheet" />
+    <MESSAGE value="FTP e Rinominare file" />
+    <option name="LAST_COMMIT_MESSAGE" value="FTP e Rinominare file" />
   </component>
 </project>
