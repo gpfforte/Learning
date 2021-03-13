@@ -2,6 +2,7 @@ from tkinter import *
 from openpyxl.workbook import Workbook
 
 from openpyxl import load_workbook
+from PDFWriter import PDFWriter
 
 filename = "Cities.xlsx"
 root = Tk()
@@ -15,17 +16,27 @@ ws = wb.active
 column_a = ws["A"]
 column_b = ws["B"]
 
+print (wb.sheetnames)
 
 
-def stampa():
+
+def find_specific_cell():
+    for row in range(1, ws.max_row + 1):
+        for column in "A":  # Here you can add or reduce the columns
+            cell_name = "{}{}".format(column, row)
+            if ws[cell_name].value == "Somma":
+                #print("{1} cell is located on {0}" .format(cell_name, currentSheet[cell_name].value))
+                print("cell position {} has value {}".format(cell_name, ws[cell_name].value))
+                return cell_name
+
+
+def inserisci_somma():
     print(len(column_b))
-    print(column_b[0].value)
-    # print(column_a.index('Somma'))
-    for x in column_a:
-        print(x)
-
-
-    ws["B5"] = "=SUM(B2:B4)"
+    cella_trovata= find_specific_cell()
+    print (cella_trovata)
+    riga_somma=int(cella_trovata[1:])
+    cella_con_somma="B"+str(riga_somma)
+    ws[cella_con_somma] = "=SUM(B2:B"+str(riga_somma-1)+")"
 
     # ws.cell(len(column_b),2,"=SUM(B2:B4)")
 
@@ -42,7 +53,7 @@ def get_a():
     for cella in column_a:
         lista = f"{lista + str(cella.value)}\n"
         altra_lista.append(str(cella.value))
-        print(cella.value+"-")
+        print(cella.value)
     label_a.config(text=lista)
     for riga in altra_lista:
         my_listbox.insert(END, riga)
@@ -51,7 +62,7 @@ def get_a():
 btn_a = Button(root, text="Column A", command=get_a)
 btn_a.pack(pady=10, padx=10)
 
-btn_prt = Button(root, text="Stampa a Console", command=stampa)
+btn_prt = Button(root, text="Inserisci Somma", command=inserisci_somma)
 btn_prt.pack(pady=10, padx=10)
 
 btn_save = Button(root, text="Salva", command=salva)
@@ -91,3 +102,4 @@ my_label.pack(pady=20)
 # print(column_a)
 
 root.mainloop()
+

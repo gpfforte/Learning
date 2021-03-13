@@ -27,9 +27,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Entryformat">
-      <change afterPath="$PROJECT_DIR$/Spreadsheet3.py" afterDir="false" />
+    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Apertura File Excel e visualizzazione in treeview con numpy e pandas">
+      <change afterPath="$PROJECT_DIR$/Cities.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spreadsheet3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spreadsheet3.py" afterDir="false" />
     </list>
     <list id="e1def878-c762-4cba-b948-7fe014721e1e" name="Second" comment="Second&#10;&#10;(cherry picked from commit 006a531c48d1a27bbe2e734fd82733b03ea995b9)">
       <changelist_data name="gpfforte" email="gpf_forte@hotmail.com" date="1607032294000" />
@@ -123,6 +126,9 @@
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\gpf_f\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
