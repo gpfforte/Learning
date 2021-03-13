@@ -10,6 +10,7 @@ root.geometry("400x400")
 
 def show():
 	myLabel=Label(root, text=var.get()).pack()
+	print(var.get())
 
 #var= IntVar()
 var= StringVar()
