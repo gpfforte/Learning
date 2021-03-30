@@ -5,7 +5,7 @@ from tkinter import filedialog
 
 root=Tk()
 root.title("Learning Python")
-root.iconbitmap("Images/Icona.ico")
+# root.iconbitmap("Images/Icona.ico")
 root.geometry("400x400")
 
 def show():
