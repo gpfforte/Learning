@@ -27,13 +27,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Apertura File Excel e visualizzazione in treeview con numpy e pandas">
-      <change afterPath="$PROJECT_DIR$/Cities.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreadsheet3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spreadsheet3.py" afterDir="false" />
-    </list>
+    <list default="true" id="614bcd8b-39f0-46b9-bb2d-594083f285db" name="Default Changelist" comment="Apertura File Excel e visualizzazione in treeview con numpy e pandas" />
     <list id="e1def878-c762-4cba-b948-7fe014721e1e" name="Second" comment="Second&#10;&#10;(cherry picked from commit 006a531c48d1a27bbe2e734fd82733b03ea995b9)">
       <changelist_data name="gpfforte" email="gpf_forte@hotmail.com" date="1607032294000" />
     </list>
@@ -228,12 +222,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.provaclasse" />
-      <item itemvalue="Python.dataframe" />
-      <item itemvalue="Python.Spreadsheet" />
       <item itemvalue="Python.Spreadsheet2" />
       <item itemvalue="Python.Spreadsheet3" />
+      <item itemvalue="Python.Spreadsheet" />
+      <item itemvalue="Python.dataframe" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.provaclasse" />
     </list>
     <recent_temporary>
       <list>
@@ -376,6 +370,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="740" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1609885997183" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1615675621886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615675621886" />
     <state width="1515" height="260" key="GridCell.Tab.0.bottom" timestamp="1609890973475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -408,10 +406,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609890983445" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609801828359">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615675418738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609801828359" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615675418738" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607195732197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
