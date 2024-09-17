@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import ttk
 from PIL import ImageTk, Image
 from tkinter import messagebox
 from tkinter import filedialog
@@ -144,7 +145,7 @@ def edit():
                     zipcode_editor.insert(0, record[5])
 
                 # Create Save Button
-                save_btn = Button(editor, text="Save Record", command=save)
+                save_btn = ttk.Button(editor, text="Save Record", command=save)
                 save_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=137)
             else:
                 messagebox.showinfo("Errore update", "Non esiste alcun record con id = "+record_id)
@@ -275,7 +276,7 @@ select_box_label = Label(root, text="Select ID")
 select_box_label.grid(row=9, column=0)
 
 # Create Submit Button
-add_btn = Button(root, text="Add record to database", command=add)
+add_btn = ttk.Button(root, text="Add record to database", command=add)
 add_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)
 
 # Create Query Button
@@ -283,11 +284,11 @@ query_btn = Button(root, text="Show Records", command=query)
 query_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)
 
 # Create Delete Button
-delete_btn = Button(root, text="Delete Record", command=delete)
+delete_btn = ttk.Button(root, text="Delete Record", command=delete)
 delete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=137)
 
 # Create Update Button
-edit_btn = Button(root, text="Edit Record", command=edit)
+edit_btn = ttk.Button(root, text="Edit Record", command=edit)
 edit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=137)
 
 # conn.commit()

@@ -2,13 +2,13 @@ from tkinter import *
 from openpyxl.workbook import Workbook
 
 from openpyxl import load_workbook
-from PDFWriter import PDFWriter
+# from PDFWriter import PDFWriter
 
 filename = "Cities.xlsx"
 root = Tk()
 root.title('Learning Python')
 root.geometry("1000x700")
-root.iconphoto(True, PhotoImage(file='Images/Icona.png'))
+# root.iconphoto(True, PhotoImage(file='Images/Icona.png'))
 
 # wb=Workbook()
 wb = load_workbook(filename)

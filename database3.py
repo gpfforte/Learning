@@ -1,12 +1,9 @@
 from tkinter import *
 from PIL import ImageTk, Image
-from tkinter import messagebox, Entry
+from tkinter import messagebox
 from tkinter import filedialog
 import sqlite3
 import csv
-import locale
-import pandas as pd
-from pandastable import Table
 
 
 root = Tk()
@@ -15,16 +12,15 @@ root.iconbitmap("Images/Icona.ico")
 root.geometry("400x600")
 
 
-
-class Tabella_entry:
-    # Crea una tabella passando un oggetto ed una lista
-    def __init__(self, widget, lista):
+class Table:
+    # Crea una tabella passando una finestra ed una lista
+    def __init__(self, window, lista):
         total_rows = len(lista)
         total_columns = len(lista[0])
         # code for creating table
         for i in range(total_rows):
             for j in range(total_columns):
-                self.e = Entry(widget, width=15, fg='black',
+                self.e = Entry(window, width=15, fg='black',
                                font=('Arial', 10, 'normal'))
 
                 self.e.grid(row=i+1, column=j)
@@ -257,8 +253,7 @@ def query(provenienza):
             global tabella
 
             if provenienza!="Da Root":
-                # list = tabella.grid_slaves()
-                list = tabella.pack_slaves()
+                list = tabella.grid_slaves()
                 for l in list:
                     print(l)
                     l.destroy()
@@ -268,80 +263,87 @@ def query(provenienza):
                 tabella.iconbitmap("Images/Icona.ico")
                 tabella.geometry("1000x400")
 
-            df = pd.DataFrame(records)
-            framedata = Frame(tabella)
-            # framedata.grid(row=0,sticky="ew")
-            framedata.pack(fill=BOTH, expand=1)
-            framedata.configure(relief=GROOVE, borderwidth=1)
-            pt = Table(framedata, dataframe=df)
-            intestazioni = ["First Name", "Last Name", "Address", "City", "State", "Zipcode", "Id Cliente"]
-            
-            pt.show()
-            # questo codice serve per selezionare una riga
-            def handle_left_click(event):
-                """Handle left click"""
-                rowclicked_single = pt.get_row_clicked(event)
-                #print(rowclicked_single)
-                global id_selezionato
-                id_selezionato=str(records[rowclicked_single][6])
-                pt.setSelectedRow(rowclicked_single)
-                pt.redraw()
-            pt.rowheader.bind('<Button-1>', handle_left_click)
-
-            pt.bind("<Button-1>", handle_left_click)
-            # frame = Frame(tabella)
-            # frame.configure(relief=GROOVE, borderwidth=1)
-            # frame.grid(row=0,sticky="ew")
-            # t = Tabella_entry(frame, records)
-
-
-            bottomframe = Frame(tabella)
-            bottomframe.configure(relief=GROOVE, borderwidth=1,width=1000, height=40)
-            # bottomframe.grid(row=1,column=0, sticky="sew")
-            bottomframe.pack(fill=BOTH, expand=1)
-            # sideframe = Frame(tabella)
-            # sideframe.configure(relief=GROOVE, borderwidth=1, width=1000, height=40)
-            # sideframe.grid(row=1, column=1,sticky="sew")
-
             intestazioni=["First Name","Last Name","Address","City","State","Zipcode","Id Cliente"]
-            # for i in range (len(intestazioni)):
-            #     e=Label(frame, text=intestazioni[i])
-            #     e.grid(row=0, column=i)
+            for i in range (len(intestazioni)):
+                e=Label(tabella, text=intestazioni[i])
+                e.grid(row=0, column=i)
 
-
-
-
-            # i = len(records)+1 # Considero una riga di intestazione
+            # f_name_label = Label(tabella, text="First Name")
+            # f_name_label.grid(row=0, column=0)
+            #
+            # l_name_label = Label(tabella, text="Last Name")
+            # l_name_label.grid(row=0, column=1)
+            #
+            # address_label = Label(tabella, text="Address")
+            # address_label.grid(row=0, column=2)
+            #
+            # city_label = Label(tabella, text="City")
+            # city_label.grid(row=0, column=3)
+            #
+            # state_label = Label(tabella, text="State")
+            # state_label.grid(row=0, column=4)
+            #
+            # zipcode_label = Label(tabella, text="Zipcode")
+            # zipcode_label.grid(row=0, column=5)
+            #
+            # id_cliente_label = Label(tabella, text="Id Cliente")
+            # id_cliente_label.grid(row=0, column=6)
+            t = Table(tabella, records)
+            # print(records)
+            # print_records = ''
+            i = len(records)+1 # Considero una riga di intestazione
             # print (records)
             # for record in records:
+                # i += 1
+                # print_records += str(record[0] + " " + str(record[1]) + " " + str(record[6]) +"\n")
+                # f_name_label = Label(tabella, text=str(record[0]))
+                # f_name_label.grid(row=i, column=0)
+                #
+                # l_name_label = Label(tabella, text=str(record[1]))
+                # l_name_label.grid(row=i, column=1)
+                #
+                # address_label = Label(tabella, text=str(record[2]))
+                # address_label.grid(row=i, column=2)
+                #
+                # city_label = Label(tabella, text=str(record[3]))
+                # city_label.grid(row=i, column=3)
+                #
+                # state_label = Label(tabella, text=str(record[4]))
+                # state_label.grid(row=i, column=4)
+                #
+                # zipcode_label = Label(tabella, text=str(record[5]))
+                # zipcode_label.grid(row=i, column=5)
+                #
+                # id_cliente_label = Label(tabella, text=str(record[6]))
+                # id_cliente_label.grid(row=i, column=6)
 
+            select_box = Entry(tabella, width=30)
+            select_box.grid(row=i+1, column=1, columnspan=3)
 
-            # select_box = Entry(frame, width=30)
-            # select_box.grid(row=i+1, column=1, columnspan=3)
-
-            # select_box_label = Label(frame, text="Select ID Cliente")
-            # select_box_label.grid(row=i+1, column=0)
+            select_box_label = Label(tabella, text="Select ID Cliente")
+            select_box_label.grid(row=i+1, column=0)
                 
             # query_label = Label(tabella, text=print_records)
             # query_label.grid(row=2, column=0, columnspan=2)
             conn.commit()
             conn.close()
             # Create Delete Button
-            delete_btn = Button(bottomframe, text="Delete Record", command=lambda: delete(id_selezionato))
-            delete_btn.grid(row=0, column=0,padx=10, pady=10)
+            delete_btn = Button(tabella, text="Delete Record", command=lambda: delete(select_box.get()))
+            delete_btn.grid(row=i+2, column=0)
 
             # Create Update Button
-            edit_btn = Button(bottomframe, text="Edit Record", command=lambda: edit(id_selezionato))
-            edit_btn.grid(row=0, column=1,padx=10, pady=10)
+            edit_btn = Button(tabella, text="Edit Record", command=lambda: edit(select_box.get()))
+            edit_btn.grid(row=i+2, column=1)
 
-            aggiorna_btn=Button(bottomframe,text="Aggiorna", command=lambda: query("Da Tabella"))
-            aggiorna_btn.grid(row=0,column=2,padx=10, pady=10)
+            close_btn = Button(tabella, text="Close Window", command=tabella.destroy)
+            close_btn.grid(row=i+2, columns=6)
 
-            csv_btn=Button(bottomframe,text="Export", command=lambda: write_to_csv(records))
-            csv_btn.grid(row=0,column=3,padx=10, pady=10)
+            aggiorna_btn=Button(tabella,text="Aggiorna", command=lambda: query("Da Tabella"))
+            aggiorna_btn.grid(row=i+3,column=0)
 
-            # close_btn = Button(sideframe, text="Close Window", command=tabella.destroy)
-            # close_btn.grid(row=0, columns=10,padx=10, pady=10, sticky="e")
+            csv_btn=Button(tabella,text="Export", command=lambda: write_to_csv(records))
+            csv_btn.grid(row=i+3,column=1)           
+
 
         else:
             messagebox.showinfo("Warning", "Non ci sono dati da mostrare")
@@ -368,7 +370,7 @@ state.grid(row=4, column=1)
 zipcode = Entry(root, width=30)
 zipcode.grid(row=5, column=1)
 
-id_cliente: Entry = Entry(root, width=30)
+id_cliente = Entry(root, width=30)
 id_cliente.grid(row=6, column=1)
 id_cliente.configure(state="disabled")
 

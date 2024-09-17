@@ -20,8 +20,43 @@ def aggiorna_tree(tree, records):
     for i in records:
         tree.insert("","end", values=i)
 
+
+
+class Tabella_entry:
+    # Crea una tabella passando un oggetto ed una lista
+    def __init__(self, widget, lista):
+        total_rows = len(lista)
+        total_columns = len(lista[0])
+        # code for creating table
+        for i in range(total_rows):
+            for j in range(total_columns):
+                self.e = Entry(widget, width=15, fg='black',
+                               font=('Arial', 10, 'normal'))
+
+                self.e.grid(row=i+1, column=j)
+                self.e.insert(END, lista[i][j])
+
+ # Create or connect a database
+# conn=sqlite3.connect('address_book.db')
+
+# Create cursor
+# cursor=conn.cursor()
+'''
+cursor.execute(""" CREATE TABLE addresses(
+                first_name text,
+                last_name text,
+                address text,
+                city text,
+                state text,
+                zipcode integer
+                )""")
+"""
+'''
+
+
 def save(record_id):
     try:
+
         conn = sqlite3.connect('address_book.db')
         cursor = conn.cursor()
         riga=[f_name_editor.get(),l_name_editor.get(),address_editor.get(),city_editor.get(),state_editor.get(),zipcode_editor.get(),record_id]
@@ -198,10 +233,7 @@ def add():
             city.delete(0, END)
             state.delete(0, END)
             zipcode.delete(0, END)
-            id_cliente.configure(state="enabled")
             id_cliente.delete(0, END)
-            id_cliente.configure(state="disabled")
-
 
             conn.commit()
 
@@ -365,9 +397,7 @@ def gestione_clienti(provenienza):
                     city.delete(0, END)
                     state.delete(0, END)
                     zipcode.delete(0, END)
-                    id_cliente.configure(state="enabled")
                     id_cliente.delete(0, END)
-                    id_cliente.configure(state="disabled")
                     # Create cursor
                     # Create or connect a database
                     conn = sqlite3.connect('address_book.db')
@@ -379,7 +409,6 @@ def gestione_clienti(provenienza):
                     conn.commit()
                     conn.close()
                     if records.__len__() == 1:
-                        id_cliente.configure(state="enabled")
                         for record in records:
                             f_name.insert(0, record[0])
                             l_name.insert(0, record[1])
