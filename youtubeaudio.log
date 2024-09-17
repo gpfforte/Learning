@@ -1,0 +1,5 @@
+log_setup.py | [INFO] | 2021-07-01 12:13:22,099 | __main__ | : Log Setup Completed, called from youtubeaudio in log_setup:28
+youtubeaudio.py | [INFO] | 2021-07-01 12:13:22,100 | __main__ | : Inizio in youtubeaudio:18
+youtubeaudio.py | [INFO] | 2021-07-01 12:13:22,100 | __main__ | : https://www.youtube.com/watch?v=PVjiKRfKpPI in youtubeaudio:76
+youtubeaudio.py | [INFO] | 2021-07-01 12:13:35,823 | __main__ | : c:\Users\forteg\Desktop\Python\Training/Hozier - Take Me To Church (Official Video).mp3 in youtubeaudio:70
+youtubeaudio.py | [INFO] | 2021-07-01 12:13:41,956 | __main__ | : Fine in youtubeaudio:88

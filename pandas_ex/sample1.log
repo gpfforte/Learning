@@ -1,0 +1,3 @@
+log_setup.py | [INFO] | 2021-12-08 12:52:29,259 | __main__ | : Log Setup Completed, called from sample1 in log_setup:54
+sample1.py | [INFO] | 2021-12-08 12:52:29,261 | __main__ | : Inizio in sample1:19
+sample1.py | [INFO] | 2021-12-08 12:52:29,261 | __main__ | : Fine in sample1:36

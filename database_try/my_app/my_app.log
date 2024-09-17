@@ -1,0 +1,6 @@
+log_setup.py | [INFO] | 2022-04-02 23:25:29,391 | __main__ | : Log Setup Completed, called from my_app in log_setup:54
+my_app.py | [INFO] | 2022-04-02 23:25:29,392 | __main__ | : Inizio in my_app:28
+my_app.py | [INFO] | 2022-04-02 23:25:29,449 | __main__ | : Fine - Elapsed Time: 0.05998860000000006 in my_app:137
+log_setup.py | [INFO] | 2022-04-02 23:27:03,776 | __main__ | : Log Setup Completed, called from my_app in log_setup:54
+my_app.py | [INFO] | 2022-04-02 23:27:03,778 | __main__ | : Inizio in my_app:28
+my_app.py | [INFO] | 2022-04-02 23:27:03,810 | __main__ | : Fine - Elapsed Time: 0.03542789999999996 in my_app:137

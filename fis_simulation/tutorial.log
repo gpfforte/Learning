@@ -1,0 +1,420 @@
+log_setup.py | [INFO] | 2022-04-11 22:09:17,388 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:09:17,404 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:09:56,645 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:09:56,645 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:10:18,080 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:10:18,080 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:10:34,845 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:10:34,845 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:11:27,745 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:11:27,745 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:11:59,442 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:11:59,442 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:12:30,556 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:12:30,556 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:12:57,204 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:12:57,204 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:13:20,474 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:13:20,482 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:13:56,121 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:13:56,121 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:18:26,410 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:18:26,418 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:19:12,289 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:19:12,289 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:20:07,004 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:20:07,004 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:26:00,689 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:26:00,689 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:34:17,689 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:34:17,689 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:36:32,431 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:36:32,431 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:38:04,641 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:38:04,649 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:40:13,007 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:40:13,007 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:41:47,806 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:41:47,806 | __main__ | : Inizio in tutorial:19
+tutorial.py | [INFO] | 2022-04-11 22:41:49,370 | __main__ | : module 'pygame' has no attribute 'k_b' in tutorial:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 62, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 47, in main
+    if event.type == pygame.k_b:
+AttributeError: module 'pygame' has no attribute 'k_b'
+log_setup.py | [INFO] | 2022-04-11 22:42:21,883 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:42:21,883 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:48:06,665 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:48:06,665 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:49:40,020 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:49:40,028 | __main__ | : Inizio in tutorial:19
+log_setup.py | [INFO] | 2022-04-11 22:54:18,939 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:54:18,939 | __main__ | : Inizio in tutorial:20
+log_setup.py | [INFO] | 2022-04-11 22:55:09,705 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 22:55:09,705 | __main__ | : Inizio in tutorial:20
+log_setup.py | [INFO] | 2022-04-11 23:03:33,279 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 23:03:33,280 | __main__ | : Inizio in tutorial:20
+log_setup.py | [INFO] | 2022-04-11 23:04:16,249 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 23:04:16,249 | __main__ | : Inizio in tutorial:20
+log_setup.py | [INFO] | 2022-04-11 23:05:09,779 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 23:05:09,787 | __main__ | : Inizio in tutorial:20
+log_setup.py | [INFO] | 2022-04-11 23:07:02,067 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 23:07:02,067 | __main__ | : Inizio in tutorial:20
+log_setup.py | [INFO] | 2022-04-11 23:09:44,341 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 23:09:44,341 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-11 23:09:46,526 | __main__ | : choice() takes 2 positional arguments but 3 were given in tutorial:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 55, in main
+    color=YELLOW, velocity=choice(-1, 1))
+TypeError: choice() takes 2 positional arguments but 3 were given
+log_setup.py | [INFO] | 2022-04-11 23:11:25,179 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-11 23:11:25,179 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:03:37,469 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:03:37,469 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:03:44,647 | __main__ | : 'Bullet' object has no attribute 'kill' in tutorial:80
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 77, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 48, in main
+    bullet.kill()
+AttributeError: 'Bullet' object has no attribute 'kill'
+log_setup.py | [INFO] | 2022-04-12 22:18:57,577 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:18:57,577 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:18:59,572 | __main__ | : __init__() got an unexpected keyword argument 'game_area' in tutorial:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 39, in main
+    bullet1 = Bullet(x=0, y=10, radius=5, color=REDISH, velocity=1,game_area=game_area)
+TypeError: __init__() got an unexpected keyword argument 'game_area'
+log_setup.py | [INFO] | 2022-04-12 22:19:10,545 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:19:10,545 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:19:11,847 | __main__ | : 'Bullet' object has no attribute '_Sprite__g' in tutorial:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 42, in main
+    all_bullets = pygame.sprite.Group(bullet1, bullet2)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 640, in __init__
+    self.add(*sprites)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 444, in add
+    sprite.add_internal(self)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 160, in add_internal
+    self.__g[group] = 0
+AttributeError: 'Bullet' object has no attribute '_Sprite__g'
+log_setup.py | [INFO] | 2022-04-12 22:21:38,929 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:21:38,937 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:21:40,178 | __main__ | : 'Bullet' object has no attribute '_Sprite__g' in tutorial:81
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 78, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 44, in main
+    all_bullets = pygame.sprite.Group(bullet1)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 640, in __init__
+    self.add(*sprites)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 444, in add
+    sprite.add_internal(self)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 160, in add_internal
+    self.__g[group] = 0
+AttributeError: 'Bullet' object has no attribute '_Sprite__g'
+log_setup.py | [INFO] | 2022-04-12 22:22:28,065 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:22:28,065 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:22:29,008 | __main__ | : 'Bullet' object has no attribute '_Sprite__g' in tutorial:82
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 79, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 44, in main
+    all_bullets = pygame.sprite.Group(Bullet(x=0, y=10, radius=5, color=REDISH,
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 640, in __init__
+    self.add(*sprites)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 444, in add
+    sprite.add_internal(self)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 160, in add_internal
+    self.__g[group] = 0
+AttributeError: 'Bullet' object has no attribute '_Sprite__g'
+log_setup.py | [INFO] | 2022-04-12 22:23:53,699 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:23:53,699 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:24:07,905 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:24:07,905 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:25:00,494 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:25:00,494 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:35:52,650 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:35:52,650 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:35:53,771 | __main__ | : 'Bullet' object has no attribute 'image' in tutorial:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 67, in main
+    all_bullets.draw(WIN)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 552, in draw
+    zip(sprites, surface.blits((spr.image, spr.rect) for spr in sprites))
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 552, in <genexpr>
+    zip(sprites, surface.blits((spr.image, spr.rect) for spr in sprites))
+AttributeError: 'Bullet' object has no attribute 'image'
+log_setup.py | [INFO] | 2022-04-12 22:37:29,069 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:37:29,069 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-12 22:37:29,888 | __main__ | : 'Bullet' object has no attribute 'rect' in tutorial:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 67, in main
+    all_bullets.draw(WIN)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 552, in draw
+    zip(sprites, surface.blits((spr.image, spr.rect) for spr in sprites))
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 552, in <genexpr>
+    zip(sprites, surface.blits((spr.image, spr.rect) for spr in sprites))
+AttributeError: 'Bullet' object has no attribute 'rect'
+log_setup.py | [INFO] | 2022-04-12 22:38:38,183 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:38:38,183 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:40:26,198 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:40:26,198 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:42:07,211 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:42:07,219 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:42:39,882 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:42:39,882 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-12 22:45:53,024 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-12 22:45:53,024 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 21:59:45,137 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 21:59:45,137 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:04:13,536 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:04:13,552 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:05:59,371 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:05:59,371 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:07:27,080 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:07:27,080 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:09:18,775 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:09:18,775 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:10:48,240 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:10:48,240 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:11:39,828 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:11:39,836 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:15:33,117 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:15:33,123 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:16:50,257 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:16:50,257 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:23:02,351 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:23:02,351 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:25:48,216 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:25:48,216 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:26:20,459 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:26:20,459 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:29:51,510 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:29:51,510 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:30:19,029 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:30:19,029 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:31:32,856 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:31:32,856 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:37:16,890 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:37:16,890 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:38:10,613 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:38:10,613 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:44:39,044 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:44:39,044 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-13 22:44:40,430 | __main__ | : 'Bullet' object has no attribute 'width' in tutorial:87
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 84, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 39, in main
+    bullet1 = Bullet(x=0*SCALE + WIDTH / 2, y=10*SCALE +
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\characters.py", line 12, in __init__
+    self.image = pygame.Surface((self.width, self.height))
+AttributeError: 'Bullet' object has no attribute 'width'
+log_setup.py | [INFO] | 2022-04-13 22:45:31,645 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:45:31,645 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-13 22:45:33,152 | __main__ | : 'Bullet' object has no attribute '_Sprite__g' in tutorial:87
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 84, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 47, in main
+    all_sprites.add(bullet1)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 444, in add
+    sprite.add_internal(self)
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\venv_fis_simulation\lib\site-packages\pygame\sprite.py", line 160, in add_internal
+    self.__g[group] = 0
+AttributeError: 'Bullet' object has no attribute '_Sprite__g'
+log_setup.py | [INFO] | 2022-04-13 22:46:14,826 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:46:14,826 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:49:57,444 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:49:57,444 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:52:58,622 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:52:58,622 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:54:46,355 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:54:46,355 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:56:11,050 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:56:11,050 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:57:17,675 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:57:17,675 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:58:32,909 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:58:32,909 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 22:59:17,607 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 22:59:17,607 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 23:00:42,051 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 23:00:42,051 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 23:03:55,754 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 23:03:55,762 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-13 23:07:07,612 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-13 23:07:07,612 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 21:52:00,654 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 21:52:00,654 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 21:53:32,796 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 21:53:32,796 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-14 21:53:35,447 | __main__ | : choice() takes 2 positional arguments but 7 were given in tutorial:92
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 89, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 65, in main
+    color=choice(RED, BLUE, YELLOW, BLUEISH, REDISH, BLACK), velocity=choice([-1, 1]))
+TypeError: choice() takes 2 positional arguments but 7 were given
+log_setup.py | [INFO] | 2022-04-14 21:54:06,013 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 21:54:06,021 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:03:13,617 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:03:13,617 | __main__ | : Inizio in tutorial:21
+tutorial.py | [INFO] | 2022-04-14 22:03:16,231 | __main__ | : 'Bullet' object has no attribute 'x' in tutorial:92
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 89, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 39, in main
+    bullet1 = Bullet(x=0*SCALE + WIDTH / 2, y=10*SCALE +
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\characters.py", line 14, in __init__
+    self.rect.center = (self.x, self.y)
+AttributeError: 'Bullet' object has no attribute 'x'
+log_setup.py | [INFO] | 2022-04-14 22:07:38,237 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:07:38,237 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:10:33,717 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:10:33,717 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:11:40,943 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:11:40,943 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:15:12,929 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:15:12,929 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:15:59,611 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:15:59,611 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:17:12,287 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:17:12,287 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:17:42,142 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:17:42,142 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:19:41,586 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:19:41,586 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:20:14,342 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:20:14,342 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:23:20,553 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:23:20,553 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:25:50,605 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:25:50,605 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:27:38,086 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:27:38,086 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:33:35,115 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:33:35,123 | __main__ | : Inizio in tutorial:21
+log_setup.py | [INFO] | 2022-04-14 22:42:48,524 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:42:48,530 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 22:53:09,669 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:53:09,672 | __main__ | : Inizio in tutorial:22
+tutorial.py | [INFO] | 2022-04-14 22:53:12,101 | __main__ | : 'pygame.Rect' object has no attribute 'collides' in tutorial:100
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 97, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 87, in main
+    check_collision(player, all_sprites)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 38, in check_collision
+    if player.rect.collides(sprite.rect):
+AttributeError: 'pygame.Rect' object has no attribute 'collides'
+log_setup.py | [INFO] | 2022-04-14 22:54:35,663 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:54:35,665 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 22:56:04,469 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 22:56:04,469 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:03:38,840 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:03:38,850 | __main__ | : Inizio in tutorial:22
+tutorial.py | [INFO] | 2022-04-14 23:03:41,368 | __main__ | : argument 1 must be pygame.Surface, not str in tutorial:114
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 111, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 101, in main
+    update_scores(hit)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 43, in update_scores
+    SCREEN.blit(text, (WIDTH-50, 10))
+TypeError: argument 1 must be pygame.Surface, not str
+log_setup.py | [INFO] | 2022-04-14 23:04:49,362 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:04:49,362 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:06:42,604 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:06:42,604 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:08:48,573 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:08:48,573 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:14:36,402 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:14:36,411 | __main__ | : Inizio in tutorial:22
+tutorial.py | [INFO] | 2022-04-14 23:14:39,216 | __main__ | : unsupported operand type(s) for +: 'Group' and 'Group' in tutorial:119
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 116, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 105, in main
+    hit = check_collision(player, all_bullets_h+all_bullets_v)
+TypeError: unsupported operand type(s) for +: 'Group' and 'Group'
+log_setup.py | [INFO] | 2022-04-14 23:16:00,425 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:16:00,440 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:28:55,742 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:28:55,750 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:30:53,728 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:30:53,728 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:32:33,642 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:32:33,642 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:36:26,249 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:36:26,258 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:37:35,345 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:37:35,345 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:38:17,309 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:38:17,325 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:44:17,088 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:44:17,094 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-14 23:44:48,464 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-14 23:44:48,464 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:17:38,967 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:17:38,978 | __main__ | : Inizio in tutorial:22
+tutorial.py | [INFO] | 2022-04-15 00:17:42,737 | __main__ | : local variable 'all_sprites' referenced before assignment in tutorial:126
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 123, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 66, in main
+    all_sprites.add(gbullet)
+UnboundLocalError: local variable 'all_sprites' referenced before assignment
+log_setup.py | [INFO] | 2022-04-15 00:18:12,483 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:18:12,491 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:18:43,867 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:18:43,874 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:19:48,296 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:19:48,304 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:21:17,309 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:21:17,318 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:23:21,399 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:23:21,413 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:24:15,948 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:24:15,948 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:24:35,006 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:24:35,006 | __main__ | : Inizio in tutorial:22
+log_setup.py | [INFO] | 2022-04-15 00:35:30,960 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 00:35:30,962 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 19:49:17,928 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 19:49:17,928 | __main__ | : Inizio in tutorial:26
+tutorial.py | [INFO] | 2022-04-15 19:49:19,808 | __main__ | : name 'Player' is not defined in tutorial:136
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 133, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial.py", line 90, in main
+    player = Player()
+NameError: name 'Player' is not defined
+log_setup.py | [INFO] | 2022-04-15 19:49:45,298 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 19:49:45,298 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 19:50:52,090 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 19:50:52,090 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 20:05:16,313 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 20:05:16,326 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 20:10:26,326 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 20:10:26,326 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 20:14:30,271 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 20:14:30,271 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 20:14:58,901 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 20:14:58,901 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 20:17:04,831 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 20:17:04,840 | __main__ | : Inizio in tutorial:26
+log_setup.py | [INFO] | 2022-04-15 22:59:49,881 | __main__ | : Log Setup Completed, called from tutorial in log_setup:54
+tutorial.py | [INFO] | 2022-04-15 22:59:49,881 | __main__ | : Inizio in tutorial:26

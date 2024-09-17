@@ -1,0 +1,12 @@
+log_setup.py | [INFO] | 2021-11-22 23:22:31,712 | __main__ | : Log Setup Completed, called from stack in log_setup:54
+stack.py | [INFO] | 2021-11-22 23:22:31,712 | __main__ | : Inizio in stack:24
+stack.py | [INFO] | 2021-11-22 23:22:31,721 | __main__ | : Fine in stack:74
+log_setup.py | [INFO] | 2021-12-19 20:07:17,766 | __main__ | : Log Setup Completed, called from stack in log_setup:54
+stack.py | [INFO] | 2021-12-19 20:07:17,766 | __main__ | : Inizio in stack:24
+stack.py | [INFO] | 2021-12-19 20:07:17,774 | __main__ | : Fine in stack:74
+log_setup.py | [INFO] | 2022-04-26 22:27:38,804 | __main__ | : Log Setup Completed, called from stack in log_setup:54
+stack.py | [INFO] | 2022-04-26 22:27:38,804 | __main__ | : Inizio in stack:24
+stack.py | [INFO] | 2022-04-26 22:27:49,060 | __main__ | : Fine in stack:75
+log_setup.py | [INFO] | 2022-10-17 22:43:16,607 | __main__ | : Log Setup Completed, called from stack in log_setup:54
+stack.py | [INFO] | 2022-10-17 22:43:16,607 | __main__ | : Inizio in stack:24
+stack.py | [INFO] | 2022-10-17 22:43:41,877 | __main__ | : Fine in stack:75

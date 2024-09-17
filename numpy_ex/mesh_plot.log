@@ -1,0 +1,185 @@
+log_setup.py | [INFO] | 2021-11-23 13:09:08,216 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:09:08,216 | __main__ | : Inizio in mesh_plot:19
+mesh_plot.py | [INFO] | 2021-11-23 13:09:08,238 | __main__ | : Fine in mesh_plot:39
+log_setup.py | [INFO] | 2021-11-23 13:13:59,243 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:13:59,244 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:13:59,245 | __main__ | : name 'xx' is not defined in mesh_plot:40
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 37, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 29, in main
+    z = np.sin(xx**2 + yy**2) / (xx**2 + yy**2)
+NameError: name 'xx' is not defined
+mesh_plot.py | [INFO] | 2021-11-23 13:13:59,246 | __main__ | : Fine in mesh_plot:43
+log_setup.py | [INFO] | 2021-11-23 13:14:22,327 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:14:22,328 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:14:22,329 | __main__ | : module 'matplotlib' has no attribute 'contourf' in mesh_plot:40
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 37, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 30, in main
+    h = plt.contourf(x, y, z)
+AttributeError: module 'matplotlib' has no attribute 'contourf'
+mesh_plot.py | [INFO] | 2021-11-23 13:14:22,331 | __main__ | : Fine in mesh_plot:43
+log_setup.py | [INFO] | 2021-11-23 13:14:52,730 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:14:52,730 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:14:53,132 | __main__ | : Input z must be 2D, not 1D in mesh_plot:40
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 37, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 30, in main
+    h = plt.contourf(x, y, z)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\pyplot.py", line 2577, in contourf
+    __ret = gca().contourf(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\__init__.py", line 1447, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\axes\_axes.py", line 6335, in contourf
+    contours = mcontour.QuadContourSet(self, *args, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\contour.py", line 816, in __init__
+    kwargs = self._process_args(*args, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\contour.py", line 1430, in _process_args
+    x, y, z = self._contour_args(args, kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\contour.py", line 1488, in _contour_args
+    x, y, z = self._check_xyz(args[:3], kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\contour.py", line 1519, in _check_xyz
+    raise TypeError(f"Input z must be 2D, not {z.ndim}D")
+TypeError: Input z must be 2D, not 1D
+mesh_plot.py | [INFO] | 2021-11-23 13:14:53,203 | __main__ | : Fine in mesh_plot:43
+log_setup.py | [INFO] | 2021-11-23 13:20:04,415 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:20:04,415 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:20:09,437 | __main__ | : Fine in mesh_plot:44
+log_setup.py | [INFO] | 2021-11-23 13:20:25,800 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:20:25,800 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:20:33,091 | __main__ | : Fine in mesh_plot:44
+log_setup.py | [INFO] | 2021-11-23 13:21:36,196 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:21:36,196 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:21:45,696 | __main__ | : Fine in mesh_plot:44
+log_setup.py | [INFO] | 2021-11-23 13:22:12,863 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:22:12,864 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:22:14,762 | __main__ | : Fine in mesh_plot:44
+log_setup.py | [INFO] | 2021-11-23 13:23:50,030 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:23:50,031 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:23:52,104 | __main__ | : Fine in mesh_plot:45
+log_setup.py | [INFO] | 2021-11-23 13:24:21,806 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:24:21,806 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:24:23,668 | __main__ | : Fine in mesh_plot:45
+log_setup.py | [INFO] | 2021-11-23 13:24:40,746 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:24:40,746 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:24:42,656 | __main__ | : Fine in mesh_plot:45
+log_setup.py | [INFO] | 2021-11-23 13:26:28,760 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 13:26:28,761 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 13:26:30,766 | __main__ | : Fine in mesh_plot:45
+log_setup.py | [INFO] | 2021-11-23 21:56:30,557 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 21:56:30,560 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 21:56:34,044 | __main__ | : Fine in mesh_plot:45
+log_setup.py | [INFO] | 2021-11-23 22:00:45,475 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:00:45,477 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 22:00:48,250 | __main__ | : Fine in mesh_plot:49
+log_setup.py | [INFO] | 2021-11-23 22:04:25,194 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:04:25,196 | __main__ | : Inizio in mesh_plot:20
+mesh_plot.py | [INFO] | 2021-11-23 22:04:25,455 | __main__ | : name 'cm' is not defined in mesh_plot:62
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 59, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 54, in main
+    surface_f()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 44, in surface_f
+    surf = ax.plot_surface(xv, yv, zv, cmap=cm.coolwarm,
+NameError: name 'cm' is not defined
+mesh_plot.py | [INFO] | 2021-11-23 22:04:25,460 | __main__ | : Fine in mesh_plot:65
+log_setup.py | [INFO] | 2021-11-23 22:04:49,614 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:04:49,614 | __main__ | : Inizio in mesh_plot:21
+mesh_plot.py | [INFO] | 2021-11-23 22:05:18,423 | __main__ | : Fine in mesh_plot:66
+log_setup.py | [INFO] | 2021-11-23 22:06:09,864 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:06:09,864 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:06:32,704 | __main__ | : Fine in mesh_plot:72
+log_setup.py | [INFO] | 2021-11-23 22:10:04,845 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:10:04,846 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:10:09,358 | __main__ | : Fine in mesh_plot:93
+log_setup.py | [INFO] | 2021-11-23 22:10:57,916 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:10:57,916 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:11:18,311 | __main__ | : Fine in mesh_plot:92
+log_setup.py | [INFO] | 2021-11-23 22:11:30,249 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:11:30,250 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:11:40,448 | __main__ | : Fine in mesh_plot:92
+log_setup.py | [INFO] | 2021-11-23 22:12:06,616 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:12:06,616 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:12:34,521 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:14:29,076 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:14:29,077 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:15:21,638 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:18:41,017 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:18:41,017 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:19:09,931 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:19:35,666 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:19:35,666 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:20:09,245 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:20:10,642 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:20:10,643 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:20:13,679 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:20:23,330 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:20:23,331 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:21:42,036 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:21:43,446 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:21:43,447 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:22:23,343 | __main__ | : Fine in mesh_plot:97
+log_setup.py | [INFO] | 2021-11-23 22:24:31,187 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:24:31,188 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:24:31,536 | __main__ | : name 'fig' is not defined in mesh_plot:95
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 92, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 86, in main
+    surface_f()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 74, in surface_f
+    fig.colorbar(surf, shrink=0.5, aspect=5)
+NameError: name 'fig' is not defined
+mesh_plot.py | [INFO] | 2021-11-23 22:24:31,539 | __main__ | : Fine in mesh_plot:98
+log_setup.py | [INFO] | 2021-11-23 22:25:49,685 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:25:49,686 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:25:50,053 | __main__ | : 'Axes3DSubplot' object has no attribute 'colorbar' in mesh_plot:95
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 92, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 86, in main
+    surface_f()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 74, in surface_f
+    ax.colorbar(surf, shrink=0.5, aspect=5)
+AttributeError: 'Axes3DSubplot' object has no attribute 'colorbar'
+mesh_plot.py | [INFO] | 2021-11-23 22:25:50,062 | __main__ | : Fine in mesh_plot:98
+log_setup.py | [INFO] | 2021-11-23 22:29:19,902 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:29:19,902 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:29:20,261 | __main__ | : 'Axes3DSubplot' object has no attribute 'colorbar' in mesh_plot:103
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 100, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 94, in main
+    surface_f()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex/mesh_plot.py", line 82, in surface_f
+    ax.colorbar(surf, shrink=0.5, aspect=5)
+AttributeError: 'Axes3DSubplot' object has no attribute 'colorbar'
+mesh_plot.py | [INFO] | 2021-11-23 22:29:20,263 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-11-23 22:29:34,245 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:29:34,246 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:29:41,014 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-11-23 22:29:59,851 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:29:59,852 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:30:03,535 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-11-23 22:30:10,608 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:30:10,609 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:30:12,997 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-11-23 22:33:04,584 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:33:04,584 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:33:12,691 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-11-23 22:33:17,033 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:33:17,034 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:33:28,091 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-11-23 22:33:45,591 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-11-23 22:33:45,591 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-11-23 22:34:10,590 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2021-12-06 23:10:38,526 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2021-12-06 23:10:38,528 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2021-12-06 23:10:41,842 | __main__ | : Fine in mesh_plot:106
+log_setup.py | [INFO] | 2022-04-26 22:29:59,854 | __main__ | : Log Setup Completed, called from mesh_plot in log_setup:54
+mesh_plot.py | [INFO] | 2022-04-26 22:29:59,860 | __main__ | : Inizio in mesh_plot:22
+mesh_plot.py | [INFO] | 2022-04-26 22:30:35,112 | __main__ | : Fine in mesh_plot:106

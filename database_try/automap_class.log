@@ -1,0 +1,862 @@
+log_setup.py | [INFO] | 2022-04-02 15:32:44,763 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:32:44,770 | __main__ | : Inizio in automap_class:21
+automap_class.py | [INFO] | 2022-04-02 15:32:44,966 | __main__ | : Fine in automap_class:46
+log_setup.py | [INFO] | 2022-04-02 15:34:40,464 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:34:40,478 | __main__ | : Inizio in automap_class:21
+automap_class.py | [INFO] | 2022-04-02 15:34:40,642 | __main__ | : type object 'coffee' has no attribute 'columns' in automap_class:47
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 38, in main
+    print(Coffee.columns)
+AttributeError: type object 'coffee' has no attribute 'columns'
+automap_class.py | [INFO] | 2022-04-02 15:34:40,652 | __main__ | : Fine in automap_class:50
+log_setup.py | [INFO] | 2022-04-02 15:35:43,785 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:35:43,785 | __main__ | : Inizio in automap_class:21
+automap_class.py | [INFO] | 2022-04-02 15:35:43,895 | __main__ | : Fine in automap_class:50
+log_setup.py | [INFO] | 2022-04-02 15:37:59,087 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:37:59,087 | __main__ | : Inizio in automap_class:21
+automap_class.py | [INFO] | 2022-04-02 15:37:59,171 | __main__ | : Fine in automap_class:51
+log_setup.py | [INFO] | 2022-04-02 15:41:49,520 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:41:49,520 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:41:49,630 | __main__ | : Fine in automap_class:62
+log_setup.py | [INFO] | 2022-04-02 15:42:26,673 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:42:26,673 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:42:26,814 | __main__ | : Fine in automap_class:62
+log_setup.py | [INFO] | 2022-04-02 15:49:14,394 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:49:14,394 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:49:14,474 | __main__ | : Method <bound method ColumnOperators.desc of <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x0000021AF1957B80>> may not be passed as a SQL expression in automap_class:56
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 53, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 42, in main
+    stmt = select(Coffee).order_by(Coffee.price.desc)
+  File "<string>", line 2, in order_by
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\base.py", line 110, in _generative
+    x = fn(self, *args, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 3878, in order_by
+    self._order_by_clauses += tuple(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 3879, in <genexpr>
+    coercions.expect(roles.OrderByRole, clause)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 129, in expect
+    return lambdas.LambdaElement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\lambdas.py", line 162, in __init__
+    rec = self._retrieve_tracker_rec(fn, apply_propagate_attrs, opts)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\lambdas.py", line 178, in _retrieve_tracker_rec
+    tracker = AnalyzedCode.get(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\lambdas.py", line 617, in get
+    cls._fns[fn.__code__] = analyzed = AnalyzedCode(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\lambdas.py", line 624, in __init__
+    raise exc.ArgumentError(
+sqlalchemy.exc.ArgumentError: Method <bound method ColumnOperators.desc of <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x0000021AF1957B80>> may not be passed as a SQL expression
+automap_class.py | [INFO] | 2022-04-02 15:49:14,578 | __main__ | : Fine in automap_class:59
+log_setup.py | [INFO] | 2022-04-02 15:49:44,086 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:49:44,086 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:49:44,193 | __main__ | : Fine in automap_class:59
+log_setup.py | [INFO] | 2022-04-02 15:50:16,501 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:50:16,513 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:50:16,588 | __main__ | : 'Select' object has no attribute 'One' in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 42, in main
+    stmt = select(Coffee).order_by(Coffee.price.desc()).One()
+AttributeError: 'Select' object has no attribute 'One'
+automap_class.py | [INFO] | 2022-04-02 15:50:16,588 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 15:50:42,744 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:50:42,744 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:50:42,861 | __main__ | : 'ScalarResult' object has no attribute 'One' in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in main
+    for coffee in session.scalars(stmt).One():
+AttributeError: 'ScalarResult' object has no attribute 'One'
+automap_class.py | [INFO] | 2022-04-02 15:50:42,869 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 15:51:33,856 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:51:33,856 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:51:33,974 | __main__ | : Multiple rows were found when exactly one was required in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in main
+    for coffee in session.scalars(stmt).one():
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 1408, in one
+    return self._only_one_row(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 614, in _only_one_row
+    raise exc.MultipleResultsFound(
+sqlalchemy.exc.MultipleResultsFound: Multiple rows were found when exactly one was required
+automap_class.py | [INFO] | 2022-04-02 15:51:34,014 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 15:51:49,716 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:51:49,716 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:51:49,829 | __main__ | : 'Select' object has no attribute 'one' in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 42, in main
+    stmt = select(Coffee).order_by(Coffee.price.desc()).one()
+AttributeError: 'Select' object has no attribute 'one'
+automap_class.py | [INFO] | 2022-04-02 15:51:49,837 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 15:52:03,476 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:52:03,488 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:52:03,574 | __main__ | : 'Select' object has no attribute 'first' in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 42, in main
+    stmt = select(Coffee).order_by(Coffee.price.desc()).first()
+AttributeError: 'Select' object has no attribute 'first'
+automap_class.py | [INFO] | 2022-04-02 15:52:03,582 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 15:59:15,977 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:59:15,977 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:59:16,069 | __main__ | : 'Select' object has no attribute 'first' in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 42, in main
+    stmt = select(Coffee).order_by(Coffee.price.desc()).first()
+AttributeError: 'Select' object has no attribute 'first'
+automap_class.py | [INFO] | 2022-04-02 15:59:16,077 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 15:59:32,079 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 15:59:32,079 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 15:59:32,143 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 16:03:59,835 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:03:59,846 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:03:59,904 | __main__ | : Multiple rows were found when exactly one was required in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in main
+    for coffee in session.scalars(stmt).one():
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 1408, in one
+    return self._only_one_row(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 614, in _only_one_row
+    raise exc.MultipleResultsFound(
+sqlalchemy.exc.MultipleResultsFound: Multiple rows were found when exactly one was required
+automap_class.py | [INFO] | 2022-04-02 16:03:59,912 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 16:04:23,876 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:04:23,876 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:04:23,943 | __main__ | : 'coffee' object is not iterable in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in main
+    for coffee in session.scalars(stmt).first():
+TypeError: 'coffee' object is not iterable
+automap_class.py | [INFO] | 2022-04-02 16:04:23,943 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 16:05:18,244 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:05:18,244 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:05:18,444 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 16:05:30,027 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:05:30,027 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:05:30,092 | __main__ | : Multiple rows were found when exactly one was required in automap_class:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in main
+    coffee = session.scalars(stmt).one()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 1408, in one
+    return self._only_one_row(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 614, in _only_one_row
+    raise exc.MultipleResultsFound(
+sqlalchemy.exc.MultipleResultsFound: Multiple rows were found when exactly one was required
+automap_class.py | [INFO] | 2022-04-02 16:05:30,116 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 16:05:43,539 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:05:43,539 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:05:43,669 | __main__ | : Fine in automap_class:60
+log_setup.py | [INFO] | 2022-04-02 16:06:23,251 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:06:23,251 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:06:23,414 | __main__ | : Fine in automap_class:61
+log_setup.py | [INFO] | 2022-04-02 16:42:13,814 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:42:13,814 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:42:14,049 | __main__ | : Fine in automap_class:61
+log_setup.py | [INFO] | 2022-04-02 16:53:15,210 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:53:15,210 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:53:15,290 | __main__ | : Fine in automap_class:61
+log_setup.py | [INFO] | 2022-04-02 16:59:48,982 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 16:59:48,994 | __main__ | : Inizio in automap_class:22
+automap_class.py | [INFO] | 2022-04-02 16:59:49,189 | __main__ | : Fine in automap_class:61
+log_setup.py | [INFO] | 2022-04-02 17:01:19,756 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:01:19,761 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:01:19,779 | __main__ | : 'module' object is not callable in automap_class:60
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 57, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 33, in main
+    print(inspect(engine).get_table_names())
+TypeError: 'module' object is not callable
+automap_class.py | [INFO] | 2022-04-02 17:01:19,787 | __main__ | : Fine in automap_class:63
+log_setup.py | [INFO] | 2022-04-02 17:01:48,883 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:01:48,883 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:01:48,910 | __main__ | : 'module' object is not callable in automap_class:60
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 57, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 33, in main
+    print(inspect(engine).get_table_names)
+TypeError: 'module' object is not callable
+automap_class.py | [INFO] | 2022-04-02 17:01:48,918 | __main__ | : Fine in automap_class:63
+log_setup.py | [INFO] | 2022-04-02 17:03:13,193 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:03:13,193 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:03:13,251 | __main__ | : Fine in automap_class:63
+log_setup.py | [INFO] | 2022-04-02 17:03:31,068 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:03:31,068 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:03:31,192 | __main__ | : Fine in automap_class:63
+log_setup.py | [INFO] | 2022-04-02 17:04:58,565 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:04:58,565 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:04:58,700 | __main__ | : Fine in automap_class:63
+log_setup.py | [INFO] | 2022-04-02 17:06:39,618 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:06:39,618 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:06:39,758 | __main__ | : 'Select' object has no attribute 'count' in automap_class:62
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 59, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 47, in main
+    stmt = select(Orders).count()
+AttributeError: 'Select' object has no attribute 'count'
+automap_class.py | [INFO] | 2022-04-02 17:06:39,758 | __main__ | : Fine in automap_class:65
+log_setup.py | [INFO] | 2022-04-02 17:07:00,475 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:07:00,475 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:07:00,603 | __main__ | : 'Select' object has no attribute 'count' in automap_class:62
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 59, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in main
+    print(stmt.count())
+AttributeError: 'Select' object has no attribute 'count'
+automap_class.py | [INFO] | 2022-04-02 17:07:00,611 | __main__ | : Fine in automap_class:65
+log_setup.py | [INFO] | 2022-04-02 17:07:56,636 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:07:56,644 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:07:56,808 | __main__ | : 'ScalarResult' object has no attribute 'count' in automap_class:63
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 60, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 50, in main
+    n_orders = session.scalars(stmt).count()
+AttributeError: 'ScalarResult' object has no attribute 'count'
+automap_class.py | [INFO] | 2022-04-02 17:07:56,808 | __main__ | : Fine in automap_class:66
+log_setup.py | [INFO] | 2022-04-02 17:10:39,043 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:10:39,043 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:10:39,247 | __main__ | : Fine in automap_class:66
+log_setup.py | [INFO] | 2022-04-02 17:12:08,913 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:12:08,913 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:12:09,421 | __main__ | : Fine in automap_class:68
+log_setup.py | [INFO] | 2022-04-02 17:24:54,869 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:24:54,869 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:24:55,120 | __main__ | : Class <class '__main__.main.<locals>.Orders'> does not have a __table__ or __tablename__ specified and does not inherit from an existing table-mapped class. in automap_class:69
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 66, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in main
+    class Orders(Base):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_api.py", line 72, in __init__
+    _as_declarative(reg, cls, dict_)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_base.py", line 126, in _as_declarative
+    return _MapperConfig.setup_mapping(registry, cls, dict_, None, {})
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_base.py", line 177, in setup_mapping
+    return cfg_cls(registry, cls_, dict_, table, mapper_kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_base.py", line 324, in __init__
+    self._setup_inheritance(mapper_kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_base.py", line 878, in _setup_inheritance
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Class <class '__main__.main.<locals>.Orders'> does not have a __table__ or __tablename__ specified and does not inherit from an existing table-mapped class.
+automap_class.py | [INFO] | 2022-04-02 17:24:55,164 | __main__ | : Fine in automap_class:72
+log_setup.py | [INFO] | 2022-04-02 17:25:37,165 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:25:37,189 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:25:37,319 | __main__ | : Class __main__.Orders is a subclass of AutomapBase.  Mappings are not produced until the .prepare() method is called on the class hierarchy. in automap_class:71
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 68, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 55, in main
+    stmt = select(Orders)
+  File "<string>", line 2, in select
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 5281, in _create
+    return cls._create_future_select(*args)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 5199, in _create_future_select
+    self._raw_columns = [
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 5200, in <listcomp>
+    coercions.expect(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 178, in expect
+    insp = inspection.inspect(element, raiseerr=False)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\inspection.py", line 64, in inspect
+    ret = reg(subject)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_api.py", line 1051, in _inspect_decl_meta
+    _DeferredMapperConfig.raise_unmapped_for_cls(cls)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_base.py", line 1048, in raise_unmapped_for_cls
+    class_._sa_raise_deferred_config()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\ext\automap.py", line 953, in _sa_raise_deferred_config
+    raise orm_exc.UnmappedClassError(
+sqlalchemy.orm.exc.UnmappedClassError: Class __main__.Orders is a subclass of AutomapBase.  Mappings are not produced until the .prepare() method is called on the class hierarchy.
+automap_class.py | [INFO] | 2022-04-02 17:25:37,391 | __main__ | : Fine in automap_class:74
+log_setup.py | [INFO] | 2022-04-02 17:26:09,357 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:26:09,357 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:26:09,485 | __main__ | : Class __main__.Orders is a subclass of AutomapBase.  Mappings are not produced until the .prepare() method is called on the class hierarchy. in automap_class:71
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 68, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 55, in main
+    stmt = select(Orders)
+  File "<string>", line 2, in select
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 5281, in _create
+    return cls._create_future_select(*args)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 5199, in _create_future_select
+    self._raw_columns = [
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\selectable.py", line 5200, in <listcomp>
+    coercions.expect(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 178, in expect
+    insp = inspection.inspect(element, raiseerr=False)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\inspection.py", line 64, in inspect
+    ret = reg(subject)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_api.py", line 1051, in _inspect_decl_meta
+    _DeferredMapperConfig.raise_unmapped_for_cls(cls)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\decl_base.py", line 1048, in raise_unmapped_for_cls
+    class_._sa_raise_deferred_config()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\ext\automap.py", line 953, in _sa_raise_deferred_config
+    raise orm_exc.UnmappedClassError(
+sqlalchemy.orm.exc.UnmappedClassError: Class __main__.Orders is a subclass of AutomapBase.  Mappings are not produced until the .prepare() method is called on the class hierarchy.
+automap_class.py | [INFO] | 2022-04-02 17:26:09,502 | __main__ | : Fine in automap_class:74
+log_setup.py | [INFO] | 2022-04-02 17:30:52,692 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:30:52,700 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:30:53,072 | __main__ | : Fine in automap_class:76
+log_setup.py | [INFO] | 2022-04-02 17:34:55,315 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:34:55,315 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:34:55,575 | __main__ | : Fine in automap_class:76
+log_setup.py | [INFO] | 2022-04-02 17:36:07,775 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:36:07,775 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:36:08,038 | __main__ | : Fine in automap_class:77
+log_setup.py | [INFO] | 2022-04-02 17:36:55,967 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:36:55,967 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:36:56,234 | __main__ | : Fine in automap_class:79
+log_setup.py | [INFO] | 2022-04-02 17:41:16,107 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:41:16,107 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:41:16,330 | __main__ | : 'Orders' object has no attribute 'customer' in automap_class:76
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 73, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 64, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customer.id}"
+AttributeError: 'Orders' object has no attribute 'customer'
+automap_class.py | [INFO] | 2022-04-02 17:41:16,338 | __main__ | : Fine in automap_class:79
+log_setup.py | [INFO] | 2022-04-02 17:41:50,037 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:41:50,037 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:41:50,269 | __main__ | : 'Orders' object has no attribute 'customer_id' in automap_class:76
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 73, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 64, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customer_id.id}"
+AttributeError: 'Orders' object has no attribute 'customer_id'
+automap_class.py | [INFO] | 2022-04-02 17:41:50,269 | __main__ | : Fine in automap_class:79
+log_setup.py | [INFO] | 2022-04-02 17:43:58,519 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:43:58,519 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:43:58,812 | __main__ | : 'customers' object has no attribute 'id' in automap_class:77
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 74, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 65, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customers.id}"
+AttributeError: 'customers' object has no attribute 'id'
+automap_class.py | [INFO] | 2022-04-02 17:43:58,820 | __main__ | : Fine in automap_class:80
+log_setup.py | [INFO] | 2022-04-02 17:44:25,179 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:44:25,179 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:44:25,459 | __main__ | : Fine in automap_class:80
+log_setup.py | [INFO] | 2022-04-02 17:45:54,404 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:45:54,404 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:45:54,612 | __main__ | : 'Customers' object has no attribute 'name' in automap_class:83
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 80, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 71, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customers}"
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in __repr__
+    return f"Customer {self.id_customer} {self.name}"
+AttributeError: 'Customers' object has no attribute 'name'
+automap_class.py | [INFO] | 2022-04-02 17:45:54,612 | __main__ | : Fine in automap_class:86
+log_setup.py | [INFO] | 2022-04-02 17:46:20,985 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:46:20,985 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:46:21,240 | __main__ | : 'Customers' object has no attribute 'name' in automap_class:83
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 80, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 71, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customers}"
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in __repr__
+    return f"Customer {self.id_customer} {self.name}"
+AttributeError: 'Customers' object has no attribute 'name'
+automap_class.py | [INFO] | 2022-04-02 17:46:21,255 | __main__ | : Fine in automap_class:86
+log_setup.py | [INFO] | 2022-04-02 17:47:14,805 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:47:14,805 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:47:15,015 | __main__ | : 'Customers' object has no attribute 'name' in automap_class:83
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 80, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 71, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 48, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customers}"
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in __repr__
+    return f"Customer {self.id_customer} {self.name}"
+AttributeError: 'Customers' object has no attribute 'name'
+automap_class.py | [INFO] | 2022-04-02 17:47:15,023 | __main__ | : Fine in automap_class:86
+log_setup.py | [INFO] | 2022-04-02 17:47:46,982 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:47:46,982 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:47:47,303 | __main__ | : 'Customers' object has no attribute 'name' in automap_class:81
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 78, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 69, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customers}"
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 50, in __repr__
+    return f"Customer {self.id_customer} {self.name}"
+AttributeError: 'Customers' object has no attribute 'name'
+automap_class.py | [INFO] | 2022-04-02 17:47:47,303 | __main__ | : Fine in automap_class:84
+log_setup.py | [INFO] | 2022-04-02 17:51:17,453 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:51:17,453 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:51:17,593 | __main__ | : type object 'Orders' has no attribute 'columns' in automap_class:82
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 79, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 54, in main
+    print(Orders.columns)
+AttributeError: type object 'Orders' has no attribute 'columns'
+automap_class.py | [INFO] | 2022-04-02 17:51:17,605 | __main__ | : Fine in automap_class:85
+log_setup.py | [INFO] | 2022-04-02 17:51:55,007 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:51:55,007 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:51:55,244 | __main__ | : 'Customers' object has no attribute 'name' in automap_class:81
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 78, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 69, in main
+    print(order)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 44, in __repr__
+    return f"Order {self.id_order} from {self.id_customer} {self.customers}"
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 50, in __repr__
+    return f"Customer {self.id_customer} {self.name}"
+AttributeError: 'Customers' object has no attribute 'name'
+automap_class.py | [INFO] | 2022-04-02 17:51:55,252 | __main__ | : Fine in automap_class:84
+log_setup.py | [INFO] | 2022-04-02 17:52:38,675 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:52:38,675 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:52:38,911 | __main__ | : Fine in automap_class:84
+log_setup.py | [INFO] | 2022-04-02 17:53:09,558 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 17:53:09,558 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 17:53:09,788 | __main__ | : Fine in automap_class:84
+log_setup.py | [INFO] | 2022-04-02 18:01:20,677 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:01:20,685 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:01:20,862 | __main__ | : Fine in automap_class:84
+log_setup.py | [INFO] | 2022-04-02 18:03:45,354 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:03:45,354 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:03:45,522 | __main__ | : Fine in automap_class:84
+log_setup.py | [INFO] | 2022-04-02 18:06:17,056 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:06:17,056 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:06:17,246 | __main__ | : Fine in automap_class:85
+log_setup.py | [INFO] | 2022-04-02 18:06:47,020 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:06:47,020 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:06:47,241 | __main__ | : Fine in automap_class:86
+log_setup.py | [INFO] | 2022-04-02 18:07:33,705 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:07:33,705 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:07:33,882 | __main__ | : Fine in automap_class:86
+log_setup.py | [INFO] | 2022-04-02 18:20:39,707 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:20:39,707 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:20:40,010 | __main__ | : Column expression or FROM clause expected, got <sqlalchemy.sql.selectable.Select object at 0x0000021B3B874520>. To create a FROM clause from a <class 'sqlalchemy.sql.selectable.Select'> object, use the .subquery() method. (Background on this error at: https://sqlalche.me/e/14/89ve) in automap_class:84
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 81, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 67, in main
+    print("Count", session.query(stmt).count())
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 2139, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\query.py", line 180, in __init__
+    self._set_entities(entities)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\query.py", line 187, in _set_entities
+    self._raw_columns = [
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\query.py", line 188, in <listcomp>
+    coercions.expect(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 212, in expect
+    return impl._implicit_coercions(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 255, in _implicit_coercions
+    self._raise_for_expected(element, argname, resolved)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 437, in _raise_for_expected
+    return super(_SelectIsNotFrom, self)._raise_for_expected(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\coercions.py", line 283, in _raise_for_expected
+    util.raise_(exc.ArgumentError(msg, code=code), replace_context=err)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: Column expression or FROM clause expected, got <sqlalchemy.sql.selectable.Select object at 0x0000021B3B874520>. To create a FROM clause from a <class 'sqlalchemy.sql.selectable.Select'> object, use the .subquery() method. (Background on this error at: https://sqlalche.me/e/14/89ve)
+automap_class.py | [INFO] | 2022-04-02 18:20:40,108 | __main__ | : Fine in automap_class:87
+log_setup.py | [INFO] | 2022-04-02 18:22:15,478 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:22:15,478 | __main__ | : Inizio in automap_class:23
+automap_class.py | [INFO] | 2022-04-02 18:22:15,671 | __main__ | : 'Orders' object has no attribute 'count' in automap_class:84
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 81, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 67, in main
+    print("Count", session.scalar(stmt).count())
+AttributeError: 'Orders' object has no attribute 'count'
+automap_class.py | [INFO] | 2022-04-02 18:22:15,671 | __main__ | : Fine in automap_class:87
+log_setup.py | [INFO] | 2022-04-02 18:23:17,999 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:23:17,999 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:23:18,186 | __main__ | : 'Orders' object has no attribute 'count' in automap_class:86
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 68, in main
+    print("Count", session.scalar(stmt).count())
+AttributeError: 'Orders' object has no attribute 'count'
+automap_class.py | [INFO] | 2022-04-02 18:23:18,194 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:23:35,146 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:23:35,146 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:23:35,307 | __main__ | : (sqlite3.OperationalError) sub-select returns 7 columns - expected 1
+[SQL: SELECT count((SELECT orders.id_order, orders.id_customer, orders.id_address, orders.id_status, orders.total_amount, orders.total_vat, orders.order_create_date 
+FROM orders)) AS count_1]
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in automap_class:86
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: sub-select returns 7 columns - expected 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 69, in main
+    print("Count", session.query(func.count(stmt)).scalar())
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\query.py", line 2879, in scalar
+    ret = self.one()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\query.py", line 2856, in one
+    return self._iter().one()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\query.py", line 2894, in _iter
+    result = self.session.execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1620, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1487, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1851, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2032, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) sub-select returns 7 columns - expected 1
+[SQL: SELECT count((SELECT orders.id_order, orders.id_customer, orders.id_address, orders.id_status, orders.total_amount, orders.total_vat, orders.order_create_date 
+FROM orders)) AS count_1]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+automap_class.py | [INFO] | 2022-04-02 18:23:35,387 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:26:49,814 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:26:49,814 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:26:49,944 | __main__ | : type object 'Orders' has no attribute 'id' in automap_class:86
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 66, in main
+    stmt = select(Orders.id)
+AttributeError: type object 'Orders' has no attribute 'id'
+automap_class.py | [INFO] | 2022-04-02 18:26:49,949 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:27:05,913 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:27:05,913 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:27:06,066 | __main__ | : 'int' object is not iterable in automap_class:86
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 73, in main
+    for result in orders:
+TypeError: 'int' object is not iterable
+automap_class.py | [INFO] | 2022-04-02 18:27:06,075 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:27:37,380 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:27:37,380 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:27:37,732 | __main__ | : 'int' object is not iterable in automap_class:86
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 73, in main
+    for result in orders:
+TypeError: 'int' object is not iterable
+automap_class.py | [INFO] | 2022-04-02 18:27:37,732 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:28:01,115 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:28:01,115 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:28:01,284 | __main__ | : 'int' object is not iterable in automap_class:86
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 73, in main
+    for result in orders:
+TypeError: 'int' object is not iterable
+automap_class.py | [INFO] | 2022-04-02 18:28:01,284 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:30:07,778 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:30:07,778 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:30:07,984 | __main__ | : 'int' object is not iterable in automap_class:86
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 83, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 73, in main
+    for result in orders:
+TypeError: 'int' object is not iterable
+automap_class.py | [INFO] | 2022-04-02 18:30:07,984 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:30:54,513 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:30:54,513 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:30:54,696 | __main__ | : 'Orders' object is not iterable in automap_class:87
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 84, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 74, in main
+    for result in orders:
+TypeError: 'Orders' object is not iterable
+automap_class.py | [INFO] | 2022-04-02 18:30:54,696 | __main__ | : Fine in automap_class:90
+log_setup.py | [INFO] | 2022-04-02 18:32:01,043 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:32:01,043 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:32:01,233 | __main__ | : Fine in automap_class:89
+log_setup.py | [INFO] | 2022-04-02 18:32:21,609 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-02 18:32:21,609 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-02 18:32:21,845 | __main__ | : Fine in automap_class:90
+log_setup.py | [INFO] | 2022-04-03 21:26:27,259 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 21:26:27,259 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 21:26:27,620 | __main__ | : name 'Order' is not defined in automap_class:88
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 85, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 71, in main
+    print(inspect(Order))
+NameError: name 'Order' is not defined
+automap_class.py | [INFO] | 2022-04-03 21:26:27,634 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 21:26:50,582 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 21:26:50,590 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 21:26:50,865 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:12:49,826 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:12:49,826 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:12:50,189 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:13:40,368 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:13:40,368 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:13:40,595 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:15:23,184 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:15:23,184 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:15:23,466 | __main__ | : type object 'Orders' has no attribute 'customer' in automap_class:88
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 85, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 72, in main
+    stmt = select(Orders).where(Orders.customer.last_name == "Elder")
+AttributeError: type object 'Orders' has no attribute 'customer'
+automap_class.py | [INFO] | 2022-04-03 22:15:23,474 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:16:05,249 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:16:05,249 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:16:05,442 | __main__ | : Neither 'InstrumentedAttribute' object nor 'Comparator' object associated with Orders.customers has an attribute 'last_name' in automap_class:88
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\attributes.py", line 327, in __getattr__
+    return getattr(self.comparator, key)
+AttributeError: 'Comparator' object has no attribute 'last_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 85, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 72, in main
+    stmt = select(Orders).where(Orders.customers.last_name == "Elder")
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\attributes.py", line 329, in __getattr__
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+AttributeError: Neither 'InstrumentedAttribute' object nor 'Comparator' object associated with Orders.customers has an attribute 'last_name'
+automap_class.py | [INFO] | 2022-04-03 22:16:05,500 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:19:11,764 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:19:11,764 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:19:12,006 | __main__ | : Neither 'InstrumentedAttribute' object nor 'Comparator' object associated with Orders.customers has an attribute 'c' in automap_class:88
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\attributes.py", line 327, in __getattr__
+    return getattr(self.comparator, key)
+AttributeError: 'Comparator' object has no attribute 'c'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 85, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 72, in main
+    stmt = select(Orders).where(Orders.customers.c.last_name == "Elder")
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\attributes.py", line 329, in __getattr__
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+AttributeError: Neither 'InstrumentedAttribute' object nor 'Comparator' object associated with Orders.customers has an attribute 'c'
+automap_class.py | [INFO] | 2022-04-03 22:19:12,049 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:19:53,011 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:19:53,011 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:19:53,216 | __main__ | : Fine in automap_class:91
+log_setup.py | [INFO] | 2022-04-03 22:23:23,453 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:23:23,453 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:23:23,638 | __main__ | : Join target Orders.id_customer does not refer to a mapped entity in automap_class:89
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 1447, in _join
+    right = right.entity
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1240, in __getattr__
+    return self._fallback_getattr(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1214, in _fallback_getattr
+    raise AttributeError(key)
+AttributeError: entity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 86, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 74, in main
+    print(stmt)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 562, in __str__
+    return str(self.compile())
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 494, in compile
+    return self._compiler(dialect, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 558, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 776, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 451, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 486, in process
+    return obj._compiler_dispatch(self, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\visitors.py", line 82, in _compiler_dispatch
+    return meth(self, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 3261, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\base.py", line 510, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 760, in create_for_statement
+    self._setup_for_generate()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 788, in _setup_for_generate
+    self._join(query._setup_joins, self._entities)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 1449, in _join
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: Join target Orders.id_customer does not refer to a mapped entity
+automap_class.py | [INFO] | 2022-04-03 22:23:23,822 | __main__ | : Fine in automap_class:92
+log_setup.py | [INFO] | 2022-04-03 22:23:52,496 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:23:52,496 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:23:52,720 | __main__ | : Fine in automap_class:92
+log_setup.py | [INFO] | 2022-04-03 22:35:42,542 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:35:42,542 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:35:42,873 | __main__ | : Join target Customers.id_customer does not refer to a mapped entity in automap_class:91
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 1447, in _join
+    right = right.entity
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1240, in __getattr__
+    return self._fallback_getattr(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1214, in _fallback_getattr
+    raise AttributeError(key)
+AttributeError: entity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 88, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 76, in main
+    print(stmt)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 562, in __str__
+    return str(self.compile())
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 494, in compile
+    return self._compiler(dialect, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 558, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 776, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 451, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 486, in process
+    return obj._compiler_dispatch(self, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\visitors.py", line 82, in _compiler_dispatch
+    return meth(self, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 3261, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\base.py", line 510, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 760, in create_for_statement
+    self._setup_for_generate()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 788, in _setup_for_generate
+    self._join(query._setup_joins, self._entities)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 1449, in _join
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: Join target Customers.id_customer does not refer to a mapped entity
+automap_class.py | [INFO] | 2022-04-03 22:35:43,024 | __main__ | : Fine in automap_class:94
+log_setup.py | [INFO] | 2022-04-03 22:36:10,863 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:36:10,863 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:36:11,105 | __main__ | : Join target Orders.id_customer does not refer to a mapped entity in automap_class:91
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 1447, in _join
+    right = right.entity
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1240, in __getattr__
+    return self._fallback_getattr(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1214, in _fallback_getattr
+    raise AttributeError(key)
+AttributeError: entity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 88, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/automap_class.py", line 76, in main
+    print(stmt)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 562, in __str__
+    return str(self.compile())
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 494, in compile
+    return self._compiler(dialect, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 558, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 776, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 451, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 486, in process
+    return obj._compiler_dispatch(self, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\visitors.py", line 82, in _compiler_dispatch
+    return meth(self, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\compiler.py", line 3261, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\base.py", line 510, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 760, in create_for_statement
+    self._setup_for_generate()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 788, in _setup_for_generate
+    self._join(query._setup_joins, self._entities)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\context.py", line 1449, in _join
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: Join target Orders.id_customer does not refer to a mapped entity
+automap_class.py | [INFO] | 2022-04-03 22:36:11,121 | __main__ | : Fine in automap_class:94
+log_setup.py | [INFO] | 2022-04-03 22:36:27,917 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:36:27,917 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:36:28,137 | __main__ | : Fine in automap_class:94
+log_setup.py | [INFO] | 2022-04-03 22:38:50,778 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-04-03 22:38:50,778 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-04-03 22:38:51,053 | __main__ | : Fine in automap_class:100
+log_setup.py | [INFO] | 2022-06-21 19:24:20,157 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-06-21 19:24:20,158 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-06-21 19:24:20,477 | __main__ | : Fine in automap_class:100
+log_setup.py | [INFO] | 2022-06-28 21:25:35,496 | __main__ | : Log Setup Completed, called from automap_class in log_setup:54
+automap_class.py | [INFO] | 2022-06-28 21:25:35,511 | __main__ | : Inizio in automap_class:24
+automap_class.py | [INFO] | 2022-06-28 21:25:35,711 | __main__ | : Fine in automap_class:100

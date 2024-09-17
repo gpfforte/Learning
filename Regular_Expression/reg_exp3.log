@@ -1,0 +1,13 @@
+log_setup.py | [INFO] | 2021-11-11 21:44:47,540 | __main__ | : Log Setup Completed, called from reg_exp3 in log_setup:54
+reg_exp3.py | [INFO] | 2021-11-11 21:44:47,540 | __main__ | : Inizio in reg_exp3:17
+reg_exp3.py | [INFO] | 2021-11-11 21:44:47,562 | __main__ | : Fine in reg_exp3:72
+log_setup.py | [INFO] | 2021-11-11 21:45:50,276 | __main__ | : Log Setup Completed, called from reg_exp3 in log_setup:54
+reg_exp3.py | [INFO] | 2021-11-11 21:45:50,276 | __main__ | : Inizio in reg_exp3:17
+reg_exp3.py | [INFO] | 2021-11-11 21:45:50,308 | __main__ | : Fine in reg_exp3:72
+log_setup.py | [INFO] | 2021-11-11 21:46:41,763 | __main__ | : Log Setup Completed, called from reg_exp3 in log_setup:54
+reg_exp3.py | [INFO] | 2021-11-11 21:46:41,763 | __main__ | : Inizio in reg_exp3:17
+log_setup.py | [INFO] | 2021-11-11 21:46:57,923 | __main__ | : Log Setup Completed, called from reg_exp3 in log_setup:54
+reg_exp3.py | [INFO] | 2021-11-11 21:46:57,923 | __main__ | : Inizio in reg_exp3:17
+log_setup.py | [INFO] | 2021-11-11 21:48:29,534 | __main__ | : Log Setup Completed, called from reg_exp3 in log_setup:54
+reg_exp3.py | [INFO] | 2021-11-11 21:48:29,549 | __main__ | : Inizio in reg_exp3:17
+reg_exp3.py | [INFO] | 2021-11-11 21:48:29,559 | __main__ | : Fine in reg_exp3:72

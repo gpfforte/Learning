@@ -1,0 +1,79 @@
+log_setup.py | [INFO] | 2022-09-13 22:39:27,333 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 22:39:27,623 | __main__ | : Inizio in weather_open_sb:125
+weather_open_sb.py | [CRITICAL] | 2022-09-13 22:39:27,631 | __main__ | : local variable 'city' referenced before assignment in weather_open_sb:134
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 129, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 53, in main
+    cities_list = session_sb.query(City).where(City.name == city[0]).all()
+UnboundLocalError: local variable 'city' referenced before assignment
+weather_open_sb.py | [INFO] | 2022-09-13 22:39:31,485 | __main__ | : Fine in weather_open_sb:136
+log_setup.py | [INFO] | 2022-09-13 22:40:12,167 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 22:40:12,437 | __main__ | : Inizio in weather_open_sb:125
+weather_open_sb.py | [CRITICAL] | 2022-09-13 22:40:14,069 | __main__ | : 'City' object is not subscriptable in weather_open_sb:134
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 129, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 58, in main
+    api = geocode(city)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 44, in geocode
+    f"http://api.openweathermap.org/geo/1.0/direct?q={city[0]},{city[1]}&limit=5&appid={api_key}")
+TypeError: 'City' object is not subscriptable
+weather_open_sb.py | [INFO] | 2022-09-13 22:40:16,180 | __main__ | : Fine in weather_open_sb:136
+log_setup.py | [INFO] | 2022-09-13 22:46:58,436 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 22:46:58,686 | __main__ | : Inizio in weather_open_sb:113
+weather_open_sb.py | [INFO] | 2022-09-13 22:47:04,786 | __main__ | : Fine in weather_open_sb:124
+log_setup.py | [INFO] | 2022-09-13 22:51:50,020 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 22:51:50,280 | __main__ | : Inizio in weather_open_sb:114
+weather_open_sb.py | [CRITICAL] | 2022-09-13 22:51:52,252 | __main__ | : 'MeteoData' object has no attribute 'append' in weather_open_sb:123
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 118, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 109, in main
+    meteodata.append(meteodata)
+AttributeError: 'MeteoData' object has no attribute 'append'
+weather_open_sb.py | [INFO] | 2022-09-13 22:51:54,532 | __main__ | : Fine in weather_open_sb:125
+log_setup.py | [INFO] | 2022-09-13 22:52:26,032 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 22:52:26,283 | __main__ | : Inizio in weather_open_sb:114
+weather_open_sb.py | [CRITICAL] | 2022-09-13 22:52:30,329 | __main__ | : 'Session' object has no attribute 'addall' in weather_open_sb:123
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 118, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 110, in main
+    session_sb.addall(meteodata_list)
+AttributeError: 'Session' object has no attribute 'addall'
+weather_open_sb.py | [INFO] | 2022-09-13 22:52:32,724 | __main__ | : Fine in weather_open_sb:125
+log_setup.py | [INFO] | 2022-09-13 22:52:47,504 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 22:52:47,771 | __main__ | : Inizio in weather_open_sb:114
+weather_open_sb.py | [INFO] | 2022-09-13 22:52:51,745 | __main__ | : Fine in weather_open_sb:125
+log_setup.py | [INFO] | 2022-09-13 23:03:32,075 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-13 23:03:32,343 | __main__ | : Inizio in weather_open_sb:114
+weather_open_sb.py | [INFO] | 2022-09-13 23:03:36,968 | __main__ | : Fine in weather_open_sb:125
+log_setup.py | [INFO] | 2022-09-14 10:58:52,661 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 10:58:53,438 | __main__ | : Inizio in weather_open_sb:114
+weather_open_sb.py | [INFO] | 2022-09-14 10:58:56,173 | __main__ | : Fine in weather_open_sb:125
+log_setup.py | [INFO] | 2022-09-14 14:14:28,020 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 14:14:29,086 | __main__ | : Inizio in weather_open_sb:116
+weather_open_sb.py | [INFO] | 2022-09-14 14:14:32,326 | __main__ | : Fine in weather_open_sb:127
+log_setup.py | [INFO] | 2022-09-14 19:14:19,969 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 19:14:20,734 | __main__ | : Inizio in weather_open_sb:116
+weather_open_sb.py | [INFO] | 2022-09-14 19:14:23,013 | __main__ | : Fine in weather_open_sb:127
+log_setup.py | [INFO] | 2022-09-14 22:23:09,842 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 22:23:11,477 | __main__ | : Inizio in weather_open_sb:119
+weather_open_sb.py | [CRITICAL] | 2022-09-14 22:23:15,293 | __main__ | : geocode() takes 1 positional argument but 2 were given in weather_open_sb:128
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 123, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/weather_open_sb.py", line 61, in main
+    api = geocode(city.name, city.iso2)
+TypeError: geocode() takes 1 positional argument but 2 were given
+weather_open_sb.py | [INFO] | 2022-09-14 22:23:17,580 | __main__ | : Fine in weather_open_sb:130
+log_setup.py | [INFO] | 2022-09-14 22:23:53,187 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 22:23:53,776 | __main__ | : Inizio in weather_open_sb:119
+weather_open_sb.py | [INFO] | 2022-09-14 22:23:58,458 | __main__ | : Fine in weather_open_sb:130
+log_setup.py | [INFO] | 2022-09-14 22:25:07,644 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 22:25:07,975 | __main__ | : Inizio in weather_open_sb:119
+weather_open_sb.py | [INFO] | 2022-09-14 22:25:14,522 | __main__ | : Fine in weather_open_sb:130
+log_setup.py | [INFO] | 2022-09-14 23:11:38,313 | __main__ | : Log Setup Completed, called from weather_open_sb in log_setup:54
+weather_open_sb.py | [INFO] | 2022-09-14 23:11:39,266 | __main__ | : Inizio in weather_open_sb:119
+weather_open_sb.py | [INFO] | 2022-09-14 23:11:43,313 | __main__ | : Fine in weather_open_sb:130

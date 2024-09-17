@@ -1,0 +1,51 @@
+log_setup.py | [INFO] | 2022-04-18 16:04:42,610 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:04:42,618 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:05:00,578 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:05:00,578 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:05:31,140 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:05:31,140 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:06:51,222 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:06:51,230 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:07:54,069 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:07:54,069 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:10:27,165 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:10:27,165 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:11:18,216 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:11:18,216 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:12:06,980 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:12:06,987 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:27:27,997 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:27:27,997 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:29:13,391 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:29:13,391 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:32:09,025 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:32:09,025 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:34:16,040 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:34:16,040 | __main__ | : Inizio in squash:25
+squash.py | [INFO] | 2022-04-18 16:34:27,324 | __main__ | : clear() missing 2 required positional arguments: 'surface' and 'bgd' in squash:170
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/squash.py", line 167, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/squash.py", line 160, in main
+    manage_status()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/squash.py", line 129, in manage_status
+    all_sprites.clear()
+TypeError: clear() missing 2 required positional arguments: 'surface' and 'bgd'
+log_setup.py | [INFO] | 2022-04-18 16:36:02,084 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:36:02,096 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:46:03,428 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:46:03,428 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:46:20,582 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:46:20,590 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:46:30,666 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:46:30,674 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:47:24,489 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:47:24,489 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:49:09,042 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:49:09,050 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:49:36,226 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:49:36,226 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:49:44,063 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:49:44,063 | __main__ | : Inizio in squash:25
+log_setup.py | [INFO] | 2022-04-18 16:49:50,327 | __main__ | : Log Setup Completed, called from squash in log_setup:54
+squash.py | [INFO] | 2022-04-18 16:49:50,335 | __main__ | : Inizio in squash:25

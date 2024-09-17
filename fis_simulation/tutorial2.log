@@ -1,0 +1,74 @@
+log_setup.py | [INFO] | 2022-04-15 23:20:57,822 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:20:57,838 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:21:35,016 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:21:35,017 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:36:37,779 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:36:37,779 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:38:28,093 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:38:28,094 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:44:41,874 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:44:41,890 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:46:02,989 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:46:02,990 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:53:15,242 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:53:15,243 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:56:28,333 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:56:28,334 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-15 23:57:54,680 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-15 23:57:54,681 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:03:28,325 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:03:28,327 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:03:59,558 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:03:59,559 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:07:10,148 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:07:10,149 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:07:32,837 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:07:32,838 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:08:07,726 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:08:07,728 | __main__ | : Inizio in tutorial2:26
+tutorial2.py | [INFO] | 2022-04-16 00:08:08,825 | __main__ | : invalid rectstyle object in tutorial2:117
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial2.py", line 114, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial2.py", line 96, in main
+    bullet_v = Bullet(x=randint(10, WIDTH-10), y=0, radius=10,
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\characters.py", line 14, in __init__
+    self.image.fill(color, 0)
+ValueError: invalid rectstyle object
+log_setup.py | [INFO] | 2022-04-16 00:08:41,879 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:08:41,879 | __main__ | : Inizio in tutorial2:26
+tutorial2.py | [INFO] | 2022-04-16 00:08:42,964 | __main__ | : function takes at most 3 arguments (4 given) in tutorial2:117
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial2.py", line 114, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/tutorial2.py", line 96, in main
+    bullet_v = Bullet(x=randint(10, WIDTH-10), y=0, radius=10,
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\fis_simulation\characters.py", line 14, in __init__
+    self.image.fill(*color, 0)
+TypeError: function takes at most 3 arguments (4 given)
+log_setup.py | [INFO] | 2022-04-16 00:09:54,627 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:09:54,631 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:15:16,586 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:15:16,586 | __main__ | : Inizio in tutorial2:26
+log_setup.py | [INFO] | 2022-04-16 00:26:16,500 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:26:16,502 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:34:30,891 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:34:30,906 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:36:23,524 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:36:23,526 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:37:28,325 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:37:28,326 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:43:06,446 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:43:06,447 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:43:25,331 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:43:25,333 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:45:00,268 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:45:00,269 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:46:00,132 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:46:00,133 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:46:46,107 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:46:46,107 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:47:03,244 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:47:03,245 | __main__ | : Inizio in tutorial2:30
+log_setup.py | [INFO] | 2022-04-16 00:48:24,643 | __main__ | : Log Setup Completed, called from tutorial2 in log_setup:54
+tutorial2.py | [INFO] | 2022-04-16 00:48:24,644 | __main__ | : Inizio in tutorial2:30

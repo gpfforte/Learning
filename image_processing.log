@@ -1,0 +1,215 @@
+log_setup.py | [INFO] | 2021-08-10 22:28:36,680 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:28:36,686 | __main__ | : Inizio in image_processing:18
+image_processing.py | [INFO] | 2021-08-10 22:28:36,719 | __main__ | : Fine in image_processing:33
+log_setup.py | [INFO] | 2021-08-10 22:32:04,944 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:32:04,952 | __main__ | : Inizio in image_processing:18
+image_processing.py | [CRITICAL] | 2021-08-10 22:32:05,257 | __main__ | : 'utf-8' codec can't decode byte 0xea in position 1: invalid continuation byte in image_processing:42
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 40, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 34, in main
+    data = data.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xea in position 1: invalid continuation byte
+image_processing.py | [INFO] | 2021-08-10 22:32:09,586 | __main__ | : Fine in image_processing:44
+log_setup.py | [INFO] | 2021-08-10 22:34:48,781 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:34:48,789 | __main__ | : Inizio in image_processing:18
+image_processing.py | [CRITICAL] | 2021-08-10 22:34:48,845 | __main__ | : 'utf-8' codec can't decode byte 0xea in position 1: invalid continuation byte in image_processing:42
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 40, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 34, in main
+    data = data.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xea in position 1: invalid continuation byte
+image_processing.py | [INFO] | 2021-08-10 22:34:50,908 | __main__ | : Fine in image_processing:44
+log_setup.py | [INFO] | 2021-08-10 22:36:46,499 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:36:46,499 | __main__ | : Inizio in image_processing:18
+image_processing.py | [INFO] | 2021-08-10 22:36:47,620 | __main__ | : Fine in image_processing:47
+log_setup.py | [INFO] | 2021-08-10 22:38:58,977 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:38:58,985 | __main__ | : Inizio in image_processing:18
+image_processing.py | [INFO] | 2021-08-10 22:38:59,647 | __main__ | : Fine in image_processing:48
+log_setup.py | [INFO] | 2021-08-10 22:41:05,556 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:41:05,556 | __main__ | : Inizio in image_processing:18
+image_processing.py | [INFO] | 2021-08-10 22:41:06,163 | __main__ | : Fine in image_processing:49
+log_setup.py | [INFO] | 2021-08-10 22:46:47,060 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:46:47,060 | __main__ | : Inizio in image_processing:18
+image_processing.py | [INFO] | 2021-08-10 22:46:47,285 | __main__ | : Fine in image_processing:49
+log_setup.py | [INFO] | 2021-08-10 22:53:42,482 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:53:42,482 | __main__ | : Inizio in image_processing:19
+image_processing.py | [CRITICAL] | 2021-08-10 22:53:42,514 | __main__ | : 'str' object has no attribute 'strftime' in image_processing:50
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 48, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 41, in main
+    date_time = data.strftime("%Y:%m:%d %H:%M:%S")
+AttributeError: 'str' object has no attribute 'strftime'
+image_processing.py | [INFO] | 2021-08-10 22:53:44,641 | __main__ | : Fine in image_processing:52
+log_setup.py | [INFO] | 2021-08-10 22:55:08,813 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:55:08,821 | __main__ | : Inizio in image_processing:19
+image_processing.py | [CRITICAL] | 2021-08-10 22:55:08,853 | __main__ | : 'str' object has no attribute 'strptime' in image_processing:50
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 48, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 41, in main
+    date_time = data.strptime("%Y:%m:%d %H:%M:%S")
+AttributeError: 'str' object has no attribute 'strptime'
+image_processing.py | [INFO] | 2021-08-10 22:55:10,849 | __main__ | : Fine in image_processing:52
+log_setup.py | [INFO] | 2021-08-10 22:55:59,339 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:55:59,339 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 22:55:59,606 | __main__ | : Fine in image_processing:52
+log_setup.py | [INFO] | 2021-08-10 22:56:54,381 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 22:56:54,381 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 22:56:54,669 | __main__ | : Fine in image_processing:52
+log_setup.py | [INFO] | 2021-08-10 23:01:54,740 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:01:54,740 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:01:55,032 | __main__ | : Fine in image_processing:53
+log_setup.py | [INFO] | 2021-08-10 23:02:49,419 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:02:49,419 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:02:49,717 | __main__ | : Fine in image_processing:54
+log_setup.py | [INFO] | 2021-08-10 23:03:05,340 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:03:05,340 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:03:05,959 | __main__ | : Fine in image_processing:55
+log_setup.py | [INFO] | 2021-08-10 23:06:27,282 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:06:27,282 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:06:27,734 | __main__ | : Fine in image_processing:58
+log_setup.py | [INFO] | 2021-08-10 23:12:29,729 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:12:29,737 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:12:30,226 | __main__ | : Fine in image_processing:60
+log_setup.py | [INFO] | 2021-08-10 23:12:57,995 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:12:57,995 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:12:58,251 | __main__ | : Fine in image_processing:60
+log_setup.py | [INFO] | 2021-08-10 23:13:36,845 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:13:36,845 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-08-10 23:13:37,364 | __main__ | : Fine in image_processing:60
+log_setup.py | [INFO] | 2021-08-10 23:27:27,132 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:27:27,132 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:27:27,172 | __main__ | : module 'ntpath' has no attribute 'exist' in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 52, in main
+    if not os.path.exist(path_img_completo):
+AttributeError: module 'ntpath' has no attribute 'exist'
+image_processing.py | [INFO] | 2021-08-10 23:27:29,374 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:29:03,795 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:29:03,796 | __main__ | : Inizio in image_processing:20
+image_processing.py | [INFO] | 2021-08-10 23:29:04,035 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:30:08,717 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:30:08,718 | __main__ | : Inizio in image_processing:20
+image_processing.py | [INFO] | 2021-08-10 23:30:08,978 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:31:52,970 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:31:52,971 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:31:53,029 | __main__ | : [WinError 3] Impossibile trovare il percorso specificato: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2020\\08' in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 53, in main
+    os.mkdir(path_img_completo)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2020\\08'
+image_processing.py | [INFO] | 2021-08-10 23:31:54,921 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:33:48,114 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:33:48,115 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:33:48,168 | __main__ | : name 'full_file_name' is not defined in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 57, in main
+    shutil.move(full_file_name, dest)
+NameError: name 'full_file_name' is not defined
+image_processing.py | [INFO] | 2021-08-10 23:33:50,235 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:34:14,284 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:34:14,285 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:34:14,348 | __main__ | : [Errno 2] No such file or directory: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2020\\08\\2.JPG' in image_processing:65
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\shutil.py", line 791, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2.JPG' -> 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2020\\08\\2.JPG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 57, in main
+    shutil.move(origine, destinazione)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\shutil.py", line 811, in move
+    copy_function(src, real_dst)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\shutil.py", line 435, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2020\\08\\2.JPG'
+image_processing.py | [INFO] | 2021-08-10 23:34:16,435 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:37:06,054 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:37:06,055 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:37:06,117 | __main__ | : [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2.JPG' in image_processing:65
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\shutil.py", line 791, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2.JPG' -> 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2020\\08\\2.JPG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 57, in main
+    shutil.move(origine, destinazione)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\shutil.py", line 812, in move
+    os.unlink(src)
+PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'c:\\Users\\forteg\\Desktop\\Python\\Training\\Images\\2.JPG'
+image_processing.py | [INFO] | 2021-08-10 23:37:08,134 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:42:49,721 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:42:49,722 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:42:49,767 | __main__ | : [Errno 13] Permission denied: '2020' in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 30, in main
+    image = Image.open(item)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\PIL\Image.py", line 2891, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: '2020'
+image_processing.py | [INFO] | 2021-08-10 23:42:51,864 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:44:25,287 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:44:25,287 | __main__ | : Inizio in image_processing:20
+image_processing.py | [CRITICAL] | 2021-08-10 23:44:25,332 | __main__ | : [Errno 13] Permission denied: '2020' in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/Desktop/Python/Training/image_processing.py", line 30, in main
+    image = Image.open(item)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\PIL\Image.py", line 2891, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: '2020'
+image_processing.py | [INFO] | 2021-08-10 23:44:27,327 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-08-10 23:47:20,116 | __main__ | : Log Setup Completed, called from image_processing in log_setup:53
+image_processing.py | [INFO] | 2021-08-10 23:47:20,116 | __main__ | : Inizio in image_processing:20
+image_processing.py | [INFO] | 2021-08-10 23:47:20,340 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2021-11-21 17:39:31,378 | __main__ | : Log Setup Completed, called from image_processing in log_setup:54
+image_processing.py | [INFO] | 2021-11-21 17:39:31,380 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2021-11-21 17:39:32,304 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2022-03-02 21:49:23,316 | __main__ | : Log Setup Completed, called from image_processing in log_setup:54
+image_processing.py | [INFO] | 2022-03-02 21:49:23,332 | __main__ | : Inizio in image_processing:19
+image_processing.py | [CRITICAL] | 2022-03-02 21:49:23,435 | __main__ | : [Errno 13] Permission denied: '2020' in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/image_processing.py", line 29, in main
+    image = Image.open(item)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\PIL\Image.py", line 2891, in open
+    fp = builtins.open(filename, "rb")
+PermissionError: [Errno 13] Permission denied: '2020'
+image_processing.py | [INFO] | 2022-03-02 21:49:26,668 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2022-03-02 21:53:26,759 | __main__ | : Log Setup Completed, called from image_processing in log_setup:54
+image_processing.py | [INFO] | 2022-03-02 21:53:26,759 | __main__ | : Inizio in image_processing:19
+image_processing.py | [INFO] | 2022-03-02 21:53:27,734 | __main__ | : Fine in image_processing:67
+log_setup.py | [INFO] | 2022-03-02 21:55:04,009 | __main__ | : Log Setup Completed, called from image_processing in log_setup:54
+image_processing.py | [INFO] | 2022-03-02 21:55:04,009 | __main__ | : Inizio in image_processing:19
+image_processing.py | [CRITICAL] | 2022-03-02 21:55:04,017 | __main__ | : [WinError 123] La sintassi del nome del file, della directory o del volume non è corretta: '*.jpg' in image_processing:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/image_processing.py", line 63, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/image_processing.py", line 25, in main
+    print("os.listdir():", os.listdir("*.jpg"))
+OSError: [WinError 123] La sintassi del nome del file, della directory o del volume non è corretta: '*.jpg'
+image_processing.py | [INFO] | 2022-03-02 21:55:06,136 | __main__ | : Fine in image_processing:67

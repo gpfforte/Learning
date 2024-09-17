@@ -1,0 +1,100 @@
+log_setup.py | [INFO] | 2022-09-12 22:52:35,429 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-12 22:55:02,098 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+meteo_models_sb.py | [CRITICAL] | 2022-09-12 22:55:03,461 | __main__ | : Foreign key associated with column 'meteo.meteo_data.city_id' could not find table 'city' with which to generate a foreign key to target column 'id' in meteo_models_sb:76
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/meteo_models_sb.py", line 74, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/meteo_models_sb.py", line 69, in main
+    Base.metadata.create_all(engine_sb)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 342, in _run_ddl_visitor
+    conn._run_ddl_visitor(visitorcallable, element, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2119, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\ddl.py", line 825, in visit_metadata
+    collection = sort_tables_and_constraints(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\ddl.py", line 1289, in sort_tables_and_constraints
+    dependent_on = fkc.referred_table
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 3784, in referred_table
+    return self.elements[0].column.table
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1113, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 2489, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'meteo.meteo_data.city_id' could not find table 'city' with which to generate a foreign key to target column 'id'
+log_setup.py | [INFO] | 2022-09-12 22:55:50,645 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-12 23:01:02,939 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-12 23:02:02,910 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-12 23:02:53,123 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-12 23:07:05,677 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+meteo_models_sb.py | [CRITICAL] | 2022-09-12 23:07:05,680 | __main__ | : When initializing mapper mapped class City->meteo.city, expression 'Meteodata' failed to locate a name ('Meteodata'). If this is a class name, consider adding this relationship() to the <class '__main__.City'> class after both dependent classes have been defined. in meteo_models_sb:97
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\clsregistry.py", line 393, in _resolve_name
+    rval = d[token]
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\_collections.py", line 746, in __missing__
+    self[key] = val = self.creator(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\clsregistry.py", line 372, in _access_cls
+    return self.fallback[key]
+KeyError: 'Meteodata'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/meteo_models_sb.py", line 95, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/meteo_models_sb.py", line 89, in main
+    populate_cities()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/api_sample/meteo_models_sb.py", line 76, in populate_cities
+    city = City(
+  File "<string>", line 4, in __init__
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\state.py", line 474, in _initialize_instance
+    manager.dispatch.init(self, args, kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\event\attr.py", line 343, in __call__
+    fn(*args, **kw)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\mapper.py", line 3603, in _event_on_init
+    instrumenting_mapper._check_configure()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\mapper.py", line 1900, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\mapper.py", line 3418, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\mapper.py", line 3457, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\mapper.py", line 1917, in _post_configure_properties
+    prop.init()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\interfaces.py", line 231, in init
+    self.do_init()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\relationships.py", line 2150, in do_init
+    self._process_dependent_arguments()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\relationships.py", line 2245, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 1113, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\relationships.py", line 2112, in entity
+    argument = self._clsregistry_resolve_name(self.argument)()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\clsregistry.py", line 397, in _resolve_name
+    self._raise_for_name(name, err)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\clsregistry.py", line 375, in _raise_for_name
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: When initializing mapper mapped class City->meteo.city, expression 'Meteodata' failed to locate a name ('Meteodata'). If this is a class name, consider adding this relationship() to the <class '__main__.City'> class after both dependent classes have been defined.
+log_setup.py | [INFO] | 2022-09-12 23:07:50,883 | __main__ | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:25:39,115 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:39:27,323 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:40:12,159 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:46:58,427 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:51:49,996 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:52:26,025 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 22:52:47,497 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-13 23:03:32,041 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 10:58:52,651 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 14:14:28,002 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 19:14:19,953 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 22:23:09,802 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 22:23:53,181 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 22:25:07,622 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2022-09-14 23:11:38,297 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54
+log_setup.py | [INFO] | 2023-07-22 19:16:48,937 | meteo_models_sb | : Log Setup Completed, called from meteo_models_sb in log_setup:54

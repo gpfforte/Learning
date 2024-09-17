@@ -1,0 +1,1094 @@
+log_setup.py | [INFO] | 2022-07-09 22:41:46,278 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-07-09 22:41:48,173 | __main__ | : (psycopg2.errors.UndefinedTable) relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/f405) in models:92
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 89, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 83, in main
+    select_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 77, in select_db
+    conn.execute(stmt)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 280, in execute
+    return self._execute_20(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1620, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1487, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1851, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2032, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+models.py | [INFO] | 2022-07-09 22:41:48,316 | __main__ | : Fine - Elapsed Time: 2.03692 in models:98
+log_setup.py | [INFO] | 2022-08-23 18:17:26,042 | __main__ | : Log Setup Completed, called from models in log_setup:54
+log_setup.py | [INFO] | 2022-08-23 18:20:55,513 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-08-23 18:23:02,826 | __main__ | : (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in models:91
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 88, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 82, in main
+    select_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 76, in select_db
+    for item in session.scalars(stmt):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1751, in scalars
+    return self.execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1620, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1487, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1851, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2032, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+models.py | [INFO] | 2022-08-23 18:23:02,889 | __main__ | : Fine - Elapsed Time: 127.39193580000001 in models:97
+log_setup.py | [INFO] | 2022-08-23 18:23:43,908 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-08-23 18:23:45,930 | __main__ | : (psycopg2.errors.UndefinedTable) relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/f405) in models:91
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 88, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 82, in main
+    select_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 76, in select_db
+    for item in session.scalars(stmt):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1751, in scalars
+    return self.execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1620, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1487, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1851, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2032, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+models.py | [INFO] | 2022-08-23 18:23:45,962 | __main__ | : Fine - Elapsed Time: 2.0572345000000003 in models:97
+log_setup.py | [INFO] | 2022-08-23 18:45:40,806 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-08-23 18:45:42,782 | __main__ | : (psycopg2.errors.UndefinedTable) relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/f405) in models:94
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 91, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 85, in main
+    select_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/heroku_gpf_forte/models.py", line 79, in select_db
+    for item in session.scalars(stmt):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1751, in scalars
+    return self.execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1620, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1487, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1851, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2032, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "prova" does not exist
+LINE 2: FROM prova
+             ^
+
+[SQL: SELECT prova.id, prova.username 
+FROM prova]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+models.py | [INFO] | 2022-08-23 18:45:42,856 | __main__ | : Fine - Elapsed Time: 2.0511642 in models:100
+log_setup.py | [INFO] | 2022-08-23 18:48:14,354 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-08-23 18:48:16,577 | __main__ | : Fine - Elapsed Time: 2.2146643 in models:100
+log_setup.py | [INFO] | 2022-09-05 22:15:15,962 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-05 22:15:17,645 | __main__ | : Fine - Elapsed Time: 1.6817970999999998 in models:100
+log_setup.py | [INFO] | 2022-09-11 14:52:20,415 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 14:52:21,815 | __main__ | : Fine - Elapsed Time: 1.3973706999999997 in models:106
+log_setup.py | [INFO] | 2022-09-11 14:55:18,700 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 14:55:20,057 | __main__ | : Fine - Elapsed Time: 1.3431507 in models:106
+log_setup.py | [INFO] | 2022-09-11 15:33:56,096 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:33:57,388 | __main__ | : Fine - Elapsed Time: 1.2831576999999998 in models:106
+log_setup.py | [INFO] | 2022-09-11 15:34:15,460 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:34:16,788 | __main__ | : Fine - Elapsed Time: 1.317799 in models:107
+log_setup.py | [INFO] | 2022-09-11 15:46:04,708 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:46:04,941 | __main__ | : (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in models:101
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 98, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 90, in main
+    create_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 86, in create_db
+    Base.metadata.create_all(engine)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 341, in _run_ddl_visitor
+    with self.begin() as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 379, in begin
+    with self.connect() as conn:
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+models.py | [INFO] | 2022-09-11 15:46:05,004 | __main__ | : Fine - Elapsed Time: 0.29267430000000005 in models:107
+log_setup.py | [INFO] | 2022-09-11 15:54:17,356 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:54:17,644 | __main__ | : (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in models:101
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 98, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 90, in main
+    create_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 86, in create_db
+    Base.metadata.create_all(engine)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 341, in _run_ddl_visitor
+    with self.begin() as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 379, in begin
+    with self.connect() as conn:
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+models.py | [INFO] | 2022-09-11 15:54:17,721 | __main__ | : Fine - Elapsed Time: 0.3597235999999999 in models:107
+log_setup.py | [INFO] | 2022-09-11 15:56:34,171 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:56:34,486 | __main__ | : (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in models:101
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 98, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 90, in main
+    create_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 86, in create_db
+    Base.metadata.create_all(engine)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 341, in _run_ddl_visitor
+    with self.begin() as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 379, in begin
+    with self.connect() as conn:
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming/postgresql/root.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+models.py | [INFO] | 2022-09-11 15:56:34,576 | __main__ | : Fine - Elapsed Time: 0.3930623999999999 in models:107
+log_setup.py | [INFO] | 2022-09-11 15:56:51,513 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:56:52,849 | __main__ | : Fine - Elapsed Time: 1.3248737 in models:107
+log_setup.py | [INFO] | 2022-09-11 15:57:24,187 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 15:57:25,418 | __main__ | : Fine - Elapsed Time: 1.2314668000000002 in models:107
+log_setup.py | [INFO] | 2022-09-11 16:04:37,880 | __main__ | : Log Setup Completed, called from models in log_setup:54
+log_setup.py | [INFO] | 2022-09-11 16:05:46,494 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:05:46,594 | __main__ | : (psycopg2.ProgrammingError) invalid dsn: invalid connection option "ssl"
+
+(Background on this error at: https://sqlalche.me/e/14/f405) in models:109
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 121, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\extensions.py", line 167, in make_dsn
+    parse_dsn(dsn)
+psycopg2.ProgrammingError: invalid dsn: invalid connection option "ssl"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 106, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 98, in main
+    create_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 94, in create_db
+    Base.metadata.create_all(engine)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 341, in _run_ddl_visitor
+    with self.begin() as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 379, in begin
+    with self.connect() as conn:
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 121, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\extensions.py", line 167, in make_dsn
+    parse_dsn(dsn)
+sqlalchemy.exc.ProgrammingError: (psycopg2.ProgrammingError) invalid dsn: invalid connection option "ssl"
+
+(Background on this error at: https://sqlalche.me/e/14/f405)
+models.py | [INFO] | 2022-09-11 16:05:46,655 | __main__ | : Fine - Elapsed Time: 0.1618305 in models:115
+log_setup.py | [INFO] | 2022-09-11 16:06:27,797 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:06:27,891 | __main__ | : (psycopg2.ProgrammingError) invalid dsn: invalid connection option "ssl"
+
+(Background on this error at: https://sqlalche.me/e/14/f405) in models:109
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 121, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\extensions.py", line 167, in make_dsn
+    parse_dsn(dsn)
+psycopg2.ProgrammingError: invalid dsn: invalid connection option "ssl"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 106, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 98, in main
+    create_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 94, in create_db
+    Base.metadata.create_all(engine)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 341, in _run_ddl_visitor
+    with self.begin() as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 379, in begin
+    with self.connect() as conn:
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 121, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\extensions.py", line 167, in make_dsn
+    parse_dsn(dsn)
+sqlalchemy.exc.ProgrammingError: (psycopg2.ProgrammingError) invalid dsn: invalid connection option "ssl"
+
+(Background on this error at: https://sqlalche.me/e/14/f405)
+models.py | [INFO] | 2022-09-11 16:06:27,944 | __main__ | : Fine - Elapsed Time: 0.13534390000000007 in models:115
+log_setup.py | [INFO] | 2022-09-11 16:07:18,940 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:07:19,021 | __main__ | : (psycopg2.OperationalError) invalid sslmode value: "<ssl.SSLContext object at 0x00000246DE912EC0>"
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in models:109
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: invalid sslmode value: "<ssl.SSLContext object at 0x00000246DE912EC0>"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 106, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 98, in main
+    create_db()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models.py", line 94, in create_db
+    Base.metadata.create_all(engine)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\schema.py", line 4864, in create_all
+    bind._run_ddl_visitor(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 341, in _run_ddl_visitor
+    with self.begin() as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 379, in begin
+    with self.connect() as conn:
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) invalid sslmode value: "<ssl.SSLContext object at 0x00000246DE912EC0>"
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+models.py | [INFO] | 2022-09-11 16:07:19,080 | __main__ | : Fine - Elapsed Time: 0.13610490000000008 in models:115
+log_setup.py | [INFO] | 2022-09-11 16:08:10,592 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:08:11,875 | __main__ | : Fine - Elapsed Time: 1.2815528999999999 in models:108
+log_setup.py | [INFO] | 2022-09-11 16:14:00,827 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:14:02,200 | __main__ | : Fine - Elapsed Time: 1.3711976000000001 in models:111
+log_setup.py | [INFO] | 2022-09-11 16:14:31,552 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:14:32,918 | __main__ | : Fine - Elapsed Time: 1.3691491999999998 in models:111
+log_setup.py | [INFO] | 2022-09-11 16:46:33,275 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:46:34,869 | __main__ | : Fine - Elapsed Time: 1.5990307000000001 in models:113
+log_setup.py | [INFO] | 2022-09-11 16:47:18,274 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:47:20,030 | __main__ | : Fine - Elapsed Time: 1.7599953 in models:115
+log_setup.py | [INFO] | 2022-09-11 16:53:08,553 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-11 16:53:10,063 | __main__ | : Fine - Elapsed Time: 1.5104201 in models:114
+log_setup.py | [INFO] | 2024-01-08 21:18:24,274 | __main__ | : Log Setup Completed, called from models in log_setup:56
+log_setup.py | [INFO] | 2024-01-08 21:19:05,226 | __main__ | : Log Setup Completed, called from models in log_setup:56
+log_setup.py | [INFO] | 2024-01-08 21:21:58,003 | __main__ | : Log Setup Completed, called from models in log_setup:56
+models.py | [INFO] | 2024-01-08 21:21:58,317 | __main__ | : (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming\postgresql\prod-ca-2021.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) in models:119
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 665, in __connect
+    with util.safe_reraise():
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming\postgresql\prod-ca-2021.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\database_try\supabase_db\models.py", line 116, in <module>
+    main()
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\database_try\supabase_db\models.py", line 110, in main
+    select_db()
+  File "C:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\database_try\supabase_db\models.py", line 98, in select_db
+    for item in session.scalars(stmt):
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 1751, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 1691, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 1532, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\orm\session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\future\engine.py", line 406, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 3210, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 3289, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 3259, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2106, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 3256, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 476, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 371, in __init__
+    self.__connect()
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 665, in __connect
+    with util.safe_reraise():
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\pool\base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db.htqmxzuksolrjhxclwwg.supabase.co" (3.71.176.80), port 5432 failed: root certificate file "C:\Users\forteg\AppData\Roaming\postgresql\prod-ca-2021.crt" does not exist
+Either provide the file or change sslmode to disable server certificate verification.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+models.py | [INFO] | 2024-01-08 21:21:58,317 | __main__ | : Fine - Elapsed Time: 0.3239016999999649 in models:125

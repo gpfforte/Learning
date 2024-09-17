@@ -1,0 +1,43 @@
+log_setup.py | [INFO] | 2021-06-22 21:24:52,425 | __main__ | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-22 21:24:52,426 | __main__ | : Ciao in prova:14
+log_setup.py | [INFO] | 2021-06-22 21:25:21,354 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-22 21:25:21,354 | prova | : Ciao in prova:14
+log_setup.py | [INFO] | 2021-06-22 21:33:21,376 | __main__ | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-22 21:33:21,376 | __main__ | : Ciao in prova:13
+log_setup.py | [INFO] | 2021-06-22 21:36:22,992 | __main__ | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-22 21:36:22,992 | __main__ | : Ciao in prova:17
+log_setup.py | [INFO] | 2021-06-22 21:38:40,464 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-22 21:38:40,464 | prova | : Ciao in prova:16
+log_setup.py | [INFO] | 2021-06-22 21:39:17,732 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-22 21:39:17,732 | prova | : Ciao in prova:16
+log_setup.py | [INFO] | 2021-06-23 14:27:16,757 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-23 14:27:16,757 | prova | : Ciao in prova:16
+log_setup.py | [INFO] | 2021-06-23 22:36:16,763 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-23 22:36:16,767 | prova | : Ciao in prova:16
+log_setup.py | [INFO] | 2021-06-23 22:39:28,353 | __main__ | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-23 22:39:28,369 | __main__ | : Ciao in prova:16
+log_setup.py | [INFO] | 2021-06-23 22:50:01,998 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-23 22:50:01,999 | prova | : Ciao in prova:17
+log_setup.py | [INFO] | 2021-06-23 22:54:48,848 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-23 22:54:48,848 | prova | : Ciao in prova:17
+log_setup.py | [INFO] | 2021-06-23 22:58:41,914 | prova | : Log Setup Completed in log_setup:23
+prova.py | [INFO] | 2021-06-23 22:58:41,916 | prova | : Ciao in prova:17
+log_setup.py | [INFO] | 2021-06-23 22:59:54,269 | prova | : Log Setup Completed, called from prova in log_setup:23
+prova.py | [INFO] | 2021-06-23 22:59:54,269 | prova | : Ciao in prova:17
+log_setup.py | [INFO] | 2021-06-23 23:01:24,370 | prova | : Log Setup Completed, called from prova in log_setup:23
+prova.py | [INFO] | 2021-06-23 23:01:24,370 | prova | : Ciao in prova:17
+log_setup.py | [INFO] | 2021-06-23 23:08:07,305 | prova | : Log Setup Completed, called from prova in log_setup:23
+prova.py | [INFO] | 2021-06-23 23:08:07,306 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2021-06-23 23:08:07,311 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2021-07-01 11:19:20,457 | prova | : Log Setup Completed, called from prova in log_setup:28
+prova.py | [INFO] | 2021-07-01 11:19:20,459 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2021-07-01 11:19:20,463 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2021-07-01 11:26:03,316 | prova | : Log Setup Completed, called from prova in log_setup:28
+prova.py | [INFO] | 2021-07-01 11:26:03,317 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2021-07-01 11:26:03,322 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2021-07-01 11:26:46,508 | prova | : Log Setup Completed, called from prova in log_setup:28
+prova.py | [INFO] | 2021-07-01 11:26:46,509 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2021-07-01 11:26:46,513 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2021-07-01 11:28:33,689 | prova | : Log Setup Completed, called from prova in log_setup:28
+prova.py | [INFO] | 2021-07-01 11:28:33,690 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2021-07-01 11:28:33,693 | prova | : Main in Prova in prova:20

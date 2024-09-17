@@ -1,0 +1,48 @@
+log_setup.py | [INFO] | 2022-04-10 21:43:20,478 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:43:20,478 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:45:10,209 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:45:10,209 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:45:47,294 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:45:47,294 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:48:37,434 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:48:37,434 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:53:59,269 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:53:59,269 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:54:12,743 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:54:12,743 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:55:48,982 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:55:48,982 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:56:29,011 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:56:29,011 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 21:57:04,876 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 21:57:04,876 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:02:24,585 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:02:24,585 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:02:44,387 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:02:44,387 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:03:19,588 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:03:19,588 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:04:03,230 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:04:03,230 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:04:29,884 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:04:29,884 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:05:13,725 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:05:13,725 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:05:28,704 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:05:28,704 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:06:05,559 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:06:05,559 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:06:43,783 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:06:43,783 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:08:01,766 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:08:01,766 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:08:34,468 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:08:34,468 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:09:19,156 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:09:19,156 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:09:47,130 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:09:47,130 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:10:22,855 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:10:22,855 | __main__ | : Inizio in attraction:16
+log_setup.py | [INFO] | 2022-04-10 22:18:29,519 | __main__ | : Log Setup Completed, called from attraction in log_setup:54
+attraction.py | [INFO] | 2022-04-10 22:18:29,519 | __main__ | : Inizio in attraction:16

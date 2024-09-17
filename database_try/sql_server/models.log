@@ -1,0 +1,89 @@
+log_setup.py | [INFO] | 2022-09-07 10:44:03,828 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 10:44:04,097 | models | : Fine - Elapsed Time: 0.26768480000000006 in models:70
+log_setup.py | [INFO] | 2022-09-07 10:44:30,398 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 10:44:30,637 | models | : Fine - Elapsed Time: 0.23795129999999998 in models:70
+log_setup.py | [INFO] | 2022-09-07 10:45:58,570 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 10:45:58,824 | models | : Fine - Elapsed Time: 0.26124769999999997 in models:70
+log_setup.py | [INFO] | 2022-09-07 10:46:37,939 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 10:46:38,167 | models | : Fine - Elapsed Time: 0.22656980000000004 in models:70
+log_setup.py | [INFO] | 2022-09-07 10:47:06,325 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 10:47:06,603 | models | : Fine - Elapsed Time: 0.27269980000000016 in models:70
+log_setup.py | [INFO] | 2022-09-07 10:47:33,546 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 10:47:33,808 | models | : Fine - Elapsed Time: 0.25903699999999996 in models:70
+log_setup.py | [INFO] | 2022-09-07 13:08:03,622 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:08:04,539 | __main__ | : Fine - Elapsed Time: 0.9130716999999999 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:12:38,920 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:12:39,206 | models | : Fine - Elapsed Time: 0.2860455000000002 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:14:15,684 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:14:16,039 | models | : Fine - Elapsed Time: 0.35485809999999995 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:15:44,413 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:15:44,772 | models | : Fine - Elapsed Time: 0.36027129999999996 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:17:50,833 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:17:51,204 | models | : Fine - Elapsed Time: 0.36854949999999986 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:18:59,004 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:18:59,334 | models | : Fine - Elapsed Time: 0.3353638000000001 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:19:23,298 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:19:23,575 | models | : Fine - Elapsed Time: 0.27982609999999997 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:19:56,238 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:19:56,535 | models | : Fine - Elapsed Time: 0.30012780000000006 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:21:21,378 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:21:21,648 | models | : Fine - Elapsed Time: 0.26688639999999997 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:21:48,158 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:21:48,410 | models | : Fine - Elapsed Time: 0.26065170000000004 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:22:43,828 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:22:44,239 | models | : Fine - Elapsed Time: 0.4108594000000001 in models:72
+log_setup.py | [INFO] | 2022-09-07 13:23:46,514 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 13:23:46,963 | models | : Fine - Elapsed Time: 0.4473659000000001 in models:72
+log_setup.py | [INFO] | 2022-09-07 19:20:24,277 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 19:20:25,882 | models | : Fine - Elapsed Time: 1.6061875 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:12:37,467 | models | : Log Setup Completed, called from models in log_setup:54
+log_setup.py | [INFO] | 2022-09-07 22:15:57,967 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:16:02,670 | models | : Fine - Elapsed Time: 4.703434000000001 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:16:57,692 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:17:01,467 | models | : Fine - Elapsed Time: 3.7767893999999997 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:18:28,830 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:18:32,403 | models | : Fine - Elapsed Time: 3.5732378999999996 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:20:57,471 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:21:01,228 | models | : Fine - Elapsed Time: 3.7580411 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:22:50,408 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:22:54,489 | models | : Fine - Elapsed Time: 4.081745399999999 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:24:07,778 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:24:11,617 | models | : Fine - Elapsed Time: 3.8388203999999995 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:25:33,569 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:25:37,240 | models | : Fine - Elapsed Time: 3.6718013 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:27:34,074 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:27:37,740 | models | : Fine - Elapsed Time: 3.6669653 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:32:28,207 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:32:32,358 | models | : Fine - Elapsed Time: 4.151249099999999 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:33:04,803 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:33:08,603 | models | : Fine - Elapsed Time: 3.8012489999999994 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:34:07,885 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:34:11,584 | models | : Fine - Elapsed Time: 3.7082253 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:36:56,043 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:36:59,704 | models | : Fine - Elapsed Time: 3.6697894999999994 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:37:51,938 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:37:56,073 | models | : Fine - Elapsed Time: 4.143924500000001 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:39:10,149 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:39:14,253 | models | : Fine - Elapsed Time: 4.1048205 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:43:36,859 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:43:41,146 | models | : Fine - Elapsed Time: 4.287567 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:46:13,826 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:46:17,456 | models | : Fine - Elapsed Time: 3.6306247000000003 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:47:07,418 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:47:10,900 | models | : Fine - Elapsed Time: 3.4829096 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:48:16,242 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:48:20,060 | models | : Fine - Elapsed Time: 3.8200310999999996 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:49:43,695 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:49:47,340 | models | : Fine - Elapsed Time: 3.646216 in models:72
+log_setup.py | [INFO] | 2022-09-07 22:51:24,832 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-07 22:51:28,347 | models | : Fine - Elapsed Time: 3.5155848 in models:72
+log_setup.py | [INFO] | 2022-09-08 14:42:17,535 | models | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-08 14:42:19,170 | models | : Fine - Elapsed Time: 1.6331892 in models:72
+log_setup.py | [INFO] | 2022-09-08 14:46:39,318 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-08 14:46:39,788 | __main__ | : Fine - Elapsed Time: 0.024605300000000163 in models:60
+log_setup.py | [INFO] | 2022-09-08 14:46:48,884 | models | : Log Setup Completed, called from models in log_setup:54
+log_setup.py | [INFO] | 2022-09-08 19:16:41,545 | __main__ | : Log Setup Completed, called from models in log_setup:54
+models.py | [INFO] | 2022-09-08 19:16:44,302 | __main__ | : Fine - Elapsed Time: 0.06511529999999999 in models:62
+log_setup.py | [INFO] | 2022-09-09 15:01:30,320 | __main__ | : Log Setup Completed, called from models in log_setup:54
+log_setup.py | [INFO] | 2022-09-09 15:04:57,987 | __main__ | : Log Setup Completed, called from models in log_setup:54
+log_setup.py | [INFO] | 2022-09-29 18:36:41,096 | __main__ | : Log Setup Completed, called from models in log_setup:54

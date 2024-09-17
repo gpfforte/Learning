@@ -1,0 +1,25 @@
+log_setup.py | [INFO] | 2022-03-29 22:06:41,396 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:06:41,396 | __main__ | : Inizio in alchemy_try2:23
+log_setup.py | [INFO] | 2022-03-29 22:07:12,025 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:07:12,025 | __main__ | : Inizio in alchemy_try2:23
+log_setup.py | [INFO] | 2022-03-29 22:07:41,462 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:07:41,462 | __main__ | : Inizio in alchemy_try2:23
+log_setup.py | [INFO] | 2022-03-29 22:09:53,838 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:09:53,838 | __main__ | : Inizio in alchemy_try2:23
+log_setup.py | [INFO] | 2022-03-29 22:10:25,740 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:10:25,740 | __main__ | : Inizio in alchemy_try2:23
+log_setup.py | [INFO] | 2022-03-29 22:12:33,611 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:12:33,611 | __main__ | : Inizio in alchemy_try2:23
+alchemy_try2.py | [INFO] | 2022-03-29 22:12:33,653 | __main__ | : Fine - Elapsed Time: 0.045627900000000055 in alchemy_try2:78
+log_setup.py | [INFO] | 2022-03-29 22:13:46,949 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:13:46,949 | __main__ | : Inizio in alchemy_try2:23
+alchemy_try2.py | [INFO] | 2022-03-29 22:13:46,994 | __main__ | : Fine - Elapsed Time: 0.044433500000000015 in alchemy_try2:77
+log_setup.py | [INFO] | 2022-03-29 22:24:27,617 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:24:27,617 | __main__ | : Inizio in alchemy_try2:23
+alchemy_try2.py | [INFO] | 2022-03-29 22:24:27,657 | __main__ | : Fine - Elapsed Time: 0.03892130000000005 in alchemy_try2:78
+log_setup.py | [INFO] | 2022-03-29 22:25:19,791 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:25:19,791 | __main__ | : Inizio in alchemy_try2:23
+alchemy_try2.py | [INFO] | 2022-03-29 22:25:19,855 | __main__ | : Fine - Elapsed Time: 0.053512400000000016 in alchemy_try2:78
+log_setup.py | [INFO] | 2022-03-29 22:26:50,683 | __main__ | : Log Setup Completed, called from alchemy_try2 in log_setup:54
+alchemy_try2.py | [INFO] | 2022-03-29 22:26:50,683 | __main__ | : Inizio in alchemy_try2:23
+alchemy_try2.py | [INFO] | 2022-03-29 22:26:50,727 | __main__ | : Fine - Elapsed Time: 0.044288400000000006 in alchemy_try2:79

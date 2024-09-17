@@ -1,0 +1,45 @@
+log_setup.py | [INFO] | 2022-04-10 22:26:45,491 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:26:45,491 | __main__ | : Inizio in spring:17
+spring.py | [INFO] | 2022-04-10 22:26:48,887 | __main__ | : __init__() missing 1 required positional argument: 'kappa' in spring:125
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/spring.py", line 122, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/fis_simulation/spring.py", line 102, in main
+    molla = Spring(-1, 0, 16, BLUE, 1)
+TypeError: __init__() missing 1 required positional argument: 'kappa'
+log_setup.py | [INFO] | 2022-04-10 22:27:12,943 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:27:12,943 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:27:55,420 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:27:55,420 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:28:06,553 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:28:06,553 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:28:34,490 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:28:34,498 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:29:01,647 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:29:01,647 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:29:22,796 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:29:22,804 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:31:13,516 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:31:13,516 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:33:59,346 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:33:59,346 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:35:46,853 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:35:46,853 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:36:04,991 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:36:04,991 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:40:24,677 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:40:24,677 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:41:11,528 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:41:11,528 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:41:31,330 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:41:31,330 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:41:54,290 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:41:54,290 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:42:05,989 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:42:05,989 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:42:26,659 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:42:26,659 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:46:54,610 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:46:54,610 | __main__ | : Inizio in spring:17
+log_setup.py | [INFO] | 2022-04-10 22:48:50,083 | __main__ | : Log Setup Completed, called from spring in log_setup:54
+spring.py | [INFO] | 2022-04-10 22:48:50,083 | __main__ | : Inizio in spring:17

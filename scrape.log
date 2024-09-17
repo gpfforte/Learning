@@ -1,0 +1,3231 @@
+scrape.py | [DEBUG] | 2022-07-12 22:40:13,656 | __main__ | : <!DOCTYPE html>
+<html lang="it-IT">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2009 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+  <base href="https://www.montecarlonews.it/"/>
+  <meta content="TYPO3 4.3 CMS" name="generator"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__1___Copy_.JPG" name="EdImage"/>
+  <meta content="2022/07/12 19:00:00" name="EdDateTime"/>
+  <meta content="Un museo che racconta il passato (Video e Foto)" name="EdTitle"/>
+  <meta content="tt_news_uid-961354" name="EdIdentifier"/>
+  <meta content="Un museo che racconta il passato (Video e Foto)" name="title"/>
+  <meta content="Alla scoperta del Musée d’archeologie de Nice, site de Cimiez, meta continua di studiosi, di appassionati e, soprattutto, di tanti giovani." name="description"/>
+  <link href="https://www.montecarlonews.it/typo3temp/stylesheet_0619bb8429.css" media="all" rel="stylesheet" type="text/css"/>
+  <script src="https://www.montecarlonews.it/typo3temp/javascript_93077bb238.js" type="text/javascript">
+  </script>
+  <title>
+   Un museo che racconta il passato (Video e Foto) - Montecarlonews.it
+  </title>
+  <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+  <script async="true" type="text/javascript">
+   (function() {
+      var host = window.location.hostname;
+      var element = document.createElement('script');
+      var firstScript = document.getElementsByTagName('script')[0];
+      var url = 'https://quantcast.mgr.consensu.org'
+        .concat('/choice/', 'PYBr695hFpR0z', '/', host, '/choice.js')
+      var uspTries = 0;
+      var uspTriesLimit = 3;
+      element.async = true;
+      element.type = 'text/javascript';
+      element.src = url;
+    
+      firstScript.parentNode.insertBefore(element, firstScript);
+    
+      function makeStub() {
+        var TCF_LOCATOR_NAME = '__tcfapiLocator';
+        var queue = [];
+        var win = window;
+        var cmpFrame;
+    
+        function addFrame() {
+          var doc = win.document;
+          var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+    
+          if (!otherCMP) {
+            if (doc.body) {
+              var iframe = doc.createElement('iframe');
+    
+              iframe.style.cssText = 'display:none';
+              iframe.name = TCF_LOCATOR_NAME;
+              doc.body.appendChild(iframe);
+            } else {
+              setTimeout(addFrame, 5);
+            }
+          }
+          return !otherCMP;
+        }
+    
+        function tcfAPIHandler() {
+          var gdprApplies;
+          var args = arguments;
+    
+          if (!args.length) {
+            return queue;
+          } else if (args[0] === 'setGdprApplies') {
+            if (
+              args.length > 3 &&
+              args[2] === 2 &&
+              typeof args[3] === 'boolean' ) {
+              gdprApplies = args[3];
+              if (typeof args[2] === 'function') {
+                args[2]('set', true);
+              }
+            }
+          } else if (args[0] === 'ping') {
+            var retr = {
+              gdprApplies: gdprApplies,
+              cmpLoaded: false,
+              cmpStatus: 'stub'
+            };
+    
+            if (typeof args[2] === 'function') {
+              args[2](retr);
+            }
+          } else {
+            queue.push(args);
+          }
+        }
+    
+        function postMessageEventHandler(event) {
+          var msgIsString = typeof event.data === 'string';
+          var json = {};
+    
+          try {
+            if (msgIsString) {
+              json = JSON.parse(event.data);
+            } else {
+              json = event.data;
+            }
+          } catch (ignore) {}
+    
+          var payload = json.__tcfapiCall;
+    
+          if (payload) {
+            window.__tcfapi(
+              payload.command,
+              payload.version,
+              function(retValue, success) {
+                var returnMsg = {
+                  __tcfapiReturn: {
+                    returnValue: retValue,
+                    success: success,
+                    callId: payload.callId
+                  }
+                };
+                if (msgIsString) {
+                  returnMsg = JSON.stringify(returnMsg);
+                }
+                if (event && event.source && event.source.postMessage) {
+                  event.source.postMessage(returnMsg, '*');
+                }
+              },
+              payload.parameter );
+          }
+        }
+    
+        while (win) {
+          try {
+            if (win.frames[TCF_LOCATOR_NAME]) {
+              cmpFrame = win;
+              break;
+            }
+          } catch (ignore) {}
+    
+          if (win === window.top) {
+            break;
+          }
+          win = win.parent;
+        }
+        if (!cmpFrame) {
+          addFrame();
+          win.__tcfapi = tcfAPIHandler;
+          win.addEventListener('message', postMessageEventHandler, false);
+        }
+      };
+    
+      makeStub();
+    
+      var uspStubFunction = function() {
+        var arg = arguments;
+        if (typeof window.__uspapi !== uspStubFunction) {
+          setTimeout(function() {
+            if (typeof window.__uspapi !== 'undefined') {
+              window.__uspapi.apply(window.__uspapi, arg);
+            }
+          }, 500);
+        }
+      };
+    
+      var checkIfUspIsReady = function() {
+        uspTries++;
+        if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+          console.warn('USP is not accessible');
+        } else {
+          clearInterval(uspInterval);
+        }
+      };
+    
+      if (typeof window.__uspapi === 'undefined') {
+        window.__uspapi = uspStubFunction;
+        var uspInterval = setInterval(checkIfUspIsReady, 6000);
+      }
+    })();
+  </script>
+  <!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+  <script src="https://www.montecarlonews.it/fileadmin/layout/common/js/jquery.metadata.js" type="text/javascript">
+  </script>
+  <script src="https://www.montecarlonews.it/fileadmin/layout/common/js/jquery.openxtag.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   jQuery.noConflict();
+			(function ($) {
+				$(document).ready(function () {
+					$.openxtag("init", {
+						delivery: "http://advx.esprimo.com/www/delivery",
+						extra: {"cat" : "altrenotizie" },
+						deliverySSL: "https://advx.esprimo.com/www/delivery",
+					});
+					$(".bannerspc").openxtag("spc", function () {
+						console.log("loaded ad from zone " + 1);
+					});
+				});
+			})(jQuery);
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.27/dist/fancybox.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.27/dist/fancybox.umd.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js">
+  </script>
+  <script type="text/javascript">
+   Fancybox.bind("a[rel^=lightbox]", {
+      groupAll : true,
+      caption: function(fancybox, carousel, slide) {
+        return slide.$trigger.title || '';
+      }
+    });
+  </script>
+  <meta content="Musée d’archeologie de Nice, site de Cimiez" name="keywords"/>
+  <link href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" rel="canonical"/>
+  <link href="https://www.montecarlonews.it/2022/07/12/mobile/leggi-notizia/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" media="only screen and (max-width: 640px)" rel="alternate"/>
+  <link href="https://www.montecarlonews.it/2022/07/12/mobile/leggi-notizia/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" media="handheld" rel="alternate"/>
+  <script type="text/javascript">
+   //<![CDATA[
+    function setCookie(c_name, value, exdays) {var exdate = new Date();exdate.setDate(exdate.getDate() + exdays);var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());document.cookie = c_name + "=" + c_value;} function getCookie(c_name) {var i, x, y, ARRcookies = document.cookie.split(";");for (i = 0; i < ARRcookies.length; i++) {x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);x = x.replace(/^\s+|\s+$/g, "");if (x == c_name) {return unescape(y);}}} function getQueryVariable(variable){var query = window.location.search.substring(1);var vars = query.split("&");for (var i=0;i<vars.length;i++) {var pair = vars[i].split("=");if(pair[0] == variable){return pair[1];}}return(false);}function mobileCheck() { if(getQueryVariable("nomobile") > 0 || getCookie("nomobile") > 0) { setCookie("nomobile", 1, 365); } else if (screen.width <= 768) { document.location = "https://www.montecarlonews.it/2022/07/12/mobile/leggi-notizia/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html"; } }    mobileCheck();
+    //]]>
+  </script>
+  <link href="https://www.montecarlonews.it/2022/07/12/amp/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" rel="amphtml"/>
+  <meta content="www.esprimo.com" name="copyright"/>
+  <meta content="www.esprimo.com" name="DC.Rights"/>
+  <link href="http://purl.org/metadata/dublin_core_elements" rel="schema.dc"/>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-33651400-2">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-33651400-2', { 'anonymize_ip': true });
+      gtag('config', 'G-FPEEQPBGR6');
+  
+      <!-- Gruppo More News -->
+      gtag('config', 'UA-132069284-1', { 'anonymize_ip': true });
+  </script>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon.gif" rel="icon" type="image/gif"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon.png" rel="icon" type="image/png"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon.png" rel="apple-touch-icon"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-128x128.png" rel="apple-touch-icon" sizes="128x128"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/apple-touch-icon-precomposed.png" rel="apple-touch-icon"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon-160x160.png" rel="icon" sizes="160x160" type="image/png"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/favicon-196x196.png" rel="icon" sizes="196x196" type="image/png"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/win8-tile-144x144.png" name="msapplication-TileImage"/>
+  <meta content="#ffffff" name="msapplication-TileColor"/>
+  <meta content="#ffffff" name="msapplication-navbutton-color"/>
+  <meta content="Montecarlonews.it" name="application-name"/>
+  <meta content="Montecarlonews.it" name="msapplication-tooltip"/>
+  <meta content="Montecarlonews.it" name="apple-mobile-web-app-title"/>
+  <meta content="https://www.montecarlonews.it" name="msapplication-starturl"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/win8-tile-70x70.png" name="msapplication-square70x70logo"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/win8-tile-144x144.png" name="msapplication-square144x144logo"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/win8-tile-150x150.png" name="msapplication-square150x150logo"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/win8-tile-310x150.png" name="msapplication-wide310x150logo"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/_icons/win8-tile-310x310.png" name="msapplication-square310x310logo"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/css/generale.css?v=1.7" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/css/news.css?v=1.7" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/css/print.css?v=1.2" media="print" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/common/css/common.css?v=1.0" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/common/css/diretta-video.css?v=1.1" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/common/css/box-traveleat.css?v=1.1" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/fileadmin/layout/common/css/box-nasceremamma.css?v=1.0" rel="stylesheet" type="text/css"/>
+  <link href="https://www.montecarlonews.it/links/rss/argomenti/montecarlonewsit/rss.xml" rel="alternate" title="RSS montecarlonews.it" type="application/rss+xml"/>
+  <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6433461509023241">
+  </script>
+  <script defer="" src="https://cdn.unblockia.com/h.js">
+  </script>
+  <script async="" id="avantisJS" src="https://cdn.avantisvideo.com/avm/js/video-loader.js?id=1500d8ae-2c9f-4484-ad10-71491a924200&amp;tagId=2">
+  </script>
+  <!-- Begin comScore Tag -->
+  <script>
+   var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "28193710" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+  </script>
+  <noscript>
+   <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=28193710&amp;cv=2.0&amp;cj=1"/>
+  </noscript>
+  <!-- End comScore Tag -->
+  <meta content="1183202141730380" property="fb:app_id"/>
+  <meta content="it_IT" property="og:locale"/>
+  <meta content="Montecarlonews.it" property="og:site_name"/>
+  <meta content="https://www.facebook.com/montecarlonews" property="article:publisher"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__1___Copy_.JPG" property="og:image"/>
+  <meta content="800" property="og:image:width"/>
+  <meta content="600" property="og:image:height"/>
+  <meta content="article" property="og:type"/>
+  <meta content="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" property="og:url"/>
+  <meta content="Alla scoperta del Musée d’archeologie de Nice, site de Cimiez, meta continua di studiosi, di appassionati e, soprattutto, di tanti giovani. " property="og:description"/>
+  <meta content="Un museo che racconta il passato (Video e Foto)" property="og:title"/>
+  <meta content="2022-07-12T19:00:00+0200" property="article:published_time"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@Montecarlonews" name="twitter:site"/>
+  <meta content="Un museo che racconta il passato (Video e Foto)" name="twitter:title"/>
+  <meta content="Alla scoperta del Musée d’archeologie de Nice, site de Cimiez, meta continua di studiosi, di appassionati e, soprattutto, di tanti giovani. " name="twitter:description"/>
+  <meta content="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__1___Copy_.JPG" name="twitter:image"/>
+ </head>
+ <body>
+  <div id="fb-root">
+  </div>
+  <script async="" crossorigin="anonymous" defer="" nonce="g2EB5J4T" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&amp;version=v13.0&amp;appId=1183202141730380">
+  </script>
+  <!-- start copertina -->
+  <!--TYPO3SEARCH_begin-->
+  <div class="csc-default" id="c6186">
+   <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="254">
+   </ins>
+   <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+   </script>
+  </div>
+  <div class="csc-default" id="c4883">
+   <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="1088">
+   </ins>
+   <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+   </script>
+  </div>
+  <div class="csc-default" id="c5169">
+   <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="957">
+   </ins>
+   <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+   </script>
+  </div>
+  <!--TYPO3SEARCH_end-->
+  <!-- end copertina -->
+  <div id="container">
+   <!-- start advertisingTop -->
+   <div id="advertisingTop">
+    <!-- start advertisingTopSx -->
+    <div id="advertisingTopSx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c206">
+      <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="93">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end advertisingTopSx -->
+    <!-- start advertisingTopCenter -->
+    <div id="advertisingTopCenter">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c204">
+      <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="95">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end advertisingTopCenter -->
+    <!-- start advertisingTopDx -->
+    <div id="advertisingTopDx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c205">
+      <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="94">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end advertisingTopDx -->
+   </div>
+   <!-- end advertisingTop -->
+   <!-- start top -->
+   <div id="top">
+    <!-- start topSx -->
+    <div id="topSx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c2862">
+      <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="489">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end topSx -->
+    <!-- start topCenter -->
+    <div id="topCenter">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c201">
+      <div class="csc-textpic csc-textpic-center csc-textpic-above csc-textpic-equalheight">
+       <div class="csc-textpic-imagewrap" style="width:342px;">
+        <div class="csc-textpic-imagecolumn" style="width:342px;">
+         <dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:342px;">
+          <dt>
+           <a href="https://www.montecarlonews.it" target="_self">
+            <img alt="" border="0" height="100" src="https://www.montecarlonews.it/typo3temp/pics/l_189a62fe89.png" width="342"/>
+           </a>
+          </dt>
+         </dl>
+        </div>
+       </div>
+      </div>
+      <div class="csc-textpic-clear">
+       <!-- -->
+      </div>
+     </div>
+     <div class="csc-default" id="c6755">
+      <p class="payoff_logo">
+       <b>
+        N
+       </b>
+       otizie -
+       <b>
+        O
+       </b>
+       pinioni -
+       <b>
+        I
+       </b>
+       mmagini
+      </p>
+      <style type="text/css">
+       #topCenter { position:relative; }
+.payoff_logo { position:absolute; bottom:20px; right:64px; padding:0; margin:0; line-height:normal; font-family:"Playfair Display",serif; font-size:11.5px; font-weight:400; color:#666; text-align:right; }
+.payoff_logo b { font-weight:800; color:#000; }
+      </style>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end topCenter -->
+    <!-- start topDx -->
+    <div id="topDx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c2863">
+      <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="488">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end topDx -->
+   </div>
+   <!-- end top -->
+   <!-- start advertisingStriscia -->
+   <div id="advertisingStriscia">
+    <!--TYPO3SEARCH_begin-->
+    <div class="csc-default" id="c4143">
+     <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="225">
+     </ins>
+     <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+     </script>
+    </div>
+    <!--TYPO3SEARCH_end-->
+   </div>
+   <!-- end advertisingStriscia -->
+   <!-- start topMenu -->
+   <div id="topMenu">
+    <ul id="topMenu01">
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/" onfocus="blurLink(this);">
+       Prima Pagina
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/eventi-2.html" title="">
+       Eventi
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/ambiente-1.html" title="">
+       Ambiente
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/fashion.html" title="">
+       Fashion
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/business.html" title="">
+       Business
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/politica-4.html" title="">
+       Politica
+      </a>
+     </li>
+     <li class="menu_top_ACT">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/altre-notizie-1.html" title="">
+       Altre notizie
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/sport-1.html" title="">
+       Sport
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/oroscopo.html" title="">
+       Oroscopo
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/tutte-le-notizie.html" onfocus="blurLink(this);">
+       Tutte le notizie
+      </a>
+     </li>
+    </ul>
+    <ul id="topMenu02">
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/monaco.html" title="">
+       Monaco
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/mentone.html" title="">
+       Mentone
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/nizza.html" title="">
+       Nizza
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/antibes.html" title="">
+       Antibes
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/cannes.html" title="">
+       Cannes
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it/sommario/argomenti/alpi-marittime-06.html" title="">
+       Alpi Marittime 06
+      </a>
+     </li>
+     <li class="topMenu02-btn01">
+      <a href="https://premium.morenews.it" target="_blank" title="MorenewsPremium">
+       ABBONATI
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!-- end topMenu -->
+   <!-- start headerTop -->
+   <div id="headerTop">
+    <!-- start headerTopSx -->
+    <div id="headerTopSx">
+     <a href="/" title="Prima pagina">
+      <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/home.png" title="" width="18"/>
+     </a>
+     /
+     <strong>
+      Altre notizie
+     </strong>
+    </div>
+    <!-- end headerTopSx -->
+    <!-- start headerTopDx -->
+    <div id="headerTopDx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c200">
+      <ul class="csc-menu csc-menu-1">
+       <li>
+        <a href="https://www.montecarlonews.it/links/mobile.html" target="_self" title="Mobile">
+         <img alt="" border="0" height="16" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/mobile.png" title="" width="16"/>
+         Mobile
+        </a>
+       </li>
+       <li>
+        <a href="https://www.montecarlonews.it/links/facebook.html" target="_blank" title="Facebook">
+         <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/facebook.png" title="" width="18"/>
+         Facebook
+        </a>
+       </li>
+       <li>
+        <a href="https://www.montecarlonews.it/links/twitter.html" target="_blank" title="Twitter">
+         <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/twitter.png" title="" width="18"/>
+         Twitter
+        </a>
+       </li>
+       <li>
+        <a href="https://www.montecarlonews.it/links/rss.html" target="_top" title="RSS">
+         <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/rss.png" title="" width="18"/>
+         RSS
+        </a>
+       </li>
+       <li>
+        <a href="mailto:info@montecarlonews.it" title="Direttore">
+         <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/direttore.png" title="" width="18"/>
+         Direttore
+        </a>
+       </li>
+       <li>
+        <a href="https://www.montecarlonews.it/istituzionale/archivio.html" target="_top" title="Archivio">
+         <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/archivio.png" title="" width="18"/>
+         Archivio
+        </a>
+       </li>
+       <li>
+        <a href="https://www.montecarlonews.it/speciali/meteo.html" target="_top" title="Meteo">
+         <img alt="" border="0" height="18" src="https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/icons/meteo.png" title="" width="18"/>
+         Meteo
+        </a>
+       </li>
+      </ul>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end headerTopDx -->
+   </div>
+   <!-- end headerTop -->
+   <!-- start main -->
+   <div id="main">
+    <!-- start mainDx -->
+    <div id="mainDx">
+     <!-- start contentDxTop -->
+     <div id="contentDxTop">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c1234" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="98">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c1237" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="287">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c2467" style="margin-bottom:20px;">
+       <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+       </script>
+       <!-- Adattabile 03 - montecarlonews.it -->
+       <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="auto" data-ad-slot="3023255879" data-full-width-responsive="true" style="display:block">
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+      <div class="csc-default" id="c212">
+       <div class="csc-header csc-header-n4">
+        <h3>
+         In Breve
+        </h3>
+       </div>
+       <div class="news-latest-container">
+        <div class="news-latest-dategroup">
+         martedì  12 luglio
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" title="Un museo che racconta il passato (Video e Foto)">
+           <img alt="Musée d’archeologie de Nice, site de Cimiez" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/M_a5013e4e66.jpg" title="Musée d’archeologie de Nice, site de Cimiez" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html" title="Un museo che racconta il passato (Video e Foto)">
+           Un museo che racconta il passato (Video e Foto)
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 19:00)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/quali-sono-i-pilastri-per-unazienda-vincente-il-punto-di-vista-di-happily-2.html" title="Quali sono i pilastri per un’azienda vincente? Il punto di vista di Happily">
+           <img alt="Quali sono i pilastri per un’azienda vincente? Il punto di vista di Happily" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/H_6cf1ce2fcb.jpg" title="Quali sono i pilastri per un’azienda vincente? Il punto di vista di Happily" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/quali-sono-i-pilastri-per-unazienda-vincente-il-punto-di-vista-di-happily-2.html" title="Quali sono i pilastri per un’azienda vincente? Il punto di vista di Happily">
+           Quali sono i pilastri per un’azienda vincente? Il punto di vista di Happily
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 14:45)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/sottocosta/articolo/sottocosta-a-cura-di-ghjuvan-pasquale-e98f4c4348.html" title="Sottocosta …a cura di Ghjuvan Pasquale">
+           <img alt="Sottocosta …a cura di Ghjuvan Pasquale" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/B_4774993341.jpg" title="Sottocosta …a cura di Ghjuvan Pasquale" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/12/notizie/argomenti/sottocosta/articolo/sottocosta-a-cura-di-ghjuvan-pasquale-e98f4c4348.html" title="Sottocosta …a cura di Ghjuvan Pasquale">
+           Sottocosta …a cura di Ghjuvan Pasquale
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 10:00)
+         </div>
+        </div>
+        <div class="news-latest-dategroup">
+         lunedì  11 luglio
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/11/notizie/argomenti/altre-notizie-1/articolo/tutte-le-chiese-della-diocesi-di-nizza-sullo-smartphone.html" title="Tutte le chiese della Diocesi di Nizza sullo smartphone">
+           <img alt="Lanavata di Notre Dame du Port di Nizza" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/C_04f50ea3f0.jpg" title="Lanavata di Notre Dame du Port di Nizza" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/11/notizie/argomenti/altre-notizie-1/articolo/tutte-le-chiese-della-diocesi-di-nizza-sullo-smartphone.html" title="Tutte le chiese della Diocesi di Nizza sullo smartphone">
+           Tutte le chiese della Diocesi di Nizza sullo smartphone
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 19:00)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/11/notizie/argomenti/altre-notizie-1/articolo/stilose-le-vostre-fotografie-targate-06.html" title='"Stilose". Le vostre fotografie “targate 06”'>
+           <img alt="&amp;quot;Stilose&amp;quot;, fotografia di Silvia Assin" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/S_d37eb1d3eb.jpg" title="&amp;quot;Stilose&amp;quot;, fotografia di Silvia Assin" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/11/notizie/argomenti/altre-notizie-1/articolo/stilose-le-vostre-fotografie-targate-06.html" title='"Stilose". Le vostre fotografie “targate 06”'>
+           "Stilose". Le vostre fotografie “targate 06”
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 10:00)
+         </div>
+        </div>
+        <div class="news-latest-dategroup">
+         domenica  10 luglio
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/10/notizie/argomenti/altre-notizie-1/articolo/attenzione-ai-pollini-il-bollettino-settimanale-delle-allergie-25.html" title="Attenzione ai pollini! Il bollettino settimanale delle allergie">
+           <img alt="Parc Roquevignon" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/P_b1985e0fb7.jpg" title="Parc Roquevignon" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/10/notizie/argomenti/altre-notizie-1/articolo/attenzione-ai-pollini-il-bollettino-settimanale-delle-allergie-25.html" title="Attenzione ai pollini! Il bollettino settimanale delle allergie">
+           Attenzione ai pollini! Il bollettino settimanale delle allergie
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 19:00)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/10/notizie/argomenti/altre-notizie-1/articolo/contrasti-le-vostre-fotografie-targate-06-1.html" title='"Contrasti". Le vostre fotografie “targate 06”'>
+           <img alt="&amp;quot;Contrasti&amp;quot;, fotografia di Mietta Tondelli" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/N_29aa22482f.jpg" title="&amp;quot;Contrasti&amp;quot;, fotografia di Mietta Tondelli" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/10/notizie/argomenti/altre-notizie-1/articolo/contrasti-le-vostre-fotografie-targate-06-1.html" title='"Contrasti". Le vostre fotografie “targate 06”'>
+           "Contrasti". Le vostre fotografie “targate 06”
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 10:00)
+         </div>
+        </div>
+        <div class="news-latest-dategroup">
+         sabato  09 luglio
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/09/notizie/argomenti/altre-notizie-1/articolo/nizza-ha-di-nuovo-il-suo-chateau.html" title="Nizza ha di nuovo il suo Château">
+           <img alt="La ricostruzione di Florent Pey del Castello di Nizza (foto tratta da Facebook)" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/R_bc5029dae4.jpg" title="La ricostruzione di Florent Pey del Castello di Nizza (foto tratta da Facebook)" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/09/notizie/argomenti/altre-notizie-1/articolo/nizza-ha-di-nuovo-il-suo-chateau.html" title="Nizza ha di nuovo il suo Château">
+           Nizza ha di nuovo il suo Château
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 18:00)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/09/notizie/argomenti/altre-notizie-1/articolo/fiori-di-montagna-le-vostre-fotografie-targate-06.html" title='"Fiori di montagna". Le vostre fotografie “targate 06”'>
+           <img alt="&amp;quot;Fiori di Montagna&amp;quot;, fotografie di Guglielmo Talarico" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/F_0e567b93c0.jpg" title="&amp;quot;Fiori di Montagna&amp;quot;, fotografie di Guglielmo Talarico" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/09/notizie/argomenti/altre-notizie-1/articolo/fiori-di-montagna-le-vostre-fotografie-targate-06.html" title='"Fiori di montagna". Le vostre fotografie “targate 06”'>
+           "Fiori di montagna". Le vostre fotografie “targate 06”
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 10:00)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.montecarlonews.it/2022/07/09/notizie/argomenti/altre-notizie-1/articolo/angoli-di-costa-azzurra-la-chapelle-folon-a-saint-paul-de-vence-video-e-foto.html" title="Angoli di Costa Azzurra: la Chapelle Folon a Saint Paul de Vence (Video e Foto)">
+           <img alt="La Chapelle des Pénitents Blancs a saint Paul de Vence" border="0" height="90" src="https://www.montecarlonews.it/typo3temp/pics/l_169af4aadb.jpg" title="La Chapelle des Pénitents Blancs a saint Paul de Vence" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.montecarlonews.it/2022/07/09/notizie/argomenti/altre-notizie-1/articolo/angoli-di-costa-azzurra-la-chapelle-folon-a-saint-paul-de-vence-video-e-foto.html" title="Angoli di Costa Azzurra: la Chapelle Folon a Saint Paul de Vence (Video e Foto)">
+           Angoli di Costa Azzurra: la Chapelle Folon a Saint Paul de Vence (Video e Foto)
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 08:00)
+         </div>
+        </div>
+        <div class="news-latest-link24ore">
+         <a href="https://www.montecarlonews.it/2022/07/12/tutte-le-notizie/argomenti/altre-notizie-1.html">
+          Leggi le ultime di: Altre notizie
+         </a>
+        </div>
+       </div>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentDxTop -->
+     <!-- start contentDxBottom -->
+     <div id="contentDxBottom">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c5190" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="1224">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c7452" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="2627">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c2471" style="margin-bottom:20px;">
+       <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+       </script>
+       <!-- Adattabile 04 - montecarlonews.it -->
+       <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="auto" data-ad-slot="8797261072" data-full-width-responsive="true" style="display:block">
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentDxBottom -->
+    </div>
+    <!-- end mainDx -->
+    <!-- start mainTop -->
+    <div id="mainTop">
+     <!--TYPO3SEARCH_begin-->
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end mainTop -->
+    <!-- start mainSx -->
+    <div id="mainSx">
+     <!-- start contentSxTop -->
+     <div id="contentSxTop">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c3466" style="margin-bottom:15px;">
+       <div class="csc-header">
+        <h3>
+         Che tempo fa
+        </h3>
+       </div>
+       <script async="" crossorigin="anonymous" src="//feed.datameteo.com/meteo3_2/7gg/?codice=tgcnHP&amp;placename=monte+carlo&amp;op=async">
+       </script>
+      </div>
+      <div class="csc-default" id="c4821" style="margin-bottom:5px;">
+       <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="1039">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c2954" style="margin-bottom:5px;">
+       <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="502">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c4767" style="margin-bottom:5px;">
+       <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="960">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c324" style="margin-bottom:5px;">
+       <div class="csc-textpic csc-textpic-center csc-textpic-above">
+        <div class="csc-textpic-imagewrap" style="width:150px;">
+         <dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:150px;">
+          <dt>
+           <a href="http://www.montecarlonautica.com" target="_blank" title="150x74 montecarlonautica">
+            <img alt="" border="0" height="74" src="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/box/home/150x74_montecarlonautica.gif" width="150"/>
+           </a>
+          </dt>
+         </dl>
+        </div>
+       </div>
+       <div class="csc-textpic-clear">
+        <!-- -->
+       </div>
+      </div>
+      <div class="csc-frame csc-frame-frame1" id="c197">
+       <div class="csc-header csc-header-n6">
+        <h3>
+         Rubriche
+        </h3>
+       </div>
+       <ul class="news-catmenu">
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/luoghi-da-scoprire.html" title="">
+           Luoghi da scoprire
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/mostre-di-nizza.html" title="">
+           Mostre di Nizza
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/sottocosta.html" title="">
+           Sottocosta
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/carnevale-di-nizza.html" title="">
+           Carnevale di Nizza
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/immobiliare.html" title="">
+           Immobiliare
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/eterna-giovinezza-4.html" title="">
+           Eterna giovinezza
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.montecarlonews.it/sommario/argomenti/multimedia-4.html" title="">
+           Multimedia
+          </a>
+         </span>
+        </li>
+       </ul>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentSxTop -->
+     <!-- start contentSxBottom -->
+     <div id="contentSxBottom">
+      <div class="csc-default" id="c3437">
+       <div class="csc-header csc-header-n1">
+        <h3 class="csc-firstHeader">
+         Accadeva un anno fa
+        </h3>
+       </div>
+       <div class="dateago-latest-container">
+        <div class="dateago-latest-item">
+         <div class="dateago-latest-image">
+          <div class="dateago-latest-image_maschera">
+          </div>
+          <a href="https://www.montecarlonews.it/2021/07/12/notizie/argomenti/eventi-2/articolo/artmonte-carlo-ritorna-dal-15-al-17-luglio-il-salone-di-arte-contemporanea-a-monaco.html" title="Artmonte-carlo: ritorna dal 15 al 17 luglio il salone di arte contemporanea a Monaco">
+           <img alt="Artmonte-carlo: ritorna dal 15 al 17 luglio il salone di arte contemporanea a Monaco" border="0" height="98" src="https://www.montecarlonews.it/typo3temp/pics/M_0334e7fb01.jpg" title="Artmonte-carlo: ritorna dal 15 al 17 luglio il salone di arte contemporanea a Monaco" width="130"/>
+          </a>
+         </div>
+         <div class="dateago-latest-time">
+          Eventi
+         </div>
+         <div class="dateago-latest-title">
+          <a href="https://www.montecarlonews.it/2021/07/12/notizie/argomenti/eventi-2/articolo/artmonte-carlo-ritorna-dal-15-al-17-luglio-il-salone-di-arte-contemporanea-a-monaco.html" title="Artmonte-carlo: ritorna dal 15 al 17 luglio il salone di arte contemporanea a Monaco">
+           Artmonte-carlo: ritorna dal 15 al 17 luglio il salone di arte contemporanea a Monaco
+          </a>
+         </div>
+        </div>
+        <div class="dateago-latest-item">
+         <div class="dateago-latest-image">
+          <div class="dateago-latest-image_maschera">
+          </div>
+          <a href="https://www.montecarlonews.it/2021/07/12/notizie/argomenti/altre-notizie-1/articolo/covid-ora-si-teme-una-quarta-ondata-in-estate.html" title="Covid, ora si teme una quarta ondata in estate">
+           <img alt="Spiaggia di Nizza" border="0" height="98" src="https://www.montecarlonews.it/typo3temp/pics/S_278ff70be1.jpg" title="Spiaggia di Nizza" width="130"/>
+          </a>
+         </div>
+         <div class="dateago-latest-time">
+          Altre notizie
+         </div>
+         <div class="dateago-latest-title">
+          <a href="https://www.montecarlonews.it/2021/07/12/notizie/argomenti/altre-notizie-1/articolo/covid-ora-si-teme-una-quarta-ondata-in-estate.html" title="Covid, ora si teme una quarta ondata in estate">
+           Covid, ora si teme una quarta ondata in estate
+          </a>
+         </div>
+        </div>
+        <div class="dateago-latest-item">
+         <div class="dateago-latest-image">
+          <div class="dateago-latest-image_maschera">
+          </div>
+          <a href="https://www.montecarlonews.it/2021/07/12/notizie/argomenti/altre-notizie-1/articolo/piante-grasse-le-vostre-fotografie-targate-06.html" title='"Piante grasse". Le vostre fotografie “targate 06”'>
+           <img alt="&amp;quot;Piante grasse&amp;quot; , fotografia di Luciano Tomasi" border="0" height="98" src="https://www.montecarlonews.it/typo3temp/pics/P_cea03108ef.jpg" title="&amp;quot;Piante grasse&amp;quot; , fotografia di Luciano Tomasi" width="130"/>
+          </a>
+         </div>
+         <div class="dateago-latest-time">
+          Altre notizie
+         </div>
+         <div class="dateago-latest-title">
+          <a href="https://www.montecarlonews.it/2021/07/12/notizie/argomenti/altre-notizie-1/articolo/piante-grasse-le-vostre-fotografie-targate-06.html" title='"Piante grasse". Le vostre fotografie “targate 06”'>
+           "Piante grasse". Le vostre fotografie “targate 06”
+          </a>
+         </div>
+        </div>
+        <div class="news-latest-link24ore">
+         <a href="https://www.montecarlonews.it/2021/07/12/tutte-le-notizie.html">
+          Leggi tutte le notizie
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- end contentSxBottom -->
+    </div>
+    <!-- end mainSx -->
+    <!-- start mainCenter -->
+    <div id="mainCenter">
+     <!-- start contentCenterTop -->
+     <div id="contentCenterTop">
+      <div class="csc-default" id="c744" style="margin-bottom:20px;">
+       <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="226">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c213">
+       <div class="news-single-container">
+        <!-- <EdIndex> -->
+        <div class="csc-header">
+         <h3>
+          <span class="news-list-category-header">
+           Altre notizie
+          </span>
+          |
+          <span class="news-list-date-header">
+           12 luglio 2022, 19:00
+          </span>
+         </h3>
+        </div>
+        <div class="news-single-item">
+         <script type="application/ld+json">
+          {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Un museo che racconta il passato (Video e Foto)",
+      "url": "https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html",
+      "articleSection": "Altre notizie",
+    "datePublished": "2022-07-12T19:00:00+0200",
+    "dateModified": "2022-06-16T15:36:03+0200",
+    "description": "Alla scoperta del Musée d’archeologie de Nice, site de Cimiez, meta continua di studiosi, di appassionati e, soprattutto, di tanti giovani.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.montecarlonews.it/2022/07/12/notizie/argomenti/altre-notizie-1/articolo/un-museo-che-racconta-il-passato.html"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Beppe Tassone"
+    },
+      "publisher": {
+              "@type": "Organization",
+              "name": "Montecarlonews.it",
+              "logo": {
+                      "@type": "ImageObject",
+                      "url": "https://www.montecarlonews.it/fileadmin/layout/montecarlonews/images/logo.png"
+              }
+      },
+      "image": {
+              "@type": "ImageObject",
+              "url": "https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__1___Copy_.JPG",
+              "width":800,
+              "height":600
+      }
+}
+         </script>
+         <h1 class="title">
+          Un museo che racconta il passato (Video e Foto)
+         </h1>
+         <!-- AddToAny BEGIN -->
+         <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="clear:both; margin-bottom:10px;">
+          <a class="a2a_dd" href="https://www.addtoany.com/share_save">
+          </a>
+          <a class="a2a_button_facebook">
+          </a>
+          <a class="a2a_button_twitter">
+          </a>
+          <a class="a2a_button_print">
+          </a>
+          <a class="a2a_button_whatsapp">
+          </a>
+          <a class="a2a_button_email">
+          </a>
+         </div>
+         <script type="text/javascript">
+          var a2a_config = a2a_config || {};
+a2a_config.locale = "it";
+         </script>
+         <script src="//static.addtoany.com/menu/page.js" type="text/javascript">
+         </script>
+         <!-- AddToAny END -->
+         <h2 class="subheader">
+          Alla scoperta del Musée d’archeologie de Nice, site de Cimiez, meta continua di studiosi, di appassionati e, soprattutto, di tanti giovani.
+         </h2>
+         <div class="news-single-image">
+          <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__1___Copy_.JPG" rel="lightbox[lb961354]" title="Musée d’archeologie de Nice, site de Cimiez">
+           <img alt="Musée d’archeologie de Nice, site de Cimiez" border="0" height="383" src="https://www.montecarlonews.it/typo3temp/pics/M_7040e5ac4b.jpg" title="Musée d’archeologie de Nice, site de Cimiez" width="510"/>
+          </a>
+          <p class="news-single-imgcaption" style="width:510px;">
+           Musée d’archeologie de Nice, site de Cimiez
+          </p>
+         </div>
+         <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+         </script>
+         <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="fluid" data-ad-layout="in-article" data-ad-slot="8244631032" style="display:block; text-align:center; margin-bottom:15px;">
+         </ins>
+         <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+         <div class="news-single-content">
+          <p>
+           Sulle alture di
+           <b>
+            Nizza
+           </b>
+           , la magnifica collina di
+           <b>
+            Cimiez
+           </b>
+           , dalla quale si gode una vista eccezionale sulla città e che è ricca di musei, di parchi con il Monastero e un roseto di eccezionale bellezza, consente di immergersi nella storia.
+          </p>
+          <p>
+           Un tempo la collina era chiamata
+           <b>
+            Cemenelum
+           </b>
+           e Augusto nel 14 a.C. vi fondo
+           <b>
+            Cimella
+           </b>
+           che fu dal 1º al IVº secolo capoluogo della provincia delle "Alpes-Maritimae". Il museo presenta oggetti e documenti della storia di Cemenelum e della provincia delle Alpi Marittime risalenti all’epoca del Neolitico, all’antichità e al Medioevo.
+          </p>
+          <p>
+          </p>
+          <div class="rwd-video">
+           <iframe allowfullscreen="" frameborder="0" height="191" src="https://www.youtube.com/embed/sPcJLRq13Qc" width="340">
+           </iframe>
+          </div>
+          <p>
+           E’ meta continua di studiosi, di appassionati e, soprattutto, di tanti giovani. Inaugurato nel
+           <b>
+            gennaio 1989
+           </b>
+           , espone delle collezioni che vanno dall’età dei metalli (1100 a.C.) fino al Medio Evo: ceramiche, vetri, monete, gioielli, sculture, utensili.
+          </p>
+          <p>
+           Una rassegna fotografica è pubblicata al fondo di questo articolo.
+          </p>
+          <p>
+           Il
+           <b>
+            Musée d’archeologie de Nice, site de Cimiez,
+           </b>
+           si trova a Nizza in Avenue des Arènes de Cimiez ed è chiuso il martedì.
+          </p>
+         </div>
+         <div class="news_single_gallery">
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__2___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_fbf052ee1a.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__3___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_956664a60a.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__4___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_18d69acbd2.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__5___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_c2e93382e3.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__5___Copy__01.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_f593d3b8cb.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__7___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_73003eb9e4.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__6___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_8b5ad441c9.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__8___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_aef6a4dcaf.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__9___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_67835467c3.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__10___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_09821ae7b6.jpg" title="" width="113"/>
+           </a>
+          </div>
+          <div class="news_single_gallery_el">
+           <a href="https://www.montecarlonews.it/fileadmin/archivio/montecarlonews/Museo_Cimiez__11___Copy_.JPG" rel="lightbox[lb961354]">
+            <img alt="" border="0" height="85" src="https://www.montecarlonews.it/typo3temp/pics/M_9eb84f4a12.jpg" title="" width="113"/>
+           </a>
+          </div>
+         </div>
+         <p class="news-single-author">
+          <img alt="" height="26" src="https://www.montecarlonews.it/fileadmin/layout/common/images/ico_author.png" width="26"/>
+          Beppe Tassone
+         </p>
+        </div>
+        <!-- </EdIndex> -->
+       </div>
+      </div>
+      <div class="csc-default" id="c6723" style="margin-bottom:20px;">
+       <p class="google_news" style="padding:15px; margin:0; overflow:hidden; background:#EFF4F7; border-radius:5px; font-size:100%;">
+        <img alt="Google News" src="https://www.montecarlonews.it/fileadmin/archivio/condivisa/GoogleNews_icon.png" style="display:block; float:left; width:34px; height:28px; margin:0 5px 0 0;"/>
+        <span style="display:block; float:left; width:calc(100% - 124px); margin:5px 0 0;">
+         Ricevi le nostre ultime notizie da
+         <b>
+          Google News
+         </b>
+        </span>
+        <a href="https://news.google.com/publications/CAAiEOxWjGKUWOFfVpxrenNw1X8qFAgKIhDsVoxilFjhX1aca3pzcNV_" style="display:block; float:right; width:80px; padding:5px 0; background:#087BBB; border-radius:5px; color:#FFF; font-weight:bold; text-decoration:none; text-align:center;" target="_blank" title="Google News">
+         SEGUICI
+        </a>
+       </p>
+       <style type="text/css">
+        @media only screen and (max-width: 512px) {
+  .google_news img { margin-top:4px !important; }
+  .google_news span { margin-top:0px !important; }
+  .google_news a { margin-top:4px !important; }
+}
+       </style>
+      </div>
+      <div class="csc-default" id="c7463" style="margin-bottom:20px;">
+       <div id="nat_62062feea578968b32137b1d">
+       </div>
+       <script type="text/javascript">
+        var _nat = _nat || [];
+  _nat.push(['id', '62062feea578968b32137b1d']);
+  (function() {
+      var nat = document.createElement('script'); nat.type = 'text/javascript'; nat.async = true;
+      nat.src = '//cdn.nativery.com/widget/js/nat.js';
+      var nats = document.getElementsByTagName('script')[0]; nats.parentNode.insertBefore(nat, nats);
+  })();
+       </script>
+      </div>
+      <div class="csc-default" id="c2459" style="margin-bottom:20px;">
+       <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+       </script>
+       <!-- Adattabile 02 - montecarlonews.it -->
+       <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="auto" data-ad-slot="1505836676" data-full-width-responsive="true" style="display:block">
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+      <div class="csc-default" id="c4484" style="margin-bottom:20px;">
+       <h3>
+        Ti potrebbero interessare anche:
+       </h3>
+       <script type="text/javascript">
+        // Defining a function to inject the OB script which will trigger searching for OB divs
+// which are already inside the page where the widgets are supposed to load
+buildOutbrain = function() {
+    var obs = document.createElement('script');
+    obs.type = 'text/javascript';
+    obs.async = true;
+    obs.src = '//widgets.outbrain.com/outbrain.js';
+    var ss = document.getElementsByTagName('script')[0];
+    ss.parentNode.insertBefore(obs, ss);
+}
+// Defining the Eventlistner to react upon CMP events via __tcfapi of the CMP
+__tcfapi('addEventListener', 2, function(tcData, success) {
+    if (tcData.eventStatus === 'tcloaded' || tcData.eventStatus === 'useractioncomplete') { 
+        // Handleing Outbrain
+        if (tcData.gdprApplies) {
+            // In case the request is within the GDPR we check the CMP status
+            if (tcData.eventStatus === 'tcloaded') {
+                // Status 'tcloaded' means we already have a Consent Decision (like from a returning user) so we load the widgets
+                buildOutbrain();
+            } else if (tcData.eventStatus === 'useractioncomplete') {
+                // Status 'useractioncomplete' means the user has made a consent decision so we load the widgets
+                buildOutbrain();
+                // If users decision took too long we need to trigger OB rendering again 
+                // with OBR method call after checking the OBR object exists
+              if (document.readyState === 'interactive' || document.readyState === 'complete') {
+                      if (OBR !== 'undefined') {
+                        OBR.extern.reloadWidget();
+                    }
+              }
+           }
+        } else {
+            // In case the request is not under GDPR we can load the widgets directly
+          buildOutbrain();
+      }
+    }
+});
+       </script>
+       <div class="OUTBRAIN" data-ob-contenturl="DROP_PERMALINK_HERE" data-ob-installation-key="ITMOR1217IH5Q55POH1I6NJD3" data-widget-id="AR_1">
+       </div>
+      </div>
+      <div class="csc-default" id="c5311" style="margin-bottom:20px;">
+       <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+       </script>
+       <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="autorelaxed" data-ad-slot="4386895824" style="display:block">
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+     </div>
+     <!-- end contentSxTop -->
+     <!-- start contentCenterBottom -->
+     <div id="contentCenterBottom">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c195" style="margin-bottom:20px;">
+       <ins data-revive-cat="altrenotizie" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="99">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentCenterBottom -->
+    </div>
+    <!-- end mainCenter -->
+   </div>
+   <!-- end main -->
+   <!-- start mainFooter -->
+   <div id="mainFooter">
+    <!--TYPO3SEARCH_begin-->
+    <!--TYPO3SEARCH_end-->
+   </div>
+   <!-- end mainFooter -->
+   <!-- start bottomMenu -->
+   <div id="bottomMenu">
+    <span class="menu_bottom_NO">
+     <a href="https://www.montecarlonews.it/" onfocus="blurLink(this);">
+      Prima Pagina
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.montecarlonews.it/istituzionale/archivio.html" onfocus="blurLink(this);">
+      Archivio
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.montecarlonews.it/istituzionale/redazione.html" onfocus="blurLink(this);">
+      Redazione
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="mailto:info@montecarlonews.it" onfocus="blurLink(this);">
+      Invia un Comunicato Stampa
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.montecarlonews.it/istituzionale/pubblicita.html" onfocus="blurLink(this);">
+      Pubblicità
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="mailto:info@montecarlonews.it" onfocus="blurLink(this);">
+      Scrivi al Direttore
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.montecarlonews.it/istituzionale/premium.html" onfocus="blurLink(this);" target="_blank">
+      Premium
+     </a>
+    </span>
+   </div>
+   <!-- end bottomMenu -->
+   <!-- start footer -->
+   <div id="footer">
+    Copyright © 2013 - 2022 IlNazionale.it - Partita Iva: IT 03401570043 -
+    <a href="http://www.esprimo.com" target="_blank">
+     Credits
+    </a>
+    |
+    <a href="http://privacy.morenews.it" target="_blank">
+     Privacy
+    </a>
+    |
+    <a onclick="window.__tcfapi('displayConsentUi', 2, function() {} );" style="cursor:pointer;">
+     Preferenze privacy
+    </a>
+   </div>
+   <!-- end footer -->
+  </div>
+  <!-- end container -->
+ </body>
+</html> in scrape:48
+scrape.py | [DEBUG] | 2022-07-12 22:40:14,117 | __main__ | : <!DOCTYPE html>
+<html lang="it-IT">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2009 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+  <base href="https://www.sanremonews.it/"/>
+  <meta content="TYPO3 4.3 CMS" name="generator"/>
+  <meta content="https://www.sanremonews.it/typo3temp/pics/g_60620d5d76.jpg" name="EdImage"/>
+  <meta content="2022/06/13 07:11:00" name="EdDateTime"/>
+  <meta content="Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video)" name="EdTitle"/>
+  <meta content="tt_news_uid-1273142" name="EdIdentifier"/>
+  <meta content="Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video)" name="title"/>
+  <meta content="I problemi legati all’ approvvigionamento idrico e alla spazzatura restano (per ora) sullo sfondo. I giovani chiedono maggiore apertura alle loro esigenze" name="description"/>
+  <link href="https://www.sanremonews.it/typo3temp/stylesheet_0619bb8429.css" media="all" rel="stylesheet" type="text/css"/>
+  <script src="https://www.sanremonews.it/typo3temp/javascript_93077bb238.js" type="text/javascript">
+  </script>
+  <title>
+   Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video)  - Sanremonews.it
+  </title>
+  <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+  <script async="true" type="text/javascript">
+   (function() {
+      var host = window.location.hostname;
+      var element = document.createElement('script');
+      var firstScript = document.getElementsByTagName('script')[0];
+      var url = 'https://quantcast.mgr.consensu.org'
+        .concat('/choice/', 'PYBr695hFpR0z', '/', host, '/choice.js')
+      var uspTries = 0;
+      var uspTriesLimit = 3;
+      element.async = true;
+      element.type = 'text/javascript';
+      element.src = url;
+    
+      firstScript.parentNode.insertBefore(element, firstScript);
+    
+      function makeStub() {
+        var TCF_LOCATOR_NAME = '__tcfapiLocator';
+        var queue = [];
+        var win = window;
+        var cmpFrame;
+    
+        function addFrame() {
+          var doc = win.document;
+          var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+    
+          if (!otherCMP) {
+            if (doc.body) {
+              var iframe = doc.createElement('iframe');
+    
+              iframe.style.cssText = 'display:none';
+              iframe.name = TCF_LOCATOR_NAME;
+              doc.body.appendChild(iframe);
+            } else {
+              setTimeout(addFrame, 5);
+            }
+          }
+          return !otherCMP;
+        }
+    
+        function tcfAPIHandler() {
+          var gdprApplies;
+          var args = arguments;
+    
+          if (!args.length) {
+            return queue;
+          } else if (args[0] === 'setGdprApplies') {
+            if (
+              args.length > 3 &&
+              args[2] === 2 &&
+              typeof args[3] === 'boolean' ) {
+              gdprApplies = args[3];
+              if (typeof args[2] === 'function') {
+                args[2]('set', true);
+              }
+            }
+          } else if (args[0] === 'ping') {
+            var retr = {
+              gdprApplies: gdprApplies,
+              cmpLoaded: false,
+              cmpStatus: 'stub'
+            };
+    
+            if (typeof args[2] === 'function') {
+              args[2](retr);
+            }
+          } else {
+            queue.push(args);
+          }
+        }
+    
+        function postMessageEventHandler(event) {
+          var msgIsString = typeof event.data === 'string';
+          var json = {};
+    
+          try {
+            if (msgIsString) {
+              json = JSON.parse(event.data);
+            } else {
+              json = event.data;
+            }
+          } catch (ignore) {}
+    
+          var payload = json.__tcfapiCall;
+    
+          if (payload) {
+            window.__tcfapi(
+              payload.command,
+              payload.version,
+              function(retValue, success) {
+                var returnMsg = {
+                  __tcfapiReturn: {
+                    returnValue: retValue,
+                    success: success,
+                    callId: payload.callId
+                  }
+                };
+                if (msgIsString) {
+                  returnMsg = JSON.stringify(returnMsg);
+                }
+                if (event && event.source && event.source.postMessage) {
+                  event.source.postMessage(returnMsg, '*');
+                }
+              },
+              payload.parameter );
+          }
+        }
+    
+        while (win) {
+          try {
+            if (win.frames[TCF_LOCATOR_NAME]) {
+              cmpFrame = win;
+              break;
+            }
+          } catch (ignore) {}
+    
+          if (win === window.top) {
+            break;
+          }
+          win = win.parent;
+        }
+        if (!cmpFrame) {
+          addFrame();
+          win.__tcfapi = tcfAPIHandler;
+          win.addEventListener('message', postMessageEventHandler, false);
+        }
+      };
+    
+      makeStub();
+    
+      var uspStubFunction = function() {
+        var arg = arguments;
+        if (typeof window.__uspapi !== uspStubFunction) {
+          setTimeout(function() {
+            if (typeof window.__uspapi !== 'undefined') {
+              window.__uspapi.apply(window.__uspapi, arg);
+            }
+          }, 500);
+        }
+      };
+    
+      var checkIfUspIsReady = function() {
+        uspTries++;
+        if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+          console.warn('USP is not accessible');
+        } else {
+          clearInterval(uspInterval);
+        }
+      };
+    
+      if (typeof window.__uspapi === 'undefined') {
+        window.__uspapi = uspStubFunction;
+        var uspInterval = setInterval(checkIfUspIsReady, 6000);
+      }
+    })();
+  </script>
+  <!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+  <script src="https://www.sanremonews.it/fileadmin/layout/common/js/jquery.metadata.js" type="text/javascript">
+  </script>
+  <script src="https://www.sanremonews.it/fileadmin/layout/common/js/jquery.openxtag.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   jQuery.noConflict();
+			(function ($) {
+				$(document).ready(function () {
+					$.openxtag("init", {
+						delivery: "http://advx.esprimo.com/www/delivery",
+						extra: {"cat" : "attualità" },
+						deliverySSL: "https://advx.esprimo.com/www/delivery",
+					});
+					$(".bannerspc").openxtag("spc", function () {
+						console.log("loaded ad from zone " + 1);
+					});
+				});
+			})(jQuery);
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.27/dist/fancybox.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.27/dist/fancybox.umd.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js">
+  </script>
+  <script type="text/javascript">
+   Fancybox.bind("a[rel^=lightbox]", {
+      groupAll : true,
+      caption: function(fancybox, carousel, slide) {
+        return slide.$trigger.title || '';
+      }
+    });
+  </script>
+  <link href="https://www.sanremonews.it/2022/06/13/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html" rel="canonical"/>
+  <link href="https://www.sanremonews.it/2022/06/13/mobile/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html" media="only screen and (max-width: 640px)" rel="alternate"/>
+  <link href="https://www.sanremonews.it/2022/06/13/mobile/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html" media="handheld" rel="alternate"/>
+  <script type="text/javascript">
+   //<![CDATA[
+    function setCookie(c_name, value, exdays) {var exdate = new Date();exdate.setDate(exdate.getDate() + exdays);var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());document.cookie = c_name + "=" + c_value;} function getCookie(c_name) {var i, x, y, ARRcookies = document.cookie.split(";");for (i = 0; i < ARRcookies.length; i++) {x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);x = x.replace(/^\s+|\s+$/g, "");if (x == c_name) {return unescape(y);}}} function getQueryVariable(variable){var query = window.location.search.substring(1);var vars = query.split("&");for (var i=0;i<vars.length;i++) {var pair = vars[i].split("=");if(pair[0] == variable){return pair[1];}}return(false);}function mobileCheck() { if(getQueryVariable("nomobile") > 0 || getCookie("nomobile") > 0) { setCookie("nomobile", 1, 365); } else if (screen.width <= 768) { document.location = "https://www.sanremonews.it/2022/06/13/mobile/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html"; } }    mobileCheck();
+    //]]>
+  </script>
+  <link href="https://www.sanremonews.it/2022/06/13/amp/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html" rel="amphtml"/>
+  <meta content="www.esprimo.com" name="copyright"/>
+  <meta content="www.esprimo.com" name="DC.Rights"/>
+  <link href="http://purl.org/metadata/dublin_core_elements" rel="schema.dc"/>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-33651400-3">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-33651400-3', { 'anonymize_ip': true });
+      gtag('config', 'G-CF4NT95V4H');
+      
+      <!-- Gruppo Imperia -->
+      gtag('config', 'UA-116083075-1', { 'anonymize_ip': true });
+  
+      <!-- Gruppo Liguria News -->
+      gtag('config', 'UA-54975156-1', { 'anonymize_ip': true });
+  
+      <!-- Gruppo More News -->
+      gtag('config', 'UA-132069284-1', { 'anonymize_ip': true });
+  </script>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon.gif" rel="icon" type="image/gif"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon.png" rel="icon" type="image/png"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon.png" rel="apple-touch-icon"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-128x128.png" rel="apple-touch-icon" sizes="128x128"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/apple-touch-icon-precomposed.png" rel="apple-touch-icon"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon-160x160.png" rel="icon" sizes="160x160" type="image/png"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/favicon-196x196.png" rel="icon" sizes="196x196" type="image/png"/>
+  <meta content="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/win8-tile-144x144.png" name="msapplication-TileImage"/>
+  <meta content="#ffffff" name="msapplication-TileColor"/>
+  <meta content="#ffffff" name="msapplication-navbutton-color"/>
+  <meta content="Sanremonews.it" name="application-name"/>
+  <meta content="Sanremonews.it" name="msapplication-tooltip"/>
+  <meta content="Sanremonews.it" name="apple-mobile-web-app-title"/>
+  <meta content="https://www.sanremonews.it" name="msapplication-starturl"/>
+  <meta content="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/win8-tile-70x70.png" name="msapplication-square70x70logo"/>
+  <meta content="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/win8-tile-144x144.png" name="msapplication-square144x144logo"/>
+  <meta content="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/win8-tile-150x150.png" name="msapplication-square150x150logo"/>
+  <meta content="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/win8-tile-310x150.png" name="msapplication-wide310x150logo"/>
+  <meta content="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/_icons/win8-tile-310x310.png" name="msapplication-square310x310logo"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/css/generale.css?v=2.7" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/css/news.css?v=3.3" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/common/css/news-author-profile.css?v=1.0" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/sanremonews/css/print.css?v=1.2" media="print" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/common/css/common.css?v=1.0" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/common/css/diretta-video.css?v=1.1" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/common/css/box-traveleat.css?v=1.1" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/common/css/box-enordovest.css?v=1.0" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/fileadmin/layout/common/css/box-nasceremamma.css?v=1.0" rel="stylesheet" type="text/css"/>
+  <link href="https://www.sanremonews.it/links/rss/argomenti/sanremonewsit/rss.xml" rel="alternate" title="RSS sanremonews.it" type="application/rss+xml"/>
+  <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6433461509023241">
+  </script>
+  <script defer="" src="https://cdn.unblockia.com/h.js">
+  </script>
+  <script async="" id="avantisJS" src="https://cdn.avantisvideo.com/avm/js/video-loader.js?id=1500d8ae-2c9f-4484-ad10-71491a924200&amp;tagId=1">
+  </script>
+  <!-- Begin comScore Tag -->
+  <script>
+   var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "28193710" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+  </script>
+  <noscript>
+   <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=28193710&amp;cv=2.0&amp;cj=1"/>
+  </noscript>
+  <!-- End comScore Tag -->
+  <meta content="777649438916685" property="fb:pages"/>
+  <meta content="1183202141730380" property="fb:app_id"/>
+  <meta content="it_IT" property="og:locale"/>
+  <meta content="Sanremonews.it" property="og:site_name"/>
+  <meta content="https://www.facebook.com/sanremonews.it" property="article:publisher"/>
+  <meta content="https://www.sanremonews.it/typo3temp/pics/g_60620d5d76.jpg" property="og:image"/>
+  <meta content="900" property="og:image:width"/>
+  <meta content="600" property="og:image:height"/>
+  <meta content="article" property="og:type"/>
+  <meta content="https://www.sanremonews.it/2022/06/13/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html" property="og:url"/>
+  <meta content="I problemi legati all’ approvvigionamento idrico e alla spazzatura restano (per ora) sullo sfondo. I giovani chiedono maggiore apertura alle loro esigenze " property="og:description"/>
+  <meta content="Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video) " property="og:title"/>
+  <meta content="2022-06-13T07:11:00+0200" property="article:published_time"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@SanremoNews" name="twitter:site"/>
+  <meta content="Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video) " name="twitter:title"/>
+  <meta content="I problemi legati all’ approvvigionamento idrico e alla spazzatura restano (per ora) sullo sfondo. I giovani chiedono maggiore apertura alle loro esigenze " name="twitter:description"/>
+  <meta content="https://www.sanremonews.it/typo3temp/pics/g_60620d5d76.jpg" name="twitter:image"/>
+ </head>
+ <body>
+  <div id="fb-root">
+  </div>
+  <script async="" crossorigin="anonymous" defer="" nonce="g2EB5J4T" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&amp;version=v13.0&amp;appId=1183202141730380">
+  </script>
+  <!-- start copertina -->
+  <!--TYPO3SEARCH_begin-->
+  <div class="csc-default" id="c6187">
+   <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="255">
+   </ins>
+   <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+   </script>
+  </div>
+  <div class="csc-default" id="c3910">
+   <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="671">
+   </ins>
+   <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+   </script>
+  </div>
+  <div class="csc-default" id="c5170">
+   <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="953">
+   </ins>
+   <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+   </script>
+  </div>
+  <!--TYPO3SEARCH_end-->
+  <!-- end copertina -->
+  <div id="container">
+   <!-- start header01 -->
+   <div id="header01">
+    <!--TYPO3SEARCH_begin-->
+    <!--TYPO3SEARCH_end-->
+   </div>
+   <!-- end header01 -->
+   <!-- start advertisingTop -->
+   <div id="advertisingTop">
+    <!-- start advertisingTopSx -->
+    <div id="advertisingTopSx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c446">
+      <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="180">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end advertisingTopSx -->
+    <!-- start advertisingTopCenter -->
+    <div id="advertisingTopCenter">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c448">
+      <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="178">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end advertisingTopCenter -->
+    <!-- start advertisingTopDx -->
+    <div id="advertisingTopDx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c447">
+      <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="179">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end advertisingTopDx -->
+   </div>
+   <!-- end advertisingTop -->
+   <!-- start top -->
+   <div id="top">
+    <!-- start topSx -->
+    <div id="topSx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c2135">
+      <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="313">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end topSx -->
+    <!-- start topCenter -->
+    <div id="topCenter">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c450">
+      <div class="csc-textpic csc-textpic-center csc-textpic-above">
+       <div class="csc-textpic-imagewrap" style="width:350px;">
+        <div class="csc-textpic-imagecolumn" style="width:350px;">
+         <dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:350px;">
+          <dt>
+           <a href="https://www.sanremonews.it" target="_self">
+            <img alt="" border="0" height="69" src="https://www.sanremonews.it/typo3temp/pics/l_7a210e3c3f.png" width="350"/>
+           </a>
+          </dt>
+         </dl>
+        </div>
+       </div>
+      </div>
+      <div class="csc-textpic-clear">
+       <!-- -->
+      </div>
+     </div>
+     <div class="csc-default" id="c6754">
+      <p class="payoff_logo">
+       <b>
+        N
+       </b>
+       otizie -
+       <b>
+        O
+       </b>
+       pinioni -
+       <b>
+        I
+       </b>
+       mmagini
+      </p>
+      <style type="text/css">
+       #topCenter DIV.csc-textpic IMG { display:block; margin-bottom:5px; }
+.payoff_logo { padding:0; margin:0; line-height:normal; font-family:"Playfair Display",serif; font-size:11.5px; font-weight:400; color:#666; text-align:center; }
+.payoff_logo b { font-weight:800; color:#000; }
+      </style>
+     </div>
+     <div class="csc-default" id="c6571" style="margin-top:10px;">
+      <div class="phpads_container">
+       <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="2142">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end topCenter -->
+    <!-- start topDx -->
+    <div id="topDx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c1460">
+      <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="314">
+      </ins>
+      <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+      </script>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end topDx -->
+   </div>
+   <!-- end top -->
+   <!-- start advertisingStriscia -->
+   <div id="advertisingStriscia">
+    <!--TYPO3SEARCH_begin-->
+    <div class="csc-default" id="c3937" style="margin-bottom:2px;">
+     <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="183">
+     </ins>
+     <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+     </script>
+    </div>
+    <div class="csc-default" id="c4168">
+     <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="751">
+     </ins>
+     <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+     </script>
+    </div>
+    <div class="csc-default" id="c6623">
+     <div id="strisciaPartite">
+     </div>
+     <script>
+      jQuery( document ).ready(function() {
+  url = 'https://sport.esprimo.com/proxy.php?url=https://sport.esprimo.com/partite/%3Fsport=1%26giornale=3&mode=json&full_headers=1&full_status=1';
+  jQuery.getJSON( url, function(data){
+	jQuery('#strisciaPartite').append(data['contents']);
+  });
+});
+     </script>
+    </div>
+    <!--TYPO3SEARCH_end-->
+   </div>
+   <!-- end advertisingStriscia -->
+   <!-- start topMenu -->
+   <div id="topMenu">
+    <ul id="topMenu01">
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/" onfocus="blurLink(this);">
+       Prima Pagina
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/cronaca.html" title="">
+       Cronaca
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/politica-1.html" title="">
+       Politica
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/eventi-1.html" title="">
+       Eventi
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/sport/argomenti/sport.html" title="">
+       Sport
+      </a>
+     </li>
+     <li class="menu_top_ACT">
+      <a href="https://www.sanremonews.it/sommario/argomenti/altre-notizie.html" title="">
+       Attualità
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/sanita-1.html" title="">
+       Sanità
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/solidarieta-2.html" title="">
+       Solidarietà
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/economia.html" title="">
+       Economia
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/al-direttore-1.html" title="">
+       Al Direttore
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/agenda-manifestazioni.html" title="">
+       Agenda manifestazioni
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/tutte-le-notizie.html" onfocus="blurLink(this);">
+       Tutte le notizie
+      </a>
+     </li>
+    </ul>
+    <ul id="topMenu02">
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/ventimiglia-vallecrosia-bordighera.html" title="">
+       Ventimiglia Vallecrosia Bordighera
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/sanremo-ospedaletti.html" title="">
+       Sanremo Ospedaletti
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/arma-taggia-valle-argentina.html" title="">
+       Arma Taggia Valle Argentina
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/riva-santo-stefano.html" title="">
+       Riva Santo Stefano
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.imperianews.it" target="_blank" title="">
+       Imperia Golfo Dianese
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.montecarlonews.it" target="_blank" title="">
+       Monaco
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/regione-1.html" title="">
+       Regione
+      </a>
+     </li>
+     <li class="menu_top_NO">
+      <a href="https://www.sanremonews.it/sommario/argomenti/europa.html" title="">
+       Europa
+      </a>
+     </li>
+     <li class="topMenu02-btn01">
+      <a href="https://premium.morenews.it" rel="nofollow noopener" target="_blank" title="MorenewsPremium">
+       ABBONATI
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!-- end topMenu -->
+   <!-- start mainHeader -->
+   <div id="mainHeader">
+    <!--TYPO3SEARCH_begin-->
+    <!--TYPO3SEARCH_end-->
+   </div>
+   <!-- end mainHeader -->
+   <!-- start headerTop -->
+   <div id="headerTop">
+    <!-- start headerTopSx -->
+    <div id="headerTopSx">
+     <a href="/" title="Prima pagina">
+      <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/home.png" title="" width="18"/>
+     </a>
+     /
+     <strong>
+      Attualità
+     </strong>
+    </div>
+    <!-- end headerTopSx -->
+    <!-- start headerTopDx -->
+    <div id="headerTopDx">
+     <!--TYPO3SEARCH_begin-->
+     <div class="csc-default" id="c451">
+      <ul class="csc-menu csc-menu-1">
+       <li>
+        <a href="https://www.sanremonews.it/links/mobile.html" target="_self" title="Mobile">
+         <img alt="" border="0" height="16" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/mobile.png" title="" width="16"/>
+         Mobile
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/links/facebook.html" target="_blank" title="Facebook">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/facebook.png" title="" width="18"/>
+         Facebook
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/links/instagram.html" target="_blank" title="Instagram">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/instagram.png" title="" width="18"/>
+         Instagram
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/links/twitter.html" target="_blank" title="Twitter">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/twitter.png" title="" width="18"/>
+         Twitter
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/links/rss.html" target="_top" title="RSS">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/rss.png" title="" width="18"/>
+         RSS
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/istituzionale/archivio.html" target="_top" title="Archivio">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/archivio.png" title="" width="18"/>
+         Archivio
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/speciali/meteo.html" target="_top" title="Meteo">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/meteo.png" title="" width="18"/>
+         Meteo
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/links/farmacie.html" target="_top" title="Farmacie">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/farmacia.png" title="" width="18"/>
+         Farmacie
+        </a>
+       </li>
+       <li>
+        <a href="https://www.sanremonews.it/links/radio.html" onclick="vHWin=window.open('https://www.sanremonews.it/links/radio.html','FEopenLink','width=380,height=50,toolbars=0,scrollbars=0,location=0,statusbars=0,menubars=0,resizable=0');vHWin.focus();return false;" title="Radio">
+         <img alt="" border="0" height="18" src="https://www.sanremonews.it/fileadmin/layout/sanremonews/images/icons/radio.png" title="" width="18"/>
+         Radio
+        </a>
+       </li>
+      </ul>
+     </div>
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end headerTopDx -->
+   </div>
+   <!-- end headerTop -->
+   <!-- start main -->
+   <div id="main">
+    <!-- start mainDx -->
+    <div id="mainDx">
+     <!-- start contentDxTop -->
+     <div id="contentDxTop">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c503" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="182">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c505" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="181">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c858" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="249">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c504">
+       <div class="csc-header csc-header-n4">
+        <h3>
+         In Breve
+        </h3>
+       </div>
+       <div class="news-latest-container">
+        <div class="news-latest-dategroup">
+         martedì  12 luglio
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/vaccino-covid-quarta-dose-per-gli-over-60-modalita-di-prenotazione-e-somministrazione-in-provinci.html" title="Vaccino Covid, quarta dose per gli over 60: modalità di prenotazione e somministrazione in provincia di Imperia">
+           <img alt="Vaccino Covid, quarta dose per gli over 60: modalità di prenotazione e somministrazione in provincia di Imperia" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/V_0be2028034.jpg" title="Vaccino Covid, quarta dose per gli over 60: modalità di prenotazione e somministrazione in provincia di Imperia" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/vaccino-covid-quarta-dose-per-gli-over-60-modalita-di-prenotazione-e-somministrazione-in-provinci.html" title="Vaccino Covid, quarta dose per gli over 60: modalità di prenotazione e somministrazione in provincia di Imperia">
+           Vaccino Covid, quarta dose per gli over 60: modalità di prenotazione e somministrazione in provincia di Imperia
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 19:57)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/ventimiglia-passaggio-di-consegne-al-lions-club-aprosio-succede-a-schiavolini-foto.html" title="Ventimiglia, passaggio di consegne al Lions Club: Aprosio succede a Schiavolini (foto)">
+           <img alt="Ventimiglia, passaggio di consegne al Lions Club: Aprosio succede a Schiavolini (foto)" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/p_0457257871.jpeg" title="Ventimiglia, passaggio di consegne al Lions Club: Aprosio succede a Schiavolini (foto)" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/ventimiglia-passaggio-di-consegne-al-lions-club-aprosio-succede-a-schiavolini-foto.html" title="Ventimiglia, passaggio di consegne al Lions Club: Aprosio succede a Schiavolini (foto)">
+           Ventimiglia, passaggio di consegne al Lions Club: Aprosio succede a Schiavolini (foto)
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 18:55)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/emergenza-ucraina-toti-prolungati-al-30-settembre-i-contratti-con-gli-alberghi-per-aiutare-i-prof.html" title='Emergenza Ucraina, Toti: "Prolungati al 30 settembre i contratti con gli alberghi per aiutare i profughi. Oltre 6.500 sono assistiti in Liguria"'>
+           <img alt="Emergenza Ucraina, Toti: &amp;quot;Prolungati al 30 settembre i contratti con gli alberghi per aiutare i profughi. Oltre 6.500 sono assistiti in Liguria&amp;quot;" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/A_f654b226c0.jpeg" title="Emergenza Ucraina, Toti: &amp;quot;Prolungati al 30 settembre i contratti con gli alberghi per aiutare i profughi. Oltre 6.500 sono assistiti in Liguria&amp;quot;" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/emergenza-ucraina-toti-prolungati-al-30-settembre-i-contratti-con-gli-alberghi-per-aiutare-i-prof.html" title='Emergenza Ucraina, Toti: "Prolungati al 30 settembre i contratti con gli alberghi per aiutare i profughi. Oltre 6.500 sono assistiti in Liguria"'>
+           Emergenza Ucraina, Toti: "Prolungati al 30 settembre i contratti con gli alberghi per aiutare i profughi. Oltre 6.500 sono assistiti in Liguria"
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 18:43)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/imperia-conclusi-con-successo-gli-esami-di-stato-al-liceo-vieusseux-le-congratulazioni-del-preside.html" title="Imperia: conclusi con successo gli Esami di Stato al Liceo Vieusseux, le congratulazioni del Preside Auricchia">
+           <img alt="Imperia: conclusi con successo gli Esami di Stato al Liceo Vieusseux, le congratulazioni del Preside Auricchia" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/L_c59395faac.png" title="Imperia: conclusi con successo gli Esami di Stato al Liceo Vieusseux, le congratulazioni del Preside Auricchia" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/imperia-conclusi-con-successo-gli-esami-di-stato-al-liceo-vieusseux-le-congratulazioni-del-preside.html" title="Imperia: conclusi con successo gli Esami di Stato al Liceo Vieusseux, le congratulazioni del Preside Auricchia">
+           Imperia: conclusi con successo gli Esami di Stato al Liceo Vieusseux, le congratulazioni del Preside Auricchia
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 13:30)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/rifiuti-in-mare-e-legname-spiaggiato-riolfo-lega-necessarie-misure-per-attuare-decreto-salva.html" title="Rifiuti in mare e legname spiaggiato, Riolfo (Lega):  “Necessarie misure per attuare decreto Salvamare a beneficio dei Comuni liguri”">
+           <img alt="Rifiuti in mare e legname spiaggiato, Riolfo (Lega):  “Necessarie misure per attuare decreto Salvamare a beneficio dei Comuni liguri”" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/I_5068cc580d.jpg" title="Rifiuti in mare e legname spiaggiato, Riolfo (Lega):  “Necessarie misure per attuare decreto Salvamare a beneficio dei Comuni liguri”" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/rifiuti-in-mare-e-legname-spiaggiato-riolfo-lega-necessarie-misure-per-attuare-decreto-salva.html" title="Rifiuti in mare e legname spiaggiato, Riolfo (Lega):  “Necessarie misure per attuare decreto Salvamare a beneficio dei Comuni liguri”">
+           Rifiuti in mare e legname spiaggiato, Riolfo (Lega):  “Necessarie misure per attuare decreto Salvamare a beneficio dei Comuni liguri”
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 12:28)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/cronaca/articolo/pellet-prezzi-alle-stelle-anche-nella-nostra-provincia-e-a-genova-la-gdf-stronca-un-giro-di-tronch.html" title="Pellet: prezzi alle stelle anche nella nostra provincia e a Genova la Gdf stronca un giro di 'tronchetti' contraffatti">
+           <img alt="Pellet: prezzi alle stelle anche nella nostra provincia e a Genova la Gdf stronca un giro di 'tronchetti' contraffatti" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/P_f56c550336.jpg" title="Pellet: prezzi alle stelle anche nella nostra provincia e a Genova la Gdf stronca un giro di 'tronchetti' contraffatti" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/cronaca/articolo/pellet-prezzi-alle-stelle-anche-nella-nostra-provincia-e-a-genova-la-gdf-stronca-un-giro-di-tronch.html" title="Pellet: prezzi alle stelle anche nella nostra provincia e a Genova la Gdf stronca un giro di 'tronchetti' contraffatti">
+           Pellet: prezzi alle stelle anche nella nostra provincia e a Genova la Gdf stronca un giro di 'tronchetti' contraffatti
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 12:22)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/con-cna-le-analisi-del-sangue-e-gli-esami-di-laboratorio-sono-piu-semplici-e-convenienti-grazie-ad.html" title="Con CNA le analisi del sangue e gli esami di laboratorio sono più semplici e convenienti grazie ad ACAD">
+           <img alt="Con CNA le analisi del sangue e gli esami di laboratorio sono più semplici e convenienti grazie ad ACAD" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/I_e4fa445221.jpg" title="Con CNA le analisi del sangue e gli esami di laboratorio sono più semplici e convenienti grazie ad ACAD" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/con-cna-le-analisi-del-sangue-e-gli-esami-di-laboratorio-sono-piu-semplici-e-convenienti-grazie-ad.html" title="Con CNA le analisi del sangue e gli esami di laboratorio sono più semplici e convenienti grazie ad ACAD">
+           Con CNA le analisi del sangue e gli esami di laboratorio sono più semplici e convenienti grazie ad ACAD
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 12:22)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/cronaca/articolo/in-arrivo-la-canicola-di-luglio-temperature-allinsu-ma-nella-nostra-provincia-non-ci-saranno-i.html" title="In arrivo la 'canicola' di luglio: temperature all'insù ma nella nostra provincia non ci saranno i 40 gradi della pianura">
+           <img alt="In arrivo la 'canicola' di luglio: temperature all'insù ma nella nostra provincia non ci saranno i 40 gradi della pianura" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/C_185aeb7b26.jpg" title="In arrivo la 'canicola' di luglio: temperature all'insù ma nella nostra provincia non ci saranno i 40 gradi della pianura" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/cronaca/articolo/in-arrivo-la-canicola-di-luglio-temperature-allinsu-ma-nella-nostra-provincia-non-ci-saranno-i.html" title="In arrivo la 'canicola' di luglio: temperature all'insù ma nella nostra provincia non ci saranno i 40 gradi della pianura">
+           In arrivo la 'canicola' di luglio: temperature all'insù ma nella nostra provincia non ci saranno i 40 gradi della pianura
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 12:14)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-iniziative-per-la-festa-nazionale-francese-materiale-promozionale-per-negozianti-allinfop.html" title="Sanremo: iniziative per la festa nazionale francese, materiale promozionale per negozianti all'infopoint">
+           <img alt="Sanremo: iniziative per la festa nazionale francese, materiale promozionale per negozianti all'infopoint" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/c_37f70f33b5.jpg" title="Sanremo: iniziative per la festa nazionale francese, materiale promozionale per negozianti all'infopoint" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-iniziative-per-la-festa-nazionale-francese-materiale-promozionale-per-negozianti-allinfop.html" title="Sanremo: iniziative per la festa nazionale francese, materiale promozionale per negozianti all'infopoint">
+           Sanremo: iniziative per la festa nazionale francese, materiale promozionale per negozianti all'infopoint
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 11:09)
+         </div>
+        </div>
+        <div class="news-latest-item">
+         <div class="news-latest-image">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/imperia-ok-della-commissione-per-il-paesaggio-alla-demolizione-della-ciminiera-centrale-dellex-fer.html" title="Imperia, ok della commissione per il Paesaggio alla demolizione della ciminiera centrale dell'ex Ferriere: &quot;Serio pericolo per la pubblica incolumità&quot;">
+           <img alt="Imperia, ok della commissione per il Paesaggio alla demolizione della ciminiera centrale dell'ex Ferriere: &amp;quot;Serio pericolo per la pubblica incolumità&amp;quot;" border="0" height="90" src="https://www.sanremonews.it/typo3temp/pics/c_a829c2e475.jpg" title="Imperia, ok della commissione per il Paesaggio alla demolizione della ciminiera centrale dell'ex Ferriere: &amp;quot;Serio pericolo per la pubblica incolumità&amp;quot;" width="90"/>
+          </a>
+         </div>
+         <div class="news-latest-title">
+          <a href="https://www.sanremonews.it/2022/07/12/leggi-notizia/argomenti/altre-notizie/articolo/imperia-ok-della-commissione-per-il-paesaggio-alla-demolizione-della-ciminiera-centrale-dellex-fer.html" title="Imperia, ok della commissione per il Paesaggio alla demolizione della ciminiera centrale dell'ex Ferriere: &quot;Serio pericolo per la pubblica incolumità&quot;">
+           Imperia, ok della commissione per il Paesaggio alla demolizione della ciminiera centrale dell'ex Ferriere: "Serio pericolo per la pubblica incolumità"
+          </a>
+         </div>
+         <div class="news-latest-time">
+          (h. 10:40)
+         </div>
+        </div>
+        <div class="news-latest-link24ore">
+         <a href="https://www.sanremonews.it/2022/06/13/tutte-le-notizie/argomenti/altre-notizie.html">
+          Leggi le ultime di: Attualità
+         </a>
+        </div>
+       </div>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentDxTop -->
+     <!-- start contentDxBottom -->
+     <div id="contentDxBottom">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c5203" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="1229">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c2468" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+        </script>
+        <!-- Rectangle 01 (300x250) - sanremonews.it -->
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-slot="1553195876" style="display:inline-block;width:300px;height:250px">
+        </ins>
+        <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+       </div>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentDxBottom -->
+    </div>
+    <!-- end mainDx -->
+    <!-- start mainTop -->
+    <div id="mainTop">
+     <!--TYPO3SEARCH_begin-->
+     <!--TYPO3SEARCH_end-->
+    </div>
+    <!-- end mainTop -->
+    <!-- start mainSx -->
+    <div id="mainSx">
+     <!-- start contentSxTop -->
+     <div id="contentSxTop">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c3467" style="margin-bottom:15px;">
+       <div class="csc-header">
+        <h3>
+         Che tempo fa
+        </h3>
+       </div>
+       <script async="" crossorigin="anonymous" src="//feed.datameteo.com/meteo3_2/7gg/?codice=tgcnHP&amp;placename=imperia&amp;op=async">
+       </script>
+      </div>
+      <div class="csc-default" id="c4820" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="1038">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c462" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="170">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c461" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="171">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c456" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="176">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c455" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="177">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c549" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="190">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c550" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="191">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-default" id="c3070" style="margin-bottom:5px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="522">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <div class="csc-frame csc-frame-frame1" id="c463">
+       <div class="csc-header csc-header-n10">
+        <h3>
+         Rubriche
+        </h3>
+       </div>
+       <ul class="news-catmenu">
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/festival-di-sanremo.html" title="">
+           Festival di Sanremo
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/club-tenco.html" title="">
+           Club Tenco
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/fashion-1.html" title="">
+           Fashion
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/cinema.html" title="">
+           Cinema
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/meteo.html" title="">
+           Meteo
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/loroscopo-di-corinne.html" title="">
+           L'oroscopo di Corinne
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/4zampe-cani.html" title="">
+           4Zampe CANI
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/4zampe-gatti.html" title="">
+           4Zampe GATTI
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/4zampe-adottati.html" title="">
+           4Zampe ADOTTATI
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/4zampe-persi-e-trovati.html" title="">
+           4Zampe PERSI E TROVATI
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/1-circolo-sanremofare-scuola.html" title="">
+           Istituto Comprensivo Sanremo Centro Levante
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/coldiretti-informa.html" title="">
+           Coldiretti Informa
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/confartigianato-informa.html" title="">
+           Confartigianato Informa
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/cisl-informa-1.html" title="">
+           CISL Informa
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/uil-fpl-informa-1.html" title="">
+           UIL FPL Informa
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/sr-inkieste.html" title="">
+           SR Inkieste
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/infermiere-e-salute/argomenti/salute-e-benessere-1.html" title="">
+           Infermiere e salute
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/felici-e-veloci.html" title="">
+           Felici e veloci
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/2-ciapetti-con-federico/argomenti/2-ciapetti-con-federico.html" title="">
+           2 Ciapetti con Federico
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/tra-storia-e-ricordi/argomenti/tra-storia-e-ricordi.html" title="">
+           Tra storia e ricordi
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/target/argomenti/target.html" title="">
+           Target con Ilaria Salerno
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/pronto-condominio-3.html" title="">
+           Pronto condominio
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/artigianato-deco-con-cna/argomenti/artigianato-deco-con-cna.html" title="">
+           Artigianato &amp; DE.CO. con CNA
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/eterna-giovinezza.html" title="">
+           Eterna giovinezza
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/verdeacqua.html" title="">
+           Verdeacqua
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/stadio-aperto.html" title="">
+           Stadio Aperto
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/soloaffitti.html" title="">
+           SoloAffitti
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/aidp-2.html" title="">
+           Persone &amp; Aziende: il mondo di AIDP
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/fotogallery.html" title="">
+           Fotogallery
+          </a>
+         </span>
+        </li>
+        <li class="news-catmenu-level1">
+         <span class="news-catmenu-NO">
+          <a href="https://www.sanremonews.it/sommario/argomenti/videogallery-4.html" title="">
+           Videogallery
+          </a>
+         </span>
+        </li>
+       </ul>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentSxTop -->
+     <!-- start contentSxBottom -->
+     <div id="contentSxBottom">
+      <div class="csc-default" id="c3464">
+       <div class="csc-header csc-header-n1">
+        <h3 class="csc-firstHeader">
+         Accadeva un anno fa
+        </h3>
+       </div>
+       <div class="dateago-latest-container">
+        <div class="dateago-latest-item">
+         <div class="dateago-latest-image">
+          <div class="dateago-latest-image_maschera">
+          </div>
+          <a href="https://www.sanremonews.it/2021/07/12/leggi-notizia/argomenti/cronaca/articolo/sanremo-qualche-ubriaco-feriti-lievi-e-alcuni-tafferugli-nel-bilancio-dei-festeggiamenti-per-la-vi.html" title="Sanremo: qualche ubriaco, feriti lievi e alcuni tafferugli nel bilancio dei festeggiamenti per la vittoria degli azzurri">
+           <img alt="Le immagini dei festeggiamenti" border="0" height="98" src="https://www.sanremonews.it/typo3temp/pics/F_3c950787d8.jpg" title="Le immagini dei festeggiamenti" width="130"/>
+          </a>
+         </div>
+         <div class="dateago-latest-time">
+          Cronaca
+         </div>
+         <div class="dateago-latest-title">
+          <a href="https://www.sanremonews.it/2021/07/12/leggi-notizia/argomenti/cronaca/articolo/sanremo-qualche-ubriaco-feriti-lievi-e-alcuni-tafferugli-nel-bilancio-dei-festeggiamenti-per-la-vi.html" title="Sanremo: qualche ubriaco, feriti lievi e alcuni tafferugli nel bilancio dei festeggiamenti per la vittoria degli azzurri">
+           Sanremo: qualche ubriaco, feriti lievi e alcuni tafferugli nel bilancio dei festeggiamenti per la vittoria degli azzurri
+          </a>
+         </div>
+        </div>
+        <div class="dateago-latest-item">
+         <div class="dateago-latest-image">
+          <div class="dateago-latest-image_maschera">
+          </div>
+          <a href="https://www.sanremonews.it/2021/07/12/leggi-notizia/argomenti/eventi-1/articolo/dalla-vicina-francia-un-giorno-al-festival-del-cinema-di-cannes-tanti-turisti-e-poche-mascherine.html" title="Dalla vicina Francia: un giorno al Festival del Cinema di Cannes, tanti turisti e poche mascherine (Foto)">
+           <img alt="Dalla vicina Francia: un giorno al Festival del Cinema di Cannes, tanti turisti e poche mascherine (Foto)" border="0" height="98" src="https://www.sanremonews.it/typo3temp/pics/F_9c76d690ac.jpg" title="Dalla vicina Francia: un giorno al Festival del Cinema di Cannes, tanti turisti e poche mascherine (Foto)" width="130"/>
+          </a>
+         </div>
+         <div class="dateago-latest-time">
+          Eventi
+         </div>
+         <div class="dateago-latest-title">
+          <a href="https://www.sanremonews.it/2021/07/12/leggi-notizia/argomenti/eventi-1/articolo/dalla-vicina-francia-un-giorno-al-festival-del-cinema-di-cannes-tanti-turisti-e-poche-mascherine.html" title="Dalla vicina Francia: un giorno al Festival del Cinema di Cannes, tanti turisti e poche mascherine (Foto)">
+           Dalla vicina Francia: un giorno al Festival del Cinema di Cannes, tanti turisti e poche mascherine (Foto)
+          </a>
+         </div>
+        </div>
+        <div class="dateago-latest-item">
+         <div class="dateago-latest-image">
+          <div class="dateago-latest-image_maschera">
+          </div>
+          <a href="https://www.sanremonews.it/2021/07/12/leggi-notizia/argomenti/altre-notizie/articolo/vaccini-gli-open-day-hanno-convinto-i-giovani-giovedi-sera-e-la-prossima-settimana-nuove-o.html" title="Vaccini: gli 'open day' hanno convinto i giovani, giovedì sera e la prossima settimana nuove 'Open Night' in provincia di Imperia">
+           <img alt="Vaccini: gli 'open day' hanno convinto i giovani, giovedì sera e la prossima settimana nuove 'Open Night' in provincia di Imperia" border="0" height="98" src="https://www.sanremonews.it/typo3temp/pics/V_1ded3381cb.jpg" title="Vaccini: gli 'open day' hanno convinto i giovani, giovedì sera e la prossima settimana nuove 'Open Night' in provincia di Imperia" width="130"/>
+          </a>
+         </div>
+         <div class="dateago-latest-time">
+          Attualità
+         </div>
+         <div class="dateago-latest-title">
+          <a href="https://www.sanremonews.it/2021/07/12/leggi-notizia/argomenti/altre-notizie/articolo/vaccini-gli-open-day-hanno-convinto-i-giovani-giovedi-sera-e-la-prossima-settimana-nuove-o.html" title="Vaccini: gli 'open day' hanno convinto i giovani, giovedì sera e la prossima settimana nuove 'Open Night' in provincia di Imperia">
+           Vaccini: gli 'open day' hanno convinto i giovani, giovedì sera e la prossima settimana nuove 'Open Night' in provincia di Imperia
+          </a>
+         </div>
+        </div>
+        <div class="news-latest-link24ore">
+         <a href="https://www.sanremonews.it/2021/07/12/tutte-le-notizie.html">
+          Leggi tutte le notizie
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- end contentSxBottom -->
+    </div>
+    <!-- end mainSx -->
+    <!-- start mainCenter -->
+    <div id="mainCenter">
+     <!-- start contentCenterTop -->
+     <div id="contentCenterTop">
+      <div class="csc-default" id="c720" style="margin-bottom:20px;">
+       <div class="phpads_container">
+        <ins data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="223">
+        </ins>
+        <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+        </script>
+       </div>
+      </div>
+      <div class="csc-default" id="c502">
+       <div class="news-single-container">
+        <!-- <EdIndex> -->
+        <div class="csc-header">
+         <h3>
+          <span class="news-list-category-header">
+           Attualità
+          </span>
+          |
+          <span class="news-list-date-header">
+           13 giugno 2022, 07:11
+          </span>
+         </h3>
+        </div>
+        <div class="news-single-item">
+         <script type="application/ld+json">
+          {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video) ",
+      "url": "https://www.sanremonews.it/2022/06/13/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html",
+      "articleSection": "Attualità",
+    "datePublished": "2022-06-13T07:11:00+0200",
+    "dateModified": "2022-06-16T13:57:45+0200",
+    "description": "I problemi legati all’ approvvigionamento idrico e alla spazzatura restano (per ora) sullo sfondo. I giovani chiedono maggiore apertura alle loro esigenze",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.sanremonews.it/2022/06/13/leggi-notizia/argomenti/altre-notizie/articolo/cosa-si-aspettano-residenti-e-turisti-dallestate-dianese-nostra-inchiesta-nelle-vie-del-centro-d.html"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Diego David, regia di Mirko D'Alessandro"
+    },
+      "publisher": {
+              "@type": "Organization",
+              "name": "Sanremonews.it",
+              "logo": {
+                      "@type": "ImageObject",
+                      "url": "https://www.sanremonews.it/fileadmin/layout/sanremonews/images/logo.png"
+              }
+      },
+      "image": {
+              "@type": "ImageObject",
+              "url": "https://www.sanremonews.it/typo3temp/pics/g_60620d5d76.jpg",
+              "width":900,
+              "height":600
+      }
+}
+         </script>
+         <h1 class="title">
+          Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video)
+         </h1>
+         <!-- AddToAny BEGIN -->
+         <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="clear:both; margin-bottom:10px;">
+          <a class="a2a_dd" href="https://www.addtoany.com/share_save">
+          </a>
+          <a class="a2a_button_facebook">
+          </a>
+          <a class="a2a_button_twitter">
+          </a>
+          <a class="a2a_button_print">
+          </a>
+          <a class="a2a_button_whatsapp">
+          </a>
+          <a class="a2a_button_email">
+          </a>
+         </div>
+         <script type="text/javascript">
+          var a2a_config = a2a_config || {};
+a2a_config.locale = "it";
+         </script>
+         <script src="//static.addtoany.com/menu/page.js" type="text/javascript">
+         </script>
+         <!-- AddToAny END -->
+         <h2 class="subheader">
+          I problemi legati all’ approvvigionamento idrico e alla spazzatura restano (per ora) sullo sfondo. I giovani chiedono maggiore apertura alle loro esigenze
+         </h2>
+         <div class="news-single-image">
+          <a href="https://www.sanremonews.it/typo3temp/pics/g_60620d5d76.jpg" rel="lightbox[lb1273142]">
+           <img alt="Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video)" border="0" height="340" src="https://www.sanremonews.it/typo3temp/pics/g_0b56ee1b52.jpg" title="Cosa si aspettano residenti e turisti dall’estate dianese? Nostra inchiesta nelle vie del centro della Città degli aranci (video)" width="510"/>
+          </a>
+         </div>
+         <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+         </script>
+         <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="fluid" data-ad-layout="in-article" data-ad-slot="2556045539" style="display:block; text-align:center; margin-bottom:15px;">
+         </ins>
+         <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+         <div class="news-single-content">
+          <p>
+           <b>
+            Cittadini e turisti cosa si attendono dall’estate dianese?
+           </b>
+           Lo abbiamo chiesto ai passanti incontrati nelle vie centrali della
+           <b>
+            Città degli aranci
+           </b>
+           . In generale regna l’ottimismo e c’è attesa per il rilancio in grande stile del turismo a
+           <b>
+            Diano Marina
+           </b>
+           dopo due anni di
+           <b>
+            covid
+           </b>
+           .
+          </p>
+          <p>
+          </p>
+          <div class="rwd-video">
+           <iframe allowfullscreen="" frameborder="0" height="191" src="https://www.youtube.com/embed/4Q-Ht9TWS5w" width="340">
+           </iframe>
+          </div>
+          <p>
+           Residenti e villeggianti sembrano propensi (per ora) a perdonare ad amministratori e politici i problemi non ancora risolti, nonostante le promesse, legati all
+           <b>
+            ’approvvigionamento idrico
+           </b>
+           e ai
+           <b>
+            rifiuti
+           </b>
+           , pensando di più a una stagione ricca di sole e divertimenti, anche se serpeggia un po’ di preoccupazione soprattutto legata all’eventualità di ritrovarsi i rubinetti a secco.
+          </p>
+          <p>
+           I
+           <b>
+            commercianti
+           </b>
+           sembrano rinfrancati dalle previsioni di afflusso turistico. Meritano un capitolo i
+           <b>
+            giovani
+           </b>
+           : c’è chi vorrebbe una cittadina più aperta alle loro proposte ed esigenze.
+          </p>
+         </div>
+         <p class="news-single-author">
+          <img alt="" height="26" src="https://www.sanremonews.it/fileadmin/layout/common/images/ico_author.png" width="26"/>
+          Diego David, regia di Mirko D'Alessandro
+         </p>
+        </div>
+        <!-- </EdIndex> -->
+       </div>
+      </div>
+      <div class="csc-default" id="c6749" style="margin-bottom:20px;">
+       <p class="google_news" style="padding:15px; margin:0; overflow:hidden; background:#EFF4F7; border-radius:5px; font-size:100%;">
+        <img alt="Google News" src="https://www.sanremonews.it/fileadmin/archivio/condivisa/GoogleNews_icon.png" style="display:block; float:left; width:34px; height:28px; margin:0 5px 0 0;"/>
+        <span style="display:block; float:left; width:calc(100% - 124px); margin:5px 0 0;">
+         Ricevi le nostre ultime notizie da
+         <b>
+          Google News
+         </b>
+        </span>
+        <a href="https://news.google.com/publications/CAAiEM_tLHzt_At4VtaCikm0aTcqFAgKIhDP7Sx87fwLeFbWgopJtGk3" style="display:block; float:right; width:80px; padding:5px 0; background:#087BBB; border-radius:5px; color:#FFF; font-weight:bold; text-decoration:none; text-align:center;" target="_blank" title="Google News">
+         SEGUICI
+        </a>
+       </p>
+       <style type="text/css">
+        @media only screen and (max-width: 512px) {
+  .google_news img { margin-top:4px !important; }
+  .google_news span { margin-top:0px !important; }
+  .google_news a { margin-top:4px !important; }
+}
+       </style>
+      </div>
+      <div class="csc-default" id="c6631" style="margin-bottom:20px;">
+       <div id="nat_619ba90075cdd04098aa7578">
+       </div>
+       <script type="text/javascript">
+        var _nat = _nat || [];
+  _nat.push(['id', '619ba90075cdd04098aa7578']);
+  (function() {
+      var nat = document.createElement('script'); nat.type = 'text/javascript'; nat.async = true;
+      nat.src = '//cdn.nativery.com/widget/js/nat.js';
+      var nats = document.getElementsByTagName('script')[0]; nats.parentNode.insertBefore(nat, nats);
+  })();
+       </script>
+      </div>
+      <div class="csc-default" id="c2472" style="margin-bottom:20px;">
+       <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6433461509023241">
+       </script>
+       <!-- Adattabile 02 - sanremonews.it -->
+       <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="auto" data-ad-slot="2890328275" data-full-width-responsive="true" style="display:block">
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+      <div class="csc-default" id="c4481" style="margin-bottom:20px;">
+       <h3>
+        Ti potrebbero interessare anche:
+       </h3>
+       <script type="text/javascript">
+        // Defining a function to inject the OB script which will trigger searching for OB divs
+// which are already inside the page where the widgets are supposed to load
+buildOutbrain = function() {
+    var obs = document.createElement('script');
+    obs.type = 'text/javascript';
+    obs.async = true;
+    obs.src = '//widgets.outbrain.com/outbrain.js';
+    var ss = document.getElementsByTagName('script')[0];
+    ss.parentNode.insertBefore(obs, ss);
+}
+// Defining the Eventlistner to react upon CMP events via __tcfapi of the CMP
+__tcfapi('addEventListener', 2, function(tcData, success) {
+    if (tcData.eventStatus === 'tcloaded' || tcData.eventStatus === 'useractioncomplete') { 
+        // Handleing Outbrain
+        if (tcData.gdprApplies) {
+            // In case the request is within the GDPR we check the CMP status
+            if (tcData.eventStatus === 'tcloaded') {
+                // Status 'tcloaded' means we already have a Consent Decision (like from a returning user) so we load the widgets
+                buildOutbrain();
+            } else if (tcData.eventStatus === 'useractioncomplete') {
+                // Status 'useractioncomplete' means the user has made a consent decision so we load the widgets
+                buildOutbrain();
+                // If users decision took too long we need to trigger OB rendering again 
+                // with OBR method call after checking the OBR object exists
+              if (document.readyState === 'interactive' || document.readyState === 'complete') {
+                      if (OBR !== 'undefined') {
+                        OBR.extern.reloadWidget();
+                    }
+              }
+           }
+        } else {
+            // In case the request is not under GDPR we can load the widgets directly
+          buildOutbrain();
+      }
+    }
+});
+       </script>
+       <div class="OUTBRAIN" data-ob-contenturl="DROP_PERMALINK_HERE" data-ob-installation-key="ITMOR1217IH5Q55POH1I6NJD3" data-widget-id="AR_1">
+       </div>
+      </div>
+      <div class="csc-default" id="c5308" style="margin-bottom:20px;">
+       <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+       </script>
+       <ins class="adsbygoogle" data-ad-client="ca-pub-6433461509023241" data-ad-format="autorelaxed" data-ad-slot="7820365063" style="display:block">
+       </ins>
+       <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+      </div>
+     </div>
+     <!-- end contentSxTop -->
+     <!-- start contentCenterBottom -->
+     <div id="contentCenterBottom">
+      <!--TYPO3SEARCH_begin-->
+      <div class="csc-default" id="c468" style="margin-bottom:20px;">
+       <ins data-revive-cat="attualità" data-revive-id="dd127f7a7546585e7ab1fc57e3a17da7" data-revive-zoneid="169">
+       </ins>
+       <script async="" src="https://advx.esprimo.com/www/delivery/asyncjs.php">
+       </script>
+      </div>
+      <!--TYPO3SEARCH_end-->
+     </div>
+     <!-- end contentCenterBottom -->
+    </div>
+    <!-- end mainCenter -->
+   </div>
+   <!-- end main -->
+   <!-- start mainFooter -->
+   <div id="mainFooter">
+    <!--TYPO3SEARCH_begin-->
+    <!--TYPO3SEARCH_end-->
+   </div>
+   <!-- end mainFooter -->
+   <!-- start bottomMenu -->
+   <div id="bottomMenu">
+    <span class="menu_bottom_NO">
+     <a href="https://www.sanremonews.it/" onfocus="blurLink(this);">
+      Prima Pagina
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.sanremonews.it/istituzionale/archivio.html" onfocus="blurLink(this);">
+      Archivio
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.sanremonews.it/istituzionale/redazione.html" onfocus="blurLink(this);">
+      Redazione
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="mailto:redazione@sanremonews.it" onfocus="blurLink(this);">
+      Invia un Comunicato Stampa
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.sanremonews.it/istituzionale/pubblicita.html" onfocus="blurLink(this);">
+      Pubblicità
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="mailto:direttore@sanremonews.it" onfocus="blurLink(this);">
+      Scrivi al Direttore
+     </a>
+    </span>
+    |
+    <span class="menu_bottom_NO">
+     <a href="https://www.sanremonews.it/istituzionale/premium.html" onfocus="blurLink(this);" target="_blank">
+      Premium
+     </a>
+    </span>
+   </div>
+   <!-- end bottomMenu -->
+   <!-- start footer -->
+   <div id="footer">
+    Copyright © 2013 - 2022 IlNazionale.it - Partita Iva: IT 03401570043 -
+    <a href="http://www.esprimo.com" target="_blank">
+     Credits
+    </a>
+    |
+    <a href="http://privacy.morenews.it" target="_blank">
+     Privacy
+    </a>
+    |
+    <a onclick="window.__tcfapi('displayConsentUi', 2, function() {} );" style="cursor:pointer;">
+     Preferenze privacy
+    </a>
+   </div>
+   <!-- end footer -->
+  </div>
+  <!-- end container -->
+ </body>
+</html> in scrape:48
+scrape.py | [INFO] | 2022-07-12 22:40:14,117 | __main__ | : Fine - Elapsed Time: 5.5981918 in scrape:67
+log_setup.py | [INFO] | 2022-07-12 22:50:50,020 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 22:50:50,020 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 22:50:51,030 | __main__ | : 'NoneType' object has no attribute 'a' in scrape:70
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 45, in main
+    print(p.text)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\bs4\element.py", line 921, in __getattr__
+    raise AttributeError(
+AttributeError: 'NavigableString' object has no attribute 'text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 67, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 50, in main
+    headline = article.h2.a.text
+AttributeError: 'NoneType' object has no attribute 'a'
+scrape.py | [INFO] | 2022-07-12 22:50:51,102 | __main__ | : Fine - Elapsed Time: 1.0827468999999996 in scrape:76
+log_setup.py | [INFO] | 2022-07-12 22:51:43,584 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 22:51:43,584 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 22:51:44,457 | __main__ | : 'NoneType' object has no attribute 'a' in scrape:70
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 45, in main
+    print(p.text)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\bs4\element.py", line 921, in __getattr__
+    raise AttributeError(
+AttributeError: 'NavigableString' object has no attribute 'text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 67, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 50, in main
+    headline = article.h2.a.text
+AttributeError: 'NoneType' object has no attribute 'a'
+scrape.py | [INFO] | 2022-07-12 22:51:44,467 | __main__ | : Fine - Elapsed Time: 0.8800829 in scrape:76
+log_setup.py | [INFO] | 2022-07-12 22:53:47,775 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 22:53:47,792 | __main__ | : Inizio in scrape:21
+log_setup.py | [INFO] | 2022-07-12 22:58:59,461 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 22:58:59,461 | __main__ | : Inizio in scrape:21
+log_setup.py | [INFO] | 2022-07-12 23:00:08,194 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 23:00:08,194 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 23:00:13,427 | __main__ | : Fine - Elapsed Time: 5.2342301 in scrape:76
+log_setup.py | [INFO] | 2022-07-12 23:01:28,232 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 23:01:28,232 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 23:01:33,128 | __main__ | : Fine - Elapsed Time: 4.894243100000001 in scrape:76
+log_setup.py | [INFO] | 2022-07-12 23:03:30,994 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 23:03:30,994 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 23:03:35,839 | __main__ | : Fine - Elapsed Time: 4.8531633 in scrape:77
+log_setup.py | [INFO] | 2022-07-12 23:04:43,452 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 23:04:43,452 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 23:04:56,653 | __main__ | :  in scrape:71
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 40, in main
+    headline = article.h1.a.text
+AttributeError: 'NoneType' object has no attribute 'a'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 68, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 56, in main
+    dettaglio = dettaglio.join(p.text)
+MemoryError
+scrape.py | [INFO] | 2022-07-12 23:04:57,430 | __main__ | : Fine - Elapsed Time: 13.9741144 in scrape:77
+log_setup.py | [INFO] | 2022-07-12 23:06:38,372 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2022-07-12 23:06:38,372 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2022-07-12 23:06:42,942 | __main__ | : Fine - Elapsed Time: 4.5708861 in scrape:77
+log_setup.py | [INFO] | 2023-02-25 20:18:53,791 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2023-02-25 20:18:53,801 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2023-02-25 20:19:06,529 | __main__ | : Fine - Elapsed Time: 12.7465986 in scrape:79
+log_setup.py | [INFO] | 2023-02-25 20:41:15,717 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2023-02-25 20:41:15,717 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2023-02-25 20:41:16,706 | __main__ | : 'NoneType' object has no attribute 'a' in scrape:83
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 53, in main
+    dettaglio = raggruppa(soup_article)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 29, in raggruppa
+    dettaglio = f'{dettaglio} {p.text})'
+UnboundLocalError: local variable 'dettaglio' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 80, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 61, in main
+    headline = article.h2.a.text
+AttributeError: 'NoneType' object has no attribute 'a'
+scrape.py | [INFO] | 2023-02-25 20:41:16,722 | __main__ | : Fine - Elapsed Time: 0.9959609000000003 in scrape:89
+log_setup.py | [INFO] | 2023-02-25 20:42:53,093 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2023-02-25 20:42:53,093 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2023-02-25 20:42:54,065 | __main__ | : 'NoneType' object has no attribute 'a' in scrape:83
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 53, in main
+    dettaglio = raggruppa(soup_article)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 29, in raggruppa
+    dettaglio = f'{dettaglio} {p.text})'
+UnboundLocalError: local variable 'dettaglio' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 80, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape.py", line 61, in main
+    headline = article.h2.a.text
+AttributeError: 'NoneType' object has no attribute 'a'
+scrape.py | [INFO] | 2023-02-25 20:42:54,077 | __main__ | : Fine - Elapsed Time: 0.9808221 in scrape:89
+log_setup.py | [INFO] | 2023-02-25 20:43:42,584 | __main__ | : Log Setup Completed, called from scrape in log_setup:54
+scrape.py | [INFO] | 2023-02-25 20:43:42,584 | __main__ | : Inizio in scrape:21
+scrape.py | [INFO] | 2023-02-25 20:43:59,178 | __main__ | : Fine - Elapsed Time: 16.599828000000002 in scrape:89

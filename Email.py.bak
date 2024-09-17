@@ -1,0 +1,44 @@
+import smtplib
+from email.message import EmailMessage
+import os
+import imghdr
+
+# Setta la working directory al path dello script
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
+MY_ADDRESS="gpf_forte@outlook.com"
+PASSWORD="GPFgpf01"
+# set up the SMTP server
+s = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
+s.starttls()
+s.login(MY_ADDRESS, PASSWORD)
+
+msg = EmailMessage()      # create a message
+
+# setup the parameters of the message
+msg['From']=MY_ADDRESS
+msg['To']="gpf_forte@hotmail.com"
+msg["Subject"] = "Subject"
+msg.set_content("Body")
+
+#filename="Situazione Consegne_2021-01-24-220249.csv"
+filename="Images/1.jpg"
+
+# add attachment
+with open(filename, "rb") as file:
+    # print(type(file))
+    # file_aperto=file.read()
+    # print(type(file_aperto))
+    # msg.add_attachment(file.read(),filename=filename)
+    img_data = file.read()
+    msg.add_attachment(img_data, maintype='image',
+                                 subtype=imghdr.what(None, img_data))
+
+print(msg.items())
+# send the message via the server set up earlier.
+s.send_message(msg)
+
+del msg
+

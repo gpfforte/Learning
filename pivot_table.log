@@ -1,0 +1,9 @@
+log_setup.py | [INFO] | 2021-11-23 11:12:05,970 | __main__ | : Log Setup Completed, called from pivot_table in log_setup:54
+pivot_table.py | [INFO] | 2021-11-23 11:12:05,971 | __main__ | : Inizio in pivot_table:19
+pivot_table.py | [INFO] | 2021-11-23 11:12:06,026 | __main__ | : Fine in pivot_table:43
+log_setup.py | [INFO] | 2021-11-23 11:12:32,993 | __main__ | : Log Setup Completed, called from pivot_table in log_setup:54
+pivot_table.py | [INFO] | 2021-11-23 11:12:32,993 | __main__ | : Inizio in pivot_table:19
+pivot_table.py | [INFO] | 2021-11-23 11:12:33,047 | __main__ | : Fine in pivot_table:44
+log_setup.py | [INFO] | 2022-02-13 00:23:42,508 | __main__ | : Log Setup Completed, called from pivot_table in log_setup:54
+pivot_table.py | [INFO] | 2022-02-13 00:23:42,508 | __main__ | : Inizio in pivot_table:19
+pivot_table.py | [INFO] | 2022-02-13 00:23:42,617 | __main__ | : Fine in pivot_table:44

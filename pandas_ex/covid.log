@@ -1,0 +1,141 @@
+log_setup.py | [INFO] | 2021-12-06 23:03:03,303 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-06 23:03:03,304 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-06 23:03:03,687 | __main__ | : Fine in covid:72
+log_setup.py | [INFO] | 2021-12-06 23:05:06,505 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-06 23:05:06,505 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-06 23:05:07,085 | __main__ | : Fine in covid:74
+log_setup.py | [INFO] | 2021-12-06 23:07:05,710 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-06 23:07:05,711 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-06 23:07:06,273 | __main__ | : Fine in covid:76
+log_setup.py | [INFO] | 2021-12-06 23:09:01,334 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-06 23:09:01,335 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-06 23:09:01,823 | __main__ | : Fine in covid:76
+log_setup.py | [INFO] | 2021-12-08 12:52:53,078 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-08 12:52:53,089 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-08 12:52:53,568 | __main__ | : Fine in covid:76
+log_setup.py | [INFO] | 2021-12-11 10:22:19,623 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-11 10:22:19,623 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-11 10:22:47,568 | __main__ | : Fine in covid:77
+log_setup.py | [INFO] | 2021-12-11 10:23:10,239 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-11 10:23:10,239 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-11 10:24:35,951 | __main__ | : Fine in covid:77
+log_setup.py | [INFO] | 2021-12-11 10:24:38,265 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-11 10:24:38,265 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-11 10:25:25,418 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-12 00:07:32,141 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-12 00:07:32,141 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-12 00:09:59,198 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-12 00:10:01,798 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-12 00:10:01,798 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-12 00:10:02,900 | __main__ | : 'value' must be an instance of str or bytes, not a numpy.float64 in covid:75
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/covid.py", line 72, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/covid.py", line 59, in main
+    axs[0, 0].plot(df1["data"], df1["totale_positivi"])
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\axes\_axes.py", line 1743, in plot
+    lines = [*self._get_lines(*args, data=data, **kwargs)]
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\axes\_base.py", line 273, in __call__
+    yield from self._plot_args(this, kwargs)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\axes\_base.py", line 394, in _plot_args
+    self.axes.xaxis.update_units(x)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\axis.py", line 1466, in update_units
+    default = self.converter.default_units(data, self)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\category.py", line 107, in default_units
+    axis.set_units(UnitData(data))
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\category.py", line 176, in __init__
+    self.update(data)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\category.py", line 211, in update
+    cbook._check_isinstance((str, bytes), value=val)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\cbook\__init__.py", line 2246, in _check_isinstance
+    raise TypeError(
+TypeError: 'value' must be an instance of str or bytes, not a numpy.float64
+covid.py | [INFO] | 2021-12-12 00:10:03,004 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-12 00:11:27,355 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-12 00:11:27,355 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-12 00:11:27,842 | __main__ | : 'deceduti' in covid:76
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index_class_helper.pxi", line 105, in pandas._libs.index.Int64Engine._check_type
+  File "pandas\_libs\index_class_helper.pxi", line 105, in pandas._libs.index.Int64Engine._check_type
+KeyError: 'deceduti'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/covid.py", line 73, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/covid.py", line 43, in main
+    df1["nuovi_deceduti"] = df1.loc["deceduti", :] - \
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 925, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 1100, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 838, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 1164, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 1113, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\generic.py", line 3776, in xs
+    loc = index.get_loc(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'deceduti'
+covid.py | [INFO] | 2021-12-12 00:11:27,917 | __main__ | : Fine in covid:79
+log_setup.py | [INFO] | 2021-12-12 00:15:17,743 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-12 00:15:17,751 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-12 00:15:18,123 | __main__ | : 'deceduti' in covid:75
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index_class_helper.pxi", line 105, in pandas._libs.index.Int64Engine._check_type
+  File "pandas\_libs\index_class_helper.pxi", line 105, in pandas._libs.index.Int64Engine._check_type
+KeyError: 'deceduti'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/covid.py", line 72, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/covid.py", line 43, in main
+    df1["nuovi_deceduti"] = df1.loc["deceduti"] - df1.loc["deceduti"].shift(1)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 931, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 1164, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexing.py", line 1113, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\generic.py", line 3776, in xs
+    loc = index.get_loc(key)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'deceduti'
+covid.py | [INFO] | 2021-12-12 00:15:18,139 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-12 00:16:24,490 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-12 00:16:24,490 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-12 00:16:45,099 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-15 22:34:10,924 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-15 22:34:10,924 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-15 22:35:03,253 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-19 18:50:08,492 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-19 18:50:08,494 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-19 18:50:39,958 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2021-12-19 18:51:17,824 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2021-12-19 18:51:17,826 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2021-12-19 18:51:42,493 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2022-03-20 21:08:29,866 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2022-03-20 21:08:29,866 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2022-03-20 21:11:23,738 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2022-10-17 22:44:56,124 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2022-10-17 22:44:56,134 | __main__ | : Inizio in covid:22
+covid.py | [INFO] | 2022-10-17 22:47:15,859 | __main__ | : Fine in covid:78
+log_setup.py | [INFO] | 2023-08-24 22:14:38,337 | __main__ | : Log Setup Completed, called from covid in log_setup:54
+covid.py | [INFO] | 2023-08-24 22:14:39,610 | __main__ | : Inizio in covid:21
+covid.py | [INFO] | 2023-08-24 22:15:54,084 | __main__ | : Fine in covid:77
+log_setup.py | [INFO] | 2023-11-14 17:58:37,334 | __main__ | : Log Setup Completed, called from covid in log_setup:56
+covid.py | [INFO] | 2023-11-14 17:58:37,335 | __main__ | : Inizio in covid:21
+covid.py | [INFO] | 2023-11-14 17:58:52,171 | __main__ | : Fine in covid:77

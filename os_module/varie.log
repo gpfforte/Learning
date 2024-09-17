@@ -1,0 +1,12 @@
+log_setup.py | [INFO] | 2023-12-24 17:06:05,137 | __main__ | : Log Setup Completed, called from varie in log_setup:56
+varie.py | [INFO] | 2023-12-24 17:06:05,137 | __main__ | : Inizio in varie:21
+log_setup.py | [INFO] | 2023-12-24 17:10:02,957 | __main__ | : Log Setup Completed, called from varie in log_setup:56
+varie.py | [INFO] | 2023-12-24 17:10:02,957 | __main__ | : Inizio in varie:21
+log_setup.py | [INFO] | 2023-12-24 17:10:53,019 | __main__ | : Log Setup Completed, called from varie in log_setup:56
+varie.py | [INFO] | 2023-12-24 17:10:53,019 | __main__ | : Inizio in varie:21
+log_setup.py | [INFO] | 2023-12-24 17:19:36,702 | __main__ | : Log Setup Completed, called from varie in log_setup:56
+varie.py | [INFO] | 2023-12-24 17:19:36,702 | __main__ | : Inizio in varie:21
+log_setup.py | [INFO] | 2023-12-24 17:20:24,997 | __main__ | : Log Setup Completed, called from varie in log_setup:56
+varie.py | [INFO] | 2023-12-24 17:20:24,998 | __main__ | : Inizio in varie:21
+log_setup.py | [INFO] | 2023-12-24 17:21:16,608 | __main__ | : Log Setup Completed, called from varie in log_setup:56
+varie.py | [INFO] | 2023-12-24 17:21:16,609 | __main__ | : Inizio in varie:21

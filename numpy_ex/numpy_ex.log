@@ -1,0 +1,482 @@
+log_setup.py | [INFO] | 2021-11-20 16:02:10,635 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:02:10,635 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:02:10,635 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:06:34,003 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:06:34,003 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:06:34,003 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:07:47,592 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:07:47,592 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:07:47,592 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:09:05,919 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:09:05,919 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:09:05,919 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:10:55,573 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:10:55,573 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:10:55,573 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:11:12,216 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:11:12,216 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:11:12,216 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:18:27,438 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:18:27,438 | __main__ | : Inizio in numpy_ex:18
+numpy_ex.py | [INFO] | 2021-11-20 16:18:27,438 | __main__ | : array() missing required argument 'object' (pos 1) in numpy_ex:32
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 29, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 24, in main
+    print(np.array())
+TypeError: array() missing required argument 'object' (pos 1)
+numpy_ex.py | [INFO] | 2021-11-20 16:18:27,438 | __main__ | : Fine in numpy_ex:35
+log_setup.py | [INFO] | 2021-11-20 16:29:57,272 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:29:57,280 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:29:57,280 | __main__ | : Fine in numpy_ex:37
+log_setup.py | [INFO] | 2021-11-20 16:30:52,464 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+<ipython-input-1-742954387781> | [INFO] | 2021-11-20 16:30:52,464 | __main__ | : Inizio in <ipython-input-1-742954387781>:19
+<ipython-input-1-742954387781> | [INFO] | 2021-11-20 16:30:52,472 | __main__ | : Fine in <ipython-input-1-742954387781>:37
+log_setup.py | [INFO] | 2021-11-20 16:32:25,280 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:32:25,280 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:32:25,288 | __main__ | : Fine in numpy_ex:37
+log_setup.py | [INFO] | 2021-11-20 16:37:50,797 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:37:50,797 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:37:50,810 | __main__ | : Fine in numpy_ex:37
+log_setup.py | [INFO] | 2021-11-20 16:38:22,335 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:38:22,339 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:38:22,339 | __main__ | : Fine in numpy_ex:39
+log_setup.py | [INFO] | 2021-11-20 16:38:50,178 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:38:50,178 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:38:50,178 | __main__ | : Fine in numpy_ex:39
+log_setup.py | [INFO] | 2021-11-20 16:39:52,523 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:39:52,523 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 16:39:52,531 | __main__ | : Fine in numpy_ex:41
+log_setup.py | [INFO] | 2021-11-20 16:40:23,852 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:40:23,852 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 16:40:23,852 | __main__ | : Fine in numpy_ex:41
+log_setup.py | [INFO] | 2021-11-20 16:40:55,869 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:40:55,869 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 16:40:55,869 | __main__ | : Fine in numpy_ex:41
+log_setup.py | [INFO] | 2021-11-20 16:41:30,404 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:41:30,404 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 16:41:30,404 | __main__ | : Fine in numpy_ex:41
+log_setup.py | [INFO] | 2021-11-20 16:46:13,937 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:46:13,937 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:46:13,937 | __main__ | : Fine in numpy_ex:40
+log_setup.py | [INFO] | 2021-11-20 16:49:10,660 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:49:10,660 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:49:10,665 | __main__ | : Fine in numpy_ex:40
+log_setup.py | [INFO] | 2021-11-20 16:50:46,243 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:50:46,243 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:50:46,249 | __main__ | : Fine in numpy_ex:40
+log_setup.py | [INFO] | 2021-11-20 16:52:11,925 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:52:11,925 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:52:11,931 | __main__ | : Fine in numpy_ex:40
+log_setup.py | [INFO] | 2021-11-20 16:56:25,244 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:56:25,244 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:56:25,244 | __main__ | : Fine in numpy_ex:40
+log_setup.py | [INFO] | 2021-11-20 16:57:47,863 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 16:57:47,863 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 16:57:47,896 | __main__ | : Fine in numpy_ex:40
+log_setup.py | [INFO] | 2021-11-20 17:00:06,119 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:00:06,119 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:00:06,134 | __main__ | : Fine in numpy_ex:43
+log_setup.py | [INFO] | 2021-11-20 17:02:17,633 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:02:17,633 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:02:17,637 | __main__ | : Fine in numpy_ex:43
+log_setup.py | [INFO] | 2021-11-20 17:03:58,430 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:03:58,430 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:03:58,434 | __main__ | : ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U2'), dtype('int64')) -> None in numpy_ex:41
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 38, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 33, in main
+    print(m*a)
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U2'), dtype('int64')) -> None
+numpy_ex.py | [INFO] | 2021-11-20 17:03:58,437 | __main__ | : Fine in numpy_ex:44
+log_setup.py | [INFO] | 2021-11-20 17:04:15,581 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:04:15,582 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:04:15,587 | __main__ | : Fine in numpy_ex:44
+log_setup.py | [INFO] | 2021-11-20 17:05:17,499 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:05:17,500 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:05:17,503 | __main__ | : operands could not be broadcast together with shapes (20,) (2,5,2)  in numpy_ex:41
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 38, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 33, in main
+    print(a*b)
+ValueError: operands could not be broadcast together with shapes (20,) (2,5,2) 
+numpy_ex.py | [INFO] | 2021-11-20 17:05:17,506 | __main__ | : Fine in numpy_ex:44
+log_setup.py | [INFO] | 2021-11-20 17:09:33,947 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:09:33,947 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:09:33,951 | __main__ | : operands could not be broadcast together with shapes (20,) (2,5,2)  in numpy_ex:42
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 39, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 33, in main
+    print(a*b)
+ValueError: operands could not be broadcast together with shapes (20,) (2,5,2) 
+numpy_ex.py | [INFO] | 2021-11-20 17:09:33,953 | __main__ | : Fine in numpy_ex:45
+log_setup.py | [INFO] | 2021-11-20 17:09:46,136 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:09:46,136 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:09:46,140 | __main__ | : module 'numpy' has no attribute 'cosin' in numpy_ex:42
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 39, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 34, in main
+    np.cosin(1)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\numpy\__init__.py", line 313, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'cosin'
+numpy_ex.py | [INFO] | 2021-11-20 17:09:46,143 | __main__ | : Fine in numpy_ex:45
+log_setup.py | [INFO] | 2021-11-20 17:11:01,723 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:11:01,724 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:11:01,728 | __main__ | : Fine in numpy_ex:45
+log_setup.py | [INFO] | 2021-11-20 17:13:29,044 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:13:29,045 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:13:29,049 | __main__ | : Fine in numpy_ex:45
+log_setup.py | [INFO] | 2021-11-20 17:15:23,396 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:15:23,397 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:15:23,405 | __main__ | : Fine in numpy_ex:48
+log_setup.py | [INFO] | 2021-11-20 17:18:29,304 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:18:29,305 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:18:29,315 | __main__ | : Fine in numpy_ex:51
+log_setup.py | [INFO] | 2021-11-20 17:27:56,757 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:27:56,757 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:27:56,766 | __main__ | : Fine in numpy_ex:52
+log_setup.py | [INFO] | 2021-11-20 17:28:50,312 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:28:50,312 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:28:50,322 | __main__ | : Fine in numpy_ex:54
+log_setup.py | [INFO] | 2021-11-20 17:29:29,104 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 17:29:29,105 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 17:29:29,113 | __main__ | : Fine in numpy_ex:55
+log_setup.py | [INFO] | 2021-11-20 22:20:49,963 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:20:49,963 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:20:49,987 | __main__ | : Fine in numpy_ex:57
+log_setup.py | [INFO] | 2021-11-20 22:21:44,258 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:21:44,258 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:21:44,267 | __main__ | : Fine in numpy_ex:57
+log_setup.py | [INFO] | 2021-11-20 22:22:35,851 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:22:35,852 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:22:35,862 | __main__ | : Fine in numpy_ex:59
+log_setup.py | [INFO] | 2021-11-20 22:23:31,949 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:23:31,949 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:23:31,961 | __main__ | : Fine in numpy_ex:61
+log_setup.py | [INFO] | 2021-11-20 22:24:02,317 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:24:02,318 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:24:02,329 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2021-11-20 22:31:38,116 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:31:38,116 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:31:38,141 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2021-11-20 22:32:13,845 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:32:13,845 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:32:13,858 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2021-11-20 22:33:28,913 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:33:28,914 | __main__ | : Inizio in numpy_ex:19
+numpy_ex.py | [INFO] | 2021-11-20 22:33:28,924 | __main__ | : Fine in numpy_ex:59
+log_setup.py | [INFO] | 2021-11-20 22:40:20,798 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:40:20,798 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:40:21,459 | __main__ | : Fine in numpy_ex:67
+log_setup.py | [INFO] | 2021-11-20 22:41:52,719 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:41:52,719 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:41:53,129 | __main__ | : Fine in numpy_ex:67
+log_setup.py | [INFO] | 2021-11-20 22:46:44,767 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:46:44,767 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:46:49,992 | __main__ | : 'NoneType' object has no attribute 'attributes' in numpy_ex:65
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 62, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 57, in main
+    fig.show()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\figure.py", line 411, in show
+    self.canvas.manager.show()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\matplotlib\backends\_backend_tk.py", line 458, in show
+    self.canvas.manager.window.attributes('-topmost', 1)
+AttributeError: 'NoneType' object has no attribute 'attributes'
+numpy_ex.py | [INFO] | 2021-11-20 22:46:50,031 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:47:34,207 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:47:34,208 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:47:34,638 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:47:59,579 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:47:59,579 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:48:03,574 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:48:23,838 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:48:23,838 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:48:39,932 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:48:49,741 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:48:49,741 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:48:53,719 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:49:04,438 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:49:04,438 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:49:12,955 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:49:39,118 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:49:39,118 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:49:39,586 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:49:49,908 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:49:49,908 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:49:50,199 | __main__ | : Fine in numpy_ex:68
+log_setup.py | [INFO] | 2021-11-20 22:52:21,002 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:52:21,002 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:52:28,618 | __main__ | : Fine in numpy_ex:70
+log_setup.py | [INFO] | 2021-11-20 22:52:46,085 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:52:46,085 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:54:30,742 | __main__ | : Fine in numpy_ex:71
+log_setup.py | [INFO] | 2021-11-20 22:54:32,855 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:54:32,856 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:54:39,596 | __main__ | : Fine in numpy_ex:73
+log_setup.py | [INFO] | 2021-11-20 22:54:51,502 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:54:51,502 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:55:04,106 | __main__ | : Fine in numpy_ex:73
+log_setup.py | [INFO] | 2021-11-20 22:55:55,465 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:55:55,465 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:56:09,824 | __main__ | : Fine in numpy_ex:75
+log_setup.py | [INFO] | 2021-11-20 22:56:30,599 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:56:30,599 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:56:33,205 | __main__ | : Fine in numpy_ex:75
+log_setup.py | [INFO] | 2021-11-20 22:56:43,542 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:56:43,542 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:56:53,119 | __main__ | : Fine in numpy_ex:75
+log_setup.py | [INFO] | 2021-11-20 22:57:00,051 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 22:57:00,051 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 22:57:06,283 | __main__ | : Fine in numpy_ex:75
+log_setup.py | [INFO] | 2021-11-20 23:06:57,300 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:06:57,300 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:07:12,751 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:08:00,437 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:08:00,437 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:08:07,828 | __main__ | : Fine in numpy_ex:83
+log_setup.py | [INFO] | 2021-11-20 23:09:01,066 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:09:01,066 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:09:06,393 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:09:20,199 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:09:20,199 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:09:29,268 | __main__ | : Fine in numpy_ex:85
+log_setup.py | [INFO] | 2021-11-20 23:09:56,824 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:09:56,824 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:10:07,169 | __main__ | : Fine in numpy_ex:87
+log_setup.py | [INFO] | 2021-11-20 23:10:32,324 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:10:32,324 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:10:38,808 | __main__ | : Fine in numpy_ex:83
+log_setup.py | [INFO] | 2021-11-20 23:10:47,489 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:10:47,489 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:10:53,670 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:11:11,562 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:11:11,562 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:11:15,934 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:11:29,075 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:11:29,076 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:11:29,466 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:11:51,016 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:11:51,016 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:12:16,282 | __main__ | : Fine in numpy_ex:83
+log_setup.py | [INFO] | 2021-11-20 23:12:27,188 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:12:27,188 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:12:30,787 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:17:08,602 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:17:08,602 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:17:12,750 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:17:28,651 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:17:28,651 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:17:33,170 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:17:39,653 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:17:39,653 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:17:43,894 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:17:57,851 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:17:57,851 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:18:02,565 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:28:53,906 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:28:53,906 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:28:53,928 | __main__ | : Fine in numpy_ex:80
+log_setup.py | [INFO] | 2021-11-20 23:30:25,447 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:30:25,447 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:30:25,463 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:30:48,478 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:30:48,478 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:30:48,491 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:31:16,282 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:31:16,282 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:31:16,290 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:31:51,525 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:31:51,525 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:31:51,547 | __main__ | : Fine in numpy_ex:83
+log_setup.py | [INFO] | 2021-11-20 23:33:08,760 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:33:08,760 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:33:08,771 | __main__ | : Fine in numpy_ex:82
+log_setup.py | [INFO] | 2021-11-20 23:37:21,046 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:37:21,046 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:37:21,066 | __main__ | : Fine in numpy_ex:83
+log_setup.py | [INFO] | 2021-11-20 23:37:42,411 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:37:42,427 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:37:42,438 | __main__ | : Fine in numpy_ex:84
+log_setup.py | [INFO] | 2021-11-20 23:40:04,619 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:40:04,619 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:40:04,627 | __main__ | : 'ellipsis' object is not subscriptable in numpy_ex:82
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 79, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 74, in main
+    ...                [2, 2]])
+TypeError: 'ellipsis' object is not subscriptable
+numpy_ex.py | [INFO] | 2021-11-20 23:40:04,629 | __main__ | : Fine in numpy_ex:85
+log_setup.py | [INFO] | 2021-11-20 23:41:40,791 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-20 23:41:40,791 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-20 23:41:40,811 | __main__ | : Fine in numpy_ex:89
+log_setup.py | [INFO] | 2021-11-21 17:38:41,453 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 17:38:41,469 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 17:38:41,473 | __main__ | : Fine in numpy_ex:89
+log_setup.py | [INFO] | 2021-11-21 18:14:56,204 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:14:56,204 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:14:56,783 | __main__ | : Fine in numpy_ex:90
+log_setup.py | [INFO] | 2021-11-21 18:15:11,904 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:15:11,904 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:15:19,563 | __main__ | : Fine in numpy_ex:90
+log_setup.py | [INFO] | 2021-11-21 18:16:56,391 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:16:56,391 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:17:04,390 | __main__ | : Fine in numpy_ex:90
+log_setup.py | [INFO] | 2021-11-21 18:19:04,878 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:19:04,878 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:19:05,115 | __main__ | : name 'ax0' is not defined in numpy_ex:91
+Traceback (most recent call last):
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\numpy_ex.py", line 88, in <module>
+    main()
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\numpy_ex.py", line 83, in main
+    graph()
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\numpy_ex.py", line 40, in graph
+    fontsize='small', fontstyle='italic', transform=ax0.transAxes)
+NameError: name 'ax0' is not defined
+numpy_ex.py | [INFO] | 2021-11-21 18:19:05,130 | __main__ | : Fine in numpy_ex:94
+log_setup.py | [INFO] | 2021-11-21 18:19:35,335 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:19:35,335 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:19:47,485 | __main__ | : Fine in numpy_ex:94
+log_setup.py | [INFO] | 2021-11-21 18:21:53,026 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:21:53,027 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:22:23,374 | __main__ | : Fine in numpy_ex:94
+log_setup.py | [INFO] | 2021-11-21 18:23:03,302 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:23:03,302 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:23:10,014 | __main__ | : Fine in numpy_ex:95
+log_setup.py | [INFO] | 2021-11-21 18:23:17,051 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:23:17,051 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:23:29,254 | __main__ | : Fine in numpy_ex:95
+log_setup.py | [INFO] | 2021-11-21 18:25:33,873 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:25:33,873 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:25:39,568 | __main__ | : Fine in numpy_ex:92
+log_setup.py | [INFO] | 2021-11-21 18:25:57,431 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:25:57,431 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:26:15,750 | __main__ | : Fine in numpy_ex:93
+log_setup.py | [INFO] | 2021-11-21 18:26:29,212 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 18:26:29,212 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 18:26:36,575 | __main__ | : Fine in numpy_ex:93
+log_setup.py | [INFO] | 2021-11-21 22:06:58,183 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 22:06:58,183 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 22:07:02,124 | __main__ | : Fine in numpy_ex:94
+log_setup.py | [INFO] | 2021-11-21 22:07:14,789 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 22:07:14,790 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 22:07:14,796 | __main__ | : Fine in numpy_ex:94
+log_setup.py | [INFO] | 2021-11-21 22:07:52,067 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-21 22:07:52,083 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-21 22:07:52,086 | __main__ | : Fine in numpy_ex:94
+log_setup.py | [INFO] | 2021-11-22 22:50:09,607 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 22:50:09,607 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-22 22:50:09,607 | __main__ | : Fine in numpy_ex:99
+log_setup.py | [INFO] | 2021-11-22 22:50:48,616 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 22:50:48,616 | __main__ | : Inizio in numpy_ex:21
+numpy_ex.py | [INFO] | 2021-11-22 22:50:48,632 | __main__ | : Fine in numpy_ex:100
+log_setup.py | [INFO] | 2021-11-22 22:53:10,376 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 22:53:10,376 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 22:53:49,063 | __main__ | : Fine in numpy_ex:105
+log_setup.py | [INFO] | 2021-11-22 22:53:51,218 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 22:53:51,218 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 22:53:57,254 | __main__ | : Fine in numpy_ex:105
+log_setup.py | [INFO] | 2021-11-22 22:54:12,956 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 22:54:12,956 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 22:54:24,959 | __main__ | : Fine in numpy_ex:105
+log_setup.py | [INFO] | 2021-11-22 22:57:18,110 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 22:57:18,110 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 22:57:41,032 | __main__ | : Fine in numpy_ex:107
+log_setup.py | [INFO] | 2021-11-22 23:06:24,240 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:06:24,240 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:06:24,256 | __main__ | : name 'dx' is not defined in numpy_ex:104
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 101, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 87, in main
+    print(dx)
+NameError: name 'dx' is not defined
+numpy_ex.py | [INFO] | 2021-11-22 23:06:24,272 | __main__ | : Fine in numpy_ex:107
+log_setup.py | [INFO] | 2021-11-22 23:06:39,259 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:06:39,259 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:06:47,731 | __main__ | : Fine in numpy_ex:107
+log_setup.py | [INFO] | 2021-11-22 23:09:37,635 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:09:37,635 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:09:55,238 | __main__ | : Fine in numpy_ex:107
+log_setup.py | [INFO] | 2021-11-22 23:11:55,932 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:11:55,932 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:12:58,887 | __main__ | : Fine in numpy_ex:109
+log_setup.py | [INFO] | 2021-11-22 23:13:02,697 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:13:02,705 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:13:13,347 | __main__ | : Fine in numpy_ex:110
+log_setup.py | [INFO] | 2021-11-22 23:13:28,054 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:13:28,054 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:13:42,267 | __main__ | : Fine in numpy_ex:110
+log_setup.py | [INFO] | 2021-11-22 23:14:45,359 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:14:45,359 | __main__ | : Inizio in numpy_ex:22
+numpy_ex.py | [INFO] | 2021-11-22 23:14:56,333 | __main__ | : Fine in numpy_ex:110
+log_setup.py | [INFO] | 2021-11-22 23:15:41,619 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:15:41,619 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:15:41,627 | __main__ | : name 'hstack' is not defined in numpy_ex:111
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 108, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 97, in main
+    xy = hstack(x, y)
+NameError: name 'hstack' is not defined
+numpy_ex.py | [INFO] | 2021-11-22 23:15:41,627 | __main__ | : Fine in numpy_ex:114
+log_setup.py | [INFO] | 2021-11-22 23:16:09,581 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:16:09,581 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:16:09,589 | __main__ | : _vhstack_dispatcher() takes 1 positional argument but 2 were given in numpy_ex:111
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 108, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/numpy_ex.py", line 97, in main
+    xy = np.hstack(x, y)
+  File "<__array_function__ internals>", line 4, in hstack
+TypeError: _vhstack_dispatcher() takes 1 positional argument but 2 were given
+numpy_ex.py | [INFO] | 2021-11-22 23:16:09,589 | __main__ | : Fine in numpy_ex:114
+log_setup.py | [INFO] | 2021-11-22 23:16:35,640 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:16:35,640 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:16:44,406 | __main__ | : Fine in numpy_ex:114
+log_setup.py | [INFO] | 2021-11-22 23:24:49,129 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:24:49,129 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:24:49,137 | __main__ | : Fine in numpy_ex:64
+log_setup.py | [INFO] | 2021-11-22 23:26:00,590 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:26:00,590 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:26:00,608 | __main__ | : Fine in numpy_ex:64
+log_setup.py | [INFO] | 2021-11-22 23:27:07,814 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:27:07,814 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:27:07,835 | __main__ | : Fine in numpy_ex:64
+log_setup.py | [INFO] | 2021-11-22 23:27:51,732 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:27:51,732 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:27:51,764 | __main__ | : Fine in numpy_ex:66
+log_setup.py | [INFO] | 2021-11-22 23:28:17,248 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-11-22 23:28:17,248 | __main__ | : Inizio in numpy_ex:24
+numpy_ex.py | [INFO] | 2021-11-22 23:28:17,258 | __main__ | : Fine in numpy_ex:66
+log_setup.py | [INFO] | 2021-12-08 12:21:14,216 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-12-08 12:21:14,221 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2021-12-08 12:21:14,235 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2021-12-19 20:08:10,752 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2021-12-19 20:08:10,766 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2021-12-19 20:08:10,782 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2022-04-26 21:55:31,804 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2022-04-26 21:55:31,812 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2022-04-26 21:55:31,812 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2022-04-26 21:57:47,418 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2022-04-26 21:57:47,418 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2022-04-26 21:57:47,433 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2022-04-26 22:02:50,216 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2022-04-26 22:02:50,216 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2022-04-26 22:02:50,224 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2022-04-26 22:02:54,483 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2022-04-26 22:02:54,499 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2022-04-26 22:02:54,541 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2022-10-17 22:35:12,547 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2022-10-17 22:35:12,566 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2022-10-17 22:35:12,613 | __main__ | : Fine in numpy_ex:62
+log_setup.py | [INFO] | 2022-10-17 22:37:15,295 | __main__ | : Log Setup Completed, called from numpy_ex in log_setup:54
+numpy_ex.py | [INFO] | 2022-10-17 22:37:15,295 | __main__ | : Inizio in numpy_ex:20
+numpy_ex.py | [INFO] | 2022-10-17 22:37:15,335 | __main__ | : Fine in numpy_ex:62

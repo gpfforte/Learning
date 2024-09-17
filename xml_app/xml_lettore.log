@@ -1,0 +1,6 @@
+log_setup.py | [INFO] | 2022-09-10 14:57:33,056 | __main__ | : Log Setup Completed, called from xml_lettore in log_setup:54
+log_setup.py | [INFO] | 2022-09-10 14:57:42,383 | __main__ | : Log Setup Completed, called from xml_lettore in log_setup:54
+log_setup.py | [INFO] | 2022-09-10 14:59:46,062 | __main__ | : Log Setup Completed, called from xml_lettore in log_setup:54
+log_setup.py | [INFO] | 2022-09-10 15:00:27,384 | __main__ | : Log Setup Completed, called from xml_lettore in log_setup:54
+log_setup.py | [INFO] | 2022-09-10 15:02:32,405 | __main__ | : Log Setup Completed, called from xml_lettore in log_setup:54
+log_setup.py | [INFO] | 2022-09-10 15:04:02,539 | __main__ | : Log Setup Completed, called from xml_lettore in log_setup:54

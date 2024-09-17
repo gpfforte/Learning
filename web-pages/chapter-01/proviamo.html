@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Learning HTML
+    </title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/script/script.js"></script>
+</head>
+
+<body>
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="navbar.html"></div>
+    <div>
+
+        <div id="main" class="redborder">
+            <div style="background-color: lightcoral;" class="redborder">
+                <p>
+                <h1>Miscellanea</h1>
+                </p>
+                <span>Prova span</span>
+                <p style="color:orange">
+                    Stilish
+                </p>
+                <p>Ciao <strong> Primo</strong></p>
+            </div>
+            <div style="background-color: lightgreen;" class="redborder">
+                <hr>
+                <ul>
+                    <li>primo</li>
+
+                    <li>secondo</li>
+
+                    <li>terzo</li>
+                </ul>
+                <hr>
+                <ol>
+                    <li>primo</li>
+                    <li>secondo</li>
+                    <li>terzo</li>
+                </ol>
+            </div>
+
+            <div style="background-color: lightsalmon;" class="redborder">
+                <table>
+                    <tr>
+                        <th><em>a</em></th>
+                        <th>a</th>
+                        <th>a</th>
+                        <th>a</th>
+                        <th>a</th>
+                    </tr>
+
+                    <tr>
+                        <td><em>1</em></td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+            <div style="background-color: black; text-align: center;" class="redborder">
+                <img src="img/plot.png" alt="plot" width="500">
+            </div>
+        </div>
+    </div>
+    <script>
+        includeHTML();
+    </script>
+    <div w3-include-html="footer.html"></div>
+</body>
+
+</html>

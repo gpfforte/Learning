@@ -1,0 +1,45 @@
+log_setup.py | [INFO] | 2021-11-22 23:20:59,499 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-22 23:20:59,499 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-22 23:21:02,042 | __main__ | : Fine in calculus:55
+log_setup.py | [INFO] | 2021-11-23 22:36:04,090 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:36:04,091 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:36:29,955 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:36:41,419 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:36:41,420 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:36:53,705 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:37:01,315 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:37:01,315 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:37:05,766 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:37:20,221 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:37:20,221 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:38:02,427 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:38:09,084 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:38:09,085 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:38:53,350 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:38:55,727 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:38:55,727 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:39:06,727 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:39:26,404 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:39:26,405 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:39:37,077 | __main__ | : Fine in calculus:57
+log_setup.py | [INFO] | 2021-11-23 22:41:27,336 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:41:27,337 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:42:31,280 | __main__ | : Fine in calculus:59
+log_setup.py | [INFO] | 2021-11-23 22:42:33,151 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:42:33,151 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:42:46,713 | __main__ | : Fine in calculus:60
+log_setup.py | [INFO] | 2021-11-23 22:43:01,378 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2021-11-23 22:43:01,378 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2021-11-23 22:43:04,851 | __main__ | : Fine in calculus:60
+log_setup.py | [INFO] | 2022-04-26 15:44:59,995 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2022-04-26 15:45:00,007 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2022-04-26 15:45:22,994 | __main__ | : Fine in calculus:61
+log_setup.py | [INFO] | 2022-10-18 22:43:49,515 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2022-10-18 22:43:49,535 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2022-10-18 22:44:16,547 | __main__ | : Fine in calculus:61
+log_setup.py | [INFO] | 2022-10-18 22:44:36,855 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2022-10-18 22:44:36,855 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2022-10-18 22:44:42,103 | __main__ | : Fine in calculus:61
+log_setup.py | [INFO] | 2022-10-18 22:44:54,213 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
+calculus.py | [INFO] | 2022-10-18 22:44:54,213 | __main__ | : Inizio in calculus:24
+calculus.py | [INFO] | 2022-10-18 22:45:00,473 | __main__ | : Fine in calculus:61

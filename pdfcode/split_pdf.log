@@ -1,0 +1,10 @@
+log_setup.py | [INFO] | 2024-06-30 15:23:25,982 | __main__ | : Log Setup Completed, called from split_pdf in log_setup:56
+split_pdf.py | [INFO] | 2024-06-30 15:23:25,982 | __main__ | : Inizio in split_pdf:22
+log_setup.py | [INFO] | 2024-06-30 15:25:06,102 | __main__ | : Log Setup Completed, called from split_pdf in log_setup:56
+split_pdf.py | [INFO] | 2024-06-30 15:25:06,102 | __main__ | : Inizio in split_pdf:22
+split_pdf.py | [INFO] | 2024-06-30 15:25:06,155 | __main__ | : Fine in split_pdf:44
+split_pdf.py | [INFO] | 2024-06-30 15:25:06,155 | __main__ | : Elapsed Time: 0.049954100000377366 in split_pdf:46
+log_setup.py | [INFO] | 2024-06-30 15:28:19,589 | __main__ | : Log Setup Completed, called from split_pdf in log_setup:56
+split_pdf.py | [INFO] | 2024-06-30 15:28:19,589 | __main__ | : Inizio in split_pdf:22
+split_pdf.py | [INFO] | 2024-06-30 15:28:19,638 | __main__ | : Fine in split_pdf:44
+split_pdf.py | [INFO] | 2024-06-30 15:28:19,638 | __main__ | : Elapsed Time: 0.04106409999985772 in split_pdf:46

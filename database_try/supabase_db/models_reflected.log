@@ -1,0 +1,33 @@
+log_setup.py | [INFO] | 2022-09-11 16:27:21,104 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:27:24,037 | __main__ | : Fine - Elapsed Time: 2.9325787 in models_reflected:94
+log_setup.py | [INFO] | 2022-09-11 16:38:47,257 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:38:49,945 | __main__ | : name 'Countries' is not defined in models_reflected:96
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models_reflected.py", line 93, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models_reflected.py", line 88, in main
+    for key in Countries.__table__.columns.keys()])
+NameError: name 'Countries' is not defined
+models_reflected.py | [INFO] | 2022-09-11 16:38:49,951 | __main__ | : Fine - Elapsed Time: 2.6958127000000003 in models_reflected:102
+log_setup.py | [INFO] | 2022-09-11 16:39:42,247 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:39:45,014 | __main__ | : 'Country' object has no attribute 'iso' in models_reflected:96
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models_reflected.py", line 93, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models_reflected.py", line 86, in main
+    print(item)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/supabase_db/models_reflected.py", line 60, in __repr__
+    return f'Country({self.iso})'
+AttributeError: 'Country' object has no attribute 'iso'
+models_reflected.py | [INFO] | 2022-09-11 16:39:45,018 | __main__ | : Fine - Elapsed Time: 2.7743275 in models_reflected:102
+log_setup.py | [INFO] | 2022-09-11 16:40:23,073 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:40:25,808 | __main__ | : Fine - Elapsed Time: 2.7376223 in models_reflected:102
+log_setup.py | [INFO] | 2022-09-11 16:42:02,347 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:42:05,168 | __main__ | : Fine - Elapsed Time: 2.82129 in models_reflected:104
+log_setup.py | [INFO] | 2022-09-11 16:42:21,746 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:42:24,484 | __main__ | : Fine - Elapsed Time: 2.7390904999999997 in models_reflected:104
+log_setup.py | [INFO] | 2022-09-11 16:48:28,498 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:48:31,681 | __main__ | : Fine - Elapsed Time: 3.1859521000000006 in models_reflected:106
+log_setup.py | [INFO] | 2022-09-11 16:50:55,814 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+log_setup.py | [INFO] | 2022-09-11 16:51:36,504 | __main__ | : Log Setup Completed, called from models_reflected in log_setup:54
+models_reflected.py | [INFO] | 2022-09-11 16:51:39,782 | __main__ | : Fine - Elapsed Time: 3.2895262 in models_reflected:106

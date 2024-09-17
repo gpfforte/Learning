@@ -1,0 +1,347 @@
+log_setup.py | [INFO] | 2021-12-12 22:23:43,648 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:23:43,648 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:23:43,649 | __main__ | : unsupported type for timedelta days component: numpy.int64 in pandas_ex:49
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 46, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 40, in main
+    data_fine = add_business_day(today.date(), 5)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 32, in add_business_day
+    data_prova = data_inizio+dt.timedelta(days=giorni_prova)
+TypeError: unsupported type for timedelta days component: numpy.int64
+pandas_ex.py | [INFO] | 2021-12-12 22:23:43,652 | __main__ | : Fine in pandas_ex:52
+log_setup.py | [INFO] | 2021-12-12 22:25:23,849 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:25:23,850 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:25:23,850 | __main__ | : unsupported type for timedelta days component: numpy.int64 in pandas_ex:49
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 46, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 40, in main
+    data_fine = add_business_day(today.date(), 5)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 32, in add_business_day
+    data_prova = data_inizio+dt.timedelta(days=giorni_prova)
+TypeError: unsupported type for timedelta days component: numpy.int64
+pandas_ex.py | [INFO] | 2021-12-12 22:25:23,853 | __main__ | : Fine in pandas_ex:52
+log_setup.py | [INFO] | 2021-12-12 22:26:46,510 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:26:46,511 | __main__ | : Inizio in pandas_ex:24
+log_setup.py | [INFO] | 2021-12-12 22:27:25,451 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:27:25,453 | __main__ | : Inizio in pandas_ex:24
+log_setup.py | [INFO] | 2021-12-12 22:33:31,382 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:33:31,384 | __main__ | : Inizio in pandas_ex:24
+log_setup.py | [INFO] | 2021-12-12 22:35:24,047 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:35:24,049 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:37:05,496 | __main__ | : Fine in pandas_ex:54
+log_setup.py | [INFO] | 2021-12-12 22:39:27,104 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:39:27,105 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:39:27,106 | __main__ | : Fine in pandas_ex:55
+log_setup.py | [INFO] | 2021-12-12 22:47:15,634 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:47:15,635 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:47:15,636 | __main__ | : Fine in pandas_ex:55
+log_setup.py | [INFO] | 2021-12-12 22:47:24,875 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:47:24,876 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:47:24,877 | __main__ | : Fine in pandas_ex:55
+log_setup.py | [INFO] | 2021-12-12 22:48:01,718 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:48:01,719 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:49:27,867 | __main__ | : Fine in pandas_ex:55
+log_setup.py | [INFO] | 2021-12-12 22:50:13,021 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:50:13,023 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:51:34,270 | __main__ | : Fine in pandas_ex:55
+log_setup.py | [INFO] | 2021-12-12 22:51:53,813 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:51:53,814 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:51:53,814 | __main__ | : Fine in pandas_ex:55
+log_setup.py | [INFO] | 2021-12-12 22:59:35,654 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 22:59:35,655 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 22:59:35,660 | __main__ | : '>' not supported between instances of 'builtin_function_or_method' and 'int' in pandas_ex:67
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 64, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 58, in main
+    data_fine = add_business_day(today.date(), 5)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 48, in add_business_day
+    if data_prova not in list_hol and data_prova.weekday > 5:
+TypeError: '>' not supported between instances of 'builtin_function_or_method' and 'int'
+pandas_ex.py | [INFO] | 2021-12-12 22:59:35,664 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:01:11,949 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:01:11,950 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:01:11,954 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:02:21,466 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:02:21,467 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:02:21,471 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:02:32,188 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:02:32,189 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:02:32,194 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:02:41,711 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:02:41,711 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:02:41,716 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:02:49,066 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:02:49,067 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:02:49,072 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:04:38,527 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:04:38,528 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:04:38,532 | __main__ | : Fine in pandas_ex:70
+log_setup.py | [INFO] | 2021-12-12 23:05:52,199 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:05:52,200 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:05:52,205 | __main__ | : Fine in pandas_ex:71
+log_setup.py | [INFO] | 2021-12-12 23:06:09,318 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:06:09,319 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:06:09,332 | __main__ | : Fine in pandas_ex:72
+log_setup.py | [INFO] | 2021-12-12 23:08:46,852 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:08:46,852 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:08:46,863 | __main__ | : Fine in pandas_ex:72
+log_setup.py | [INFO] | 2021-12-12 23:09:04,379 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-12 23:09:04,379 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-12 23:09:04,385 | __main__ | : Fine in pandas_ex:71
+log_setup.py | [INFO] | 2021-12-13 22:44:25,261 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 22:44:25,262 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 22:44:25,270 | __main__ | : Fine in pandas_ex:71
+log_setup.py | [INFO] | 2021-12-13 22:48:15,576 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 22:48:15,577 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 22:48:15,581 | __main__ | : unsupported operand type(s) for +: 'datetime.date' and 'int' in pandas_ex:68
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 65, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 59, in main
+    data_fine = add_business_day(today.date()+1, 12)
+TypeError: unsupported operand type(s) for +: 'datetime.date' and 'int'
+pandas_ex.py | [INFO] | 2021-12-13 22:48:15,584 | __main__ | : Fine in pandas_ex:71
+log_setup.py | [INFO] | 2021-12-13 22:49:20,877 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 22:49:20,878 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 22:49:20,883 | __main__ | : Fine in pandas_ex:71
+log_setup.py | [INFO] | 2021-12-13 22:49:57,146 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 22:49:57,148 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 22:49:57,162 | __main__ | : Fine in pandas_ex:71
+log_setup.py | [INFO] | 2021-12-13 23:01:25,137 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:01:25,138 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:01:25,146 | __main__ | : Fine in pandas_ex:75
+log_setup.py | [INFO] | 2021-12-13 23:01:45,729 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:01:45,730 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:01:45,734 | __main__ | : Fine in pandas_ex:75
+log_setup.py | [INFO] | 2021-12-13 23:02:28,898 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:02:28,899 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:02:28,904 | __main__ | : Fine in pandas_ex:75
+log_setup.py | [INFO] | 2021-12-13 23:03:55,902 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:03:55,902 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:03:55,920 | __main__ | : Fine in pandas_ex:77
+log_setup.py | [INFO] | 2021-12-13 23:04:21,656 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:04:21,657 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:04:21,697 | __main__ | : Fine in pandas_ex:77
+log_setup.py | [INFO] | 2021-12-13 23:07:26,737 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:07:26,739 | __main__ | : Inizio in pandas_ex:24
+log_setup.py | [INFO] | 2021-12-13 23:08:10,317 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:08:10,318 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:08:10,338 | __main__ | : Fine in pandas_ex:77
+log_setup.py | [INFO] | 2021-12-13 23:15:26,120 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:15:26,121 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:15:26,177 | __main__ | : Fine in pandas_ex:79
+log_setup.py | [INFO] | 2021-12-13 23:16:41,644 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:16:41,646 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:16:41,707 | __main__ | : Fine in pandas_ex:79
+log_setup.py | [INFO] | 2021-12-13 23:17:01,274 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:17:01,275 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:17:01,308 | __main__ | : Fine in pandas_ex:79
+log_setup.py | [INFO] | 2021-12-13 23:19:23,760 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:19:23,760 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:19:23,799 | __main__ | : Fine in pandas_ex:84
+log_setup.py | [INFO] | 2021-12-13 23:23:07,303 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:23:07,304 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:23:07,345 | __main__ | : Fine in pandas_ex:81
+log_setup.py | [INFO] | 2021-12-13 23:24:45,082 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-13 23:24:45,083 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-13 23:24:45,120 | __main__ | : Fine in pandas_ex:80
+log_setup.py | [INFO] | 2021-12-15 22:40:45,835 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:40:45,843 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:40:45,875 | __main__ | : Fine in pandas_ex:80
+log_setup.py | [INFO] | 2021-12-15 22:44:12,076 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:44:12,076 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:44:12,116 | __main__ | : Fine in pandas_ex:81
+log_setup.py | [INFO] | 2021-12-15 22:44:41,987 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:44:41,987 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:44:41,994 | __main__ | : unsupported operand type(s) for +: 'int' and 'datetime.timedelta' in pandas_ex:78
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 75, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 69, in main
+    data_fine = add_business_day(2021-12-25, i)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 51, in add_business_day
+    data_prova = data_inizio+dt.timedelta(days=float(giorni_prova))
+TypeError: unsupported operand type(s) for +: 'int' and 'datetime.timedelta'
+pandas_ex.py | [INFO] | 2021-12-15 22:44:42,002 | __main__ | : Fine in pandas_ex:81
+log_setup.py | [INFO] | 2021-12-15 22:45:56,818 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:45:56,818 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:45:56,846 | __main__ | : can only concatenate str (not "datetime.timedelta") to str in pandas_ex:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 70, in main
+    data_fine = add_business_day(date, i)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 51, in add_business_day
+    data_prova = data_inizio+dt.timedelta(days=float(giorni_prova))
+TypeError: can only concatenate str (not "datetime.timedelta") to str
+pandas_ex.py | [INFO] | 2021-12-15 22:45:56,847 | __main__ | : Fine in pandas_ex:82
+log_setup.py | [INFO] | 2021-12-15 22:46:41,442 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:46:41,442 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:46:41,456 | __main__ | : can only concatenate str (not "datetime.timedelta") to str in pandas_ex:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 70, in main
+    data_fine = add_business_day(date, i)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 51, in add_business_day
+    data_prova = data_inizio+dt.timedelta(days=float(giorni_prova))
+TypeError: can only concatenate str (not "datetime.timedelta") to str
+pandas_ex.py | [INFO] | 2021-12-15 22:46:41,456 | __main__ | : Fine in pandas_ex:82
+log_setup.py | [INFO] | 2021-12-15 22:47:07,895 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:47:07,895 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:47:07,904 | __main__ | : time data '2021-12-25' does not match format '%a %b %d %H:%M:%S %Y' in pandas_ex:79
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 76, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 68, in main
+    date = strptime("2021-12-25")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 562, in _strptime_time
+    tt = _strptime(data_string, format)[0]
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2021-12-25' does not match format '%a %b %d %H:%M:%S %Y'
+pandas_ex.py | [INFO] | 2021-12-15 22:47:07,904 | __main__ | : Fine in pandas_ex:82
+log_setup.py | [INFO] | 2021-12-15 22:49:16,782 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:49:16,782 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:49:16,823 | __main__ | : Fine in pandas_ex:83
+log_setup.py | [INFO] | 2021-12-15 22:50:53,597 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:50:53,597 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:50:53,642 | __main__ | : Fine in pandas_ex:83
+log_setup.py | [INFO] | 2021-12-15 22:51:22,782 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:51:22,782 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:51:31,012 | __main__ | : Fine in pandas_ex:83
+log_setup.py | [INFO] | 2021-12-15 22:51:45,922 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:51:45,922 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:51:49,781 | __main__ | : Fine in pandas_ex:83
+log_setup.py | [INFO] | 2021-12-15 22:55:50,240 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:55:50,240 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:55:50,240 | __main__ | : add_working_days() takes 1 positional argument but 2 were given in pandas_ex:107
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 104, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 98, in main
+    data_fine = add_working_days(date, i)
+TypeError: add_working_days() takes 1 positional argument but 2 were given
+pandas_ex.py | [INFO] | 2021-12-15 22:55:50,240 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 22:56:08,207 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:56:08,207 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:56:08,217 | __main__ | : 'tuple' object does not support item assignment in pandas_ex:107
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 104, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 98, in main
+    data_fine = add_working_days(date, i)
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 59, in add_working_days
+    x[0] = test_date
+TypeError: 'tuple' object does not support item assignment
+pandas_ex.py | [INFO] | 2021-12-15 22:56:08,217 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 22:57:19,047 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:57:19,047 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:57:19,049 | __main__ | : tuple index out of range in pandas_ex:107
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 104, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 98, in main
+    data_fine = add_working_days((date, i))
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 50, in add_working_days
+    while days_elapsed < x[1]:
+IndexError: tuple index out of range
+pandas_ex.py | [INFO] | 2021-12-15 22:57:19,057 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 22:57:51,930 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:57:51,930 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:57:51,934 | __main__ | : 'tuple' object does not support item assignment in pandas_ex:107
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 104, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 98, in main
+    data_fine = add_working_days((date, i))
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 59, in add_working_days
+    x[0] = test_date
+TypeError: 'tuple' object does not support item assignment
+pandas_ex.py | [INFO] | 2021-12-15 22:57:51,939 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 22:58:46,586 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:58:46,586 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:58:46,594 | __main__ | : 'datetime.date' object has no attribute 'to_pydatetime' in pandas_ex:107
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 104, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 98, in main
+    data_fine = add_working_days([date, i])
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 61, in add_working_days
+    if test_date.weekday() > 5 or test_date.to_pydatetime().date() in list_hol:
+AttributeError: 'datetime.date' object has no attribute 'to_pydatetime'
+pandas_ex.py | [INFO] | 2021-12-15 22:58:46,600 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 22:59:29,314 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:59:29,314 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:59:29,324 | __main__ | : 'datetime.date' object has no attribute 'date' in pandas_ex:107
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 104, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 98, in main
+    data_fine = add_working_days([date, i])
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 61, in add_working_days
+    if test_date.weekday() > 5 or test_date.date() in list_hol:
+AttributeError: 'datetime.date' object has no attribute 'date'
+pandas_ex.py | [INFO] | 2021-12-15 22:59:29,324 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 22:59:45,624 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 22:59:45,632 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 22:59:45,904 | __main__ | : Fine in pandas_ex:110
+log_setup.py | [INFO] | 2021-12-15 23:00:45,686 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:00:45,686 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:00:45,698 | __main__ | : add_business_days() missing 1 required positional argument: 'giorni_da_aggiungere' in pandas_ex:108
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 105, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 99, in main
+    data_fine = add_business_days([date, i])
+TypeError: add_business_days() missing 1 required positional argument: 'giorni_da_aggiungere'
+pandas_ex.py | [INFO] | 2021-12-15 23:00:45,702 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:00:58,735 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:00:58,735 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:01:02,846 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:01:13,845 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:01:13,845 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:01:18,440 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:01:24,244 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:01:24,244 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:01:28,346 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:01:44,734 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:01:44,734 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:01:45,238 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:02:58,818 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:02:58,818 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:03:00,381 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:03:57,940 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:03:57,948 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:04:00,125 | __main__ | : Fine in pandas_ex:111
+log_setup.py | [INFO] | 2021-12-15 23:07:37,024 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:07:37,024 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:07:38,392 | __main__ | : Fine in pandas_ex:100
+log_setup.py | [INFO] | 2021-12-15 23:08:21,618 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2021-12-15 23:08:21,618 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2021-12-15 23:08:22,841 | __main__ | : Fine in pandas_ex:100
+log_setup.py | [INFO] | 2022-02-14 16:13:44,565 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2022-02-14 16:13:44,568 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2022-02-14 16:13:45,282 | __main__ | : Fine in pandas_ex:99
+log_setup.py | [INFO] | 2022-02-14 16:15:25,540 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2022-02-14 16:15:25,541 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2022-02-14 16:15:30,317 | __main__ | : Fine in pandas_ex:99
+log_setup.py | [INFO] | 2022-02-14 16:18:19,709 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2022-02-14 16:18:19,710 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2022-02-14 16:18:19,716 | __main__ | : name 'data_fine_wor' is not defined in pandas_ex:96
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 93, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pandas_ex/pandas_ex.py", line 88, in main
+    print("Giorni da aggiungere", i, data_fine_wor, data_fine_bus)
+NameError: name 'data_fine_wor' is not defined
+pandas_ex.py | [INFO] | 2022-02-14 16:18:19,719 | __main__ | : Fine in pandas_ex:99
+log_setup.py | [INFO] | 2022-02-14 16:18:54,438 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2022-02-14 16:18:54,439 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2022-02-14 16:18:58,557 | __main__ | : Fine in pandas_ex:99
+log_setup.py | [INFO] | 2022-02-14 16:19:13,810 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
+pandas_ex.py | [INFO] | 2022-02-14 16:19:13,811 | __main__ | : Inizio in pandas_ex:24
+pandas_ex.py | [INFO] | 2022-02-14 16:19:14,517 | __main__ | : Fine in pandas_ex:99

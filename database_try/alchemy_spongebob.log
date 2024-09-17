@@ -1,0 +1,181 @@
+log_setup.py | [INFO] | 2022-03-29 22:44:51,526 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:44:51,526 | __main__ | : Inizio in alchemy_spongebob:26
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:44:51,735 | __main__ | : Fine - Elapsed Time: 0.2051908 in alchemy_spongebob:74
+log_setup.py | [INFO] | 2022-03-29 22:46:43,451 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:46:43,451 | __main__ | : Inizio in alchemy_spongebob:27
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:46:43,549 | __main__ | : Fine - Elapsed Time: 0.09267990000000004 in alchemy_spongebob:96
+log_setup.py | [INFO] | 2022-03-29 22:49:21,475 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:49:21,475 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:49:21,537 | __main__ | : Fine - Elapsed Time: 0.06397339999999996 in alchemy_spongebob:105
+log_setup.py | [INFO] | 2022-03-29 22:51:25,884 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:51:25,884 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:51:25,938 | __main__ | : Multiple rows were found when exactly one was required in alchemy_spongebob:108
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 105, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 100, in main
+    selezione()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 92, in selezione
+    sandy_address = session.scalars(stmt).one()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 1408, in one
+    return self._only_one_row(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\result.py", line 614, in _only_one_row
+    raise exc.MultipleResultsFound(
+sqlalchemy.exc.MultipleResultsFound: Multiple rows were found when exactly one was required
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:51:25,962 | __main__ | : Fine - Elapsed Time: 0.07546399999999998 in alchemy_spongebob:114
+log_setup.py | [INFO] | 2022-03-29 22:52:07,711 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:52:07,711 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:52:07,769 | __main__ | : Fine - Elapsed Time: 0.05676490000000001 in alchemy_spongebob:114
+log_setup.py | [INFO] | 2022-03-29 22:52:53,505 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:52:53,505 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:52:53,561 | __main__ | : Fine - Elapsed Time: 0.05644159999999998 in alchemy_spongebob:115
+log_setup.py | [INFO] | 2022-03-29 22:53:27,587 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:53:27,587 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:53:27,647 | __main__ | : Fine - Elapsed Time: 0.062162699999999904 in alchemy_spongebob:125
+log_setup.py | [INFO] | 2022-03-29 22:53:50,961 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:53:50,969 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:53:51,027 | __main__ | : 'Address' object is not iterable in alchemy_spongebob:119
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 116, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 111, in main
+    selezione()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 103, in selezione
+    for address in sandy_address:
+TypeError: 'Address' object is not iterable
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:53:51,027 | __main__ | : Fine - Elapsed Time: 0.06368280000000004 in alchemy_spongebob:125
+log_setup.py | [INFO] | 2022-03-29 22:54:12,877 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:54:12,877 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:54:12,939 | __main__ | : Fine - Elapsed Time: 0.059871499999999966 in alchemy_spongebob:124
+log_setup.py | [INFO] | 2022-03-29 22:55:06,806 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:55:06,806 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-29 22:55:06,857 | __main__ | : Fine - Elapsed Time: 0.04508719999999977 in alchemy_spongebob:124
+log_setup.py | [INFO] | 2022-03-31 21:19:00,470 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 21:19:00,470 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 21:19:00,519 | __main__ | : Fine - Elapsed Time: 0.045707300000000006 in alchemy_spongebob:96
+log_setup.py | [INFO] | 2022-03-31 21:50:54,767 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 21:50:54,767 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 21:50:54,791 | __main__ | : Fine - Elapsed Time: 0.03001140000000002 in alchemy_spongebob:95
+log_setup.py | [INFO] | 2022-03-31 22:15:41,928 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:15:41,928 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:15:41,941 | __main__ | : IdentitySet([]) in alchemy_spongebob:83
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:15:41,941 | __main__ | : Fine - Elapsed Time: 0.012409299999999845 in alchemy_spongebob:106
+log_setup.py | [INFO] | 2022-03-31 22:17:54,232 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:17:54,232 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:17:54,252 | __main__ | : IdentitySet([]) in alchemy_spongebob:84
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:17:54,252 | __main__ | : Fine - Elapsed Time: 0.020927299999999982 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:19:34,971 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:19:34,971 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:19:34,987 | __main__ | : IdentitySet([User(id=1, name='spongebob', fullname='SpongeBob Roundpant')]) in alchemy_spongebob:84
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:19:35,020 | __main__ | : Fine - Elapsed Time: 0.04987429999999993 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:20:49,996 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:20:49,996 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:20:50,020 | __main__ | : (sqlite3.InterfaceError) Error binding parameter 0 - probably unsupported type.
+[SQL: SELECT user_account.id, user_account.name, user_account.fullname 
+FROM user_account 
+WHERE user_account.name = ?]
+[parameters: (['spongebob'],)]
+(Background on this error at: https://sqlalche.me/e/14/rvf5) in alchemy_spongebob:101
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.InterfaceError: Error binding parameter 0 - probably unsupported type.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 98, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 93, in main
+    aggiornamento()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 81, in aggiornamento
+    spongebob = session.scalars(stmt).one()
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1751, in scalars
+    return self.execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1620, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\sql\elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1487, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1851, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 2032, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\base.py", line 1808, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.InterfaceError: (sqlite3.InterfaceError) Error binding parameter 0 - probably unsupported type.
+[SQL: SELECT user_account.id, user_account.name, user_account.fullname 
+FROM user_account 
+WHERE user_account.name = ?]
+[parameters: (['spongebob'],)]
+(Background on this error at: https://sqlalche.me/e/14/rvf5)
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:20:50,172 | __main__ | : Fine - Elapsed Time: 0.17320919999999995 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:21:35,949 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:21:35,949 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:21:35,973 | __main__ | : IdentitySet([User(id=1, name='spongebob', fullname='SpongeBob Roundpant')]) in alchemy_spongebob:84
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:21:35,973 | __main__ | : Fine - Elapsed Time: 0.024137399999999976 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:22:01,681 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:22:01,681 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:22:01,697 | __main__ | : IdentitySet([User(id=1, name='spongebob', fullname='SpongeBob Squarepant')]) in alchemy_spongebob:84
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:22:01,723 | __main__ | : Fine - Elapsed Time: 0.04380000000000006 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:22:39,804 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:22:39,804 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:22:39,820 | __main__ | : IdentitySet([User(id=1, name='spongebob', fullname='SpongeBob Squarepant')]) in alchemy_spongebob:84
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:22:39,820 | __main__ | : Fine - Elapsed Time: 0.022230500000000042 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:35:04,023 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:35:04,023 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:35:04,041 | __main__ | : IdentitySet([User(id=1, name='spongebob', fullname='SpongeBob Squarepant')]) in alchemy_spongebob:84
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:35:04,041 | __main__ | : Fine - Elapsed Time: 0.019549700000000003 in alchemy_spongebob:107
+log_setup.py | [INFO] | 2022-03-31 22:50:14,312 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:50:14,312 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:50:14,384 | __main__ | : Fine - Elapsed Time: 0.07381529999999992 in alchemy_spongebob:118
+log_setup.py | [INFO] | 2022-03-31 22:53:31,243 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:53:31,243 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:53:31,288 | __main__ | : Fine - Elapsed Time: 0.04380790000000001 in alchemy_spongebob:122
+log_setup.py | [INFO] | 2022-03-31 22:55:04,601 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:55:04,601 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:55:04,625 | __main__ | : 'User' object has no attribute 'delete' in alchemy_spongebob:131
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 128, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 123, in main
+    cancellazione()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 113, in cancellazione
+    pippucchio.delete()
+AttributeError: 'User' object has no attribute 'delete'
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:55:04,625 | __main__ | : Fine - Elapsed Time: 0.025572599999999945 in alchemy_spongebob:137
+log_setup.py | [INFO] | 2022-03-31 22:55:49,241 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:55:49,249 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:55:49,289 | __main__ | : Fine - Elapsed Time: 0.048820399999999986 in alchemy_spongebob:137
+log_setup.py | [INFO] | 2022-03-31 22:58:11,941 | __main__ | : Log Setup Completed, called from alchemy_spongebob in log_setup:54
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:58:11,941 | __main__ | : Inizio in alchemy_spongebob:28
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:58:11,965 | __main__ | : Class 'builtins.NoneType' is not mapped in alchemy_spongebob:131
+Traceback (most recent call last):
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 2637, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 128, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 123, in main
+    cancellazione()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/database_try/alchemy_spongebob.py", line 113, in cancellazione
+    session.delete(pippucchio)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\orm\session.py", line 2639, in delete
+    util.raise_(
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+alchemy_spongebob.py | [INFO] | 2022-03-31 22:58:11,981 | __main__ | : Fine - Elapsed Time: 0.041555600000000026 in alchemy_spongebob:137

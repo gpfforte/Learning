@@ -1,0 +1,32 @@
+log_setup.py | [INFO] | 2023-02-25 22:37:52,765 | __main__ | : Log Setup Completed, called from scrape_corriere in log_setup:54
+scrape_corriere.py | [INFO] | 2023-02-25 22:37:52,765 | __main__ | : Inizio in scrape_corriere:21
+scrape_corriere.py | [INFO] | 2023-02-25 22:37:54,467 | __main__ | : local variable 'link' referenced before assignment in scrape_corriere:69
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape_corriere.py", line 66, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape_corriere.py", line 61, in main
+    csv_writer.writerow([headline, subheadline, link, dettaglio])
+UnboundLocalError: local variable 'link' referenced before assignment
+scrape_corriere.py | [INFO] | 2023-02-25 22:37:54,475 | __main__ | : Fine - Elapsed Time: 1.7116826000000003 in scrape_corriere:75
+log_setup.py | [INFO] | 2023-02-25 22:38:31,802 | __main__ | : Log Setup Completed, called from scrape_corriere in log_setup:54
+scrape_corriere.py | [INFO] | 2023-02-25 22:38:31,802 | __main__ | : Inizio in scrape_corriere:21
+log_setup.py | [INFO] | 2023-02-25 22:44:30,040 | __main__ | : Log Setup Completed, called from scrape_corriere in log_setup:54
+scrape_corriere.py | [INFO] | 2023-02-25 22:44:30,040 | __main__ | : Inizio in scrape_corriere:21
+scrape_corriere.py | [INFO] | 2023-02-25 22:44:30,963 | __main__ | : local variable 'i' referenced before assignment in scrape_corriere:76
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape_corriere.py", line 52, in main
+    i += 1
+UnboundLocalError: local variable 'i' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape_corriere.py", line 73, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/scrape_corriere.py", line 59, in main
+    i += 1
+UnboundLocalError: local variable 'i' referenced before assignment
+scrape_corriere.py | [INFO] | 2023-02-25 22:44:30,963 | __main__ | : Fine - Elapsed Time: 0.9211572000000001 in scrape_corriere:82
+log_setup.py | [INFO] | 2023-02-25 22:45:03,771 | __main__ | : Log Setup Completed, called from scrape_corriere in log_setup:54
+scrape_corriere.py | [INFO] | 2023-02-25 22:45:03,787 | __main__ | : Inizio in scrape_corriere:21
+scrape_corriere.py | [INFO] | 2023-02-25 22:45:06,885 | __main__ | : Fine - Elapsed Time: 3.1027919000000006 in scrape_corriere:83

@@ -1,0 +1,84 @@
+log_setup.py | [INFO] | 2022-05-31 13:08:44,862 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2022-05-31 13:08:44,863 | __main__ | : Inizio in merge_pdf:26
+merge_pdf.py | [INFO] | 2022-05-31 13:08:44,864 | __main__ | : Fine in merge_pdf:61
+log_setup.py | [INFO] | 2022-05-31 13:09:51,222 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2022-05-31 13:09:51,223 | __main__ | : Inizio in merge_pdf:26
+merge_pdf.py | [INFO] | 2022-05-31 13:09:51,224 | __main__ | : Fine in merge_pdf:61
+merge_pdf.py | [INFO] | 2022-05-31 13:09:51,226 | __main__ | : Elapsed Time: 0.003457799999999983 in merge_pdf:63
+log_setup.py | [INFO] | 2023-02-09 16:28:26,378 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-02-09 16:28:26,380 | __main__ | : Inizio in merge_pdf:25
+merge_pdf.py | [INFO] | 2023-02-09 16:28:26,386 | __main__ | : [Errno 2] No such file or directory: '20230209141351077.pdf' in merge_pdf:57
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pdfcode/merge_pdf.py", line 54, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/pdfcode/merge_pdf.py", line 41, in main
+    merger.append(open(pdf, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '20230209141351077.pdf'
+merge_pdf.py | [INFO] | 2023-02-09 16:28:26,389 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-02-09 16:28:26,391 | __main__ | : Elapsed Time: 0.013448600000000033 in merge_pdf:62
+log_setup.py | [INFO] | 2023-02-09 16:30:37,237 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-02-09 16:30:37,237 | __main__ | : Inizio in merge_pdf:25
+merge_pdf.py | [INFO] | 2023-02-09 16:30:37,988 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-02-09 16:30:37,990 | __main__ | : Elapsed Time: 0.7547135 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:01:51,556 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:01:52,040 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:01:52,041 | __main__ | : PdfFileMerger is deprecated and was removed in PyPDF2 3.0.0. Use PdfMerger instead. in merge_pdf:57
+Traceback (most recent call last):
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\pdfcode\merge_pdf.py", line 54, in <module>
+    main()
+  File "c:\Users\forteg\OneDrive - Fratelli Carli Spa\Desktop\Python\Training\pdfcode\merge_pdf.py", line 38, in main
+    merger = PdfFileMerger(strict=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyPDF2\_merger.py", line 817, in __init__
+    deprecation_with_replacement("PdfFileMerger", "PdfMerger", "3.0.0")
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyPDF2\_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+  File "C:\Users\forteg\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyPDF2\_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileMerger is deprecated and was removed in PyPDF2 3.0.0. Use PdfMerger instead.
+merge_pdf.py | [INFO] | 2023-08-21 13:01:52,042 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:01:52,043 | __main__ | : Elapsed Time: 0.4873654999992141 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:04:07,132 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:04:07,133 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:04:07,773 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:04:07,774 | __main__ | : Elapsed Time: 0.6438653999994131 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:10:10,903 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:10:10,904 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:10:10,905 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:10:10,906 | __main__ | : Elapsed Time: 0.004279299999325303 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:10:22,881 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:10:22,883 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:10:23,171 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:10:23,172 | __main__ | : Elapsed Time: 0.2919712000002619 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:12:17,813 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:12:17,816 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:12:18,453 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:12:18,455 | __main__ | : Elapsed Time: 0.6428011000007245 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:16:08,996 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:16:08,997 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:16:09,223 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:16:09,224 | __main__ | : Elapsed Time: 0.2288659000005282 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:18:14,320 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:18:14,321 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:18:14,567 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:18:14,567 | __main__ | : Elapsed Time: 0.24844149999989895 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-21 13:23:35,269 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-21 13:23:35,270 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-21 13:23:35,544 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-21 13:23:35,545 | __main__ | : Elapsed Time: 0.2755706999996619 in merge_pdf:62
+log_setup.py | [INFO] | 2023-08-24 22:08:53,433 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:54
+merge_pdf.py | [INFO] | 2023-08-24 22:08:53,436 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2023-08-24 22:08:54,030 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2023-08-24 22:08:54,031 | __main__ | : Elapsed Time: 0.5989753999999721 in merge_pdf:62
+log_setup.py | [INFO] | 2024-06-19 17:42:51,607 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:56
+merge_pdf.py | [INFO] | 2024-06-19 17:42:51,609 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2024-06-19 17:42:51,692 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2024-06-19 17:42:51,692 | __main__ | : Elapsed Time: 0.08653990000311751 in merge_pdf:62
+log_setup.py | [INFO] | 2024-06-19 17:43:34,110 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:56
+merge_pdf.py | [INFO] | 2024-06-19 17:43:34,111 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2024-06-19 17:43:34,112 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2024-06-19 17:43:34,112 | __main__ | : Elapsed Time: 0.0026406999968457967 in merge_pdf:62
+log_setup.py | [INFO] | 2024-06-19 17:43:52,763 | __main__ | : Log Setup Completed, called from merge_pdf in log_setup:56
+merge_pdf.py | [INFO] | 2024-06-19 17:43:52,763 | __main__ | : Inizio in merge_pdf:27
+merge_pdf.py | [INFO] | 2024-06-19 17:43:52,834 | __main__ | : Fine in merge_pdf:60
+merge_pdf.py | [INFO] | 2024-06-19 17:43:52,835 | __main__ | : Elapsed Time: 0.07316960000025574 in merge_pdf:62

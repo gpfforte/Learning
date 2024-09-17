@@ -1,0 +1,26 @@
+log_setup.py | [INFO] | 2023-05-17 18:56:38,026 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+mqtthub_forever.py | [INFO] | 2023-05-17 18:56:38,485 | __main__ | : subscribe() got multiple values for argument 'qos' in mqtthub_forever:85
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/mqtt/mqtthub_forever.py", line 82, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/mqtt/mqtthub_forever.py", line 76, in main
+    client.subscribe(argomento_pub, "OFF", qos=1)
+TypeError: subscribe() got multiple values for argument 'qos'
+log_setup.py | [INFO] | 2023-05-17 18:57:17,003 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-17 18:59:03,188 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-17 19:00:43,633 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+mqtthub_forever.py | [INFO] | 2023-05-17 19:00:43,893 | __main__ | : Publish topic cannot contain wildcards. in mqtthub_forever:75
+Traceback (most recent call last):
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/mqtt/mqtthub_forever.py", line 72, in <module>
+    main()
+  File "c:/Users/forteg/OneDrive - Fratelli Carli Spa/Desktop/Python/Training/mqtt/mqtthub_forever.py", line 66, in main
+    client.publish(argomento_sub, "CIAO", qos=1)
+  File "C:\Users\forteg\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\paho\mqtt\client.py", line 1249, in publish
+    raise ValueError('Publish topic cannot contain wildcards.')
+ValueError: Publish topic cannot contain wildcards.
+log_setup.py | [INFO] | 2023-05-17 19:00:58,471 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-17 19:01:11,407 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-25 21:58:51,882 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-25 22:04:24,695 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-25 22:06:02,812 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54
+log_setup.py | [INFO] | 2023-05-25 22:07:51,135 | __main__ | : Log Setup Completed, called from mqtthub_forever in log_setup:54

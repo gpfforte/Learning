@@ -1,0 +1,19 @@
+log_setup.py | [INFO] | 2022-09-07 10:05:21,845 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+log_setup.py | [INFO] | 2022-09-07 10:07:20,960 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+log_setup.py | [INFO] | 2022-09-07 10:09:45,519 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+log_setup.py | [INFO] | 2022-09-07 10:11:36,123 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:11:36,334 | __main__ | : Fine - Elapsed Time: 0.21167709999999995 in data_base:55
+log_setup.py | [INFO] | 2022-09-07 10:16:25,174 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:16:28,066 | __main__ | : Fine - Elapsed Time: 2.8915363999999997 in data_base:80
+log_setup.py | [INFO] | 2022-09-07 10:17:41,949 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:17:42,286 | __main__ | : Fine - Elapsed Time: 0.3322795999999999 in data_base:66
+log_setup.py | [INFO] | 2022-09-07 10:18:11,833 | __main__ | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:18:12,172 | __main__ | : Fine - Elapsed Time: 0.3289911000000001 in data_base:66
+log_setup.py | [INFO] | 2022-09-07 10:38:38,020 | data_base | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:38:38,344 | data_base | : Fine - Elapsed Time: 0.32501120000000006 in data_base:66
+log_setup.py | [INFO] | 2022-09-07 10:39:05,751 | data_base | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:39:05,977 | data_base | : Fine - Elapsed Time: 0.21919230000000012 in data_base:70
+log_setup.py | [INFO] | 2022-09-07 10:39:44,148 | data_base | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:39:44,377 | data_base | : Fine - Elapsed Time: 0.23563660000000008 in data_base:70
+log_setup.py | [INFO] | 2022-09-07 10:42:54,612 | data_base | : Log Setup Completed, called from data_base in log_setup:54
+data_base.py | [INFO] | 2022-09-07 10:42:54,882 | data_base | : Fine - Elapsed Time: 0.273193 in data_base:70

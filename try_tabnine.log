@@ -1,0 +1,18 @@
+log_setup.py | [INFO] | 2022-04-06 22:53:45,006 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
+try_tabnine.py | [INFO] | 2022-04-06 22:53:45,007 | __main__ | : Inizio in try_tabnine:19
+try_tabnine.py | [INFO] | 2022-04-06 22:53:45,011 | __main__ | : Fine - Elapsed Time: 0.0045892000000000155 in try_tabnine:50
+log_setup.py | [INFO] | 2022-04-06 22:57:48,971 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
+try_tabnine.py | [INFO] | 2022-04-06 22:57:48,971 | __main__ | : Inizio in try_tabnine:19
+try_tabnine.py | [INFO] | 2022-04-06 22:57:48,982 | __main__ | : Fine - Elapsed Time: 0.00972809999999999 in try_tabnine:52
+log_setup.py | [INFO] | 2022-04-06 22:58:52,815 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
+try_tabnine.py | [INFO] | 2022-04-06 22:58:52,815 | __main__ | : Inizio in try_tabnine:19
+try_tabnine.py | [INFO] | 2022-04-06 22:58:52,823 | __main__ | : Fine - Elapsed Time: 0.00938159999999999 in try_tabnine:52
+log_setup.py | [INFO] | 2022-04-06 23:00:03,029 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
+try_tabnine.py | [INFO] | 2022-04-06 23:00:03,029 | __main__ | : Inizio in try_tabnine:19
+try_tabnine.py | [INFO] | 2022-04-06 23:00:03,037 | __main__ | : Fine - Elapsed Time: 0.008567900000000017 in try_tabnine:54
+log_setup.py | [INFO] | 2022-04-07 22:15:25,796 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
+try_tabnine.py | [INFO] | 2022-04-07 22:15:25,796 | __main__ | : Inizio in try_tabnine:19
+try_tabnine.py | [INFO] | 2022-04-07 22:15:25,846 | __main__ | : Fine - Elapsed Time: 0.03991670000000003 in try_tabnine:54
+log_setup.py | [INFO] | 2022-04-07 22:18:29,651 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
+try_tabnine.py | [INFO] | 2022-04-07 22:18:29,651 | __main__ | : Inizio in try_tabnine:19
+try_tabnine.py | [INFO] | 2022-04-07 22:18:29,671 | __main__ | : Fine - Elapsed Time: 0.015193100000000015 in try_tabnine:54
