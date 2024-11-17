@@ -345,3 +345,6 @@ pandas_ex.py | [INFO] | 2022-02-14 16:18:58,557 | __main__ | : Fine in pandas_ex
 log_setup.py | [INFO] | 2022-02-14 16:19:13,810 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:54
 pandas_ex.py | [INFO] | 2022-02-14 16:19:13,811 | __main__ | : Inizio in pandas_ex:24
 pandas_ex.py | [INFO] | 2022-02-14 16:19:14,517 | __main__ | : Fine in pandas_ex:99
+log_setup.py | [INFO] | 2024-11-16 21:58:39,473 | __main__ | : Log Setup Completed, called from pandas_ex in log_setup:56
+pandas_ex.py | [INFO] | 2024-11-16 21:58:39,473 | __main__ | : Inizio in pandas_ex:23
+pandas_ex.py | [INFO] | 2024-11-16 21:58:39,837 | __main__ | : Fine in pandas_ex:112

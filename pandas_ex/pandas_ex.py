@@ -5,7 +5,6 @@ from time import perf_counter, strftime, strptime
 import os
 import pandas as pd
 import os
-import pyodbc
 import numpy as np
 import holidays
 import datetime as dt
