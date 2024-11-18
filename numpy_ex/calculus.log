@@ -43,3 +43,12 @@ calculus.py | [INFO] | 2022-10-18 22:44:42,103 | __main__ | : Fine in calculus:6
 log_setup.py | [INFO] | 2022-10-18 22:44:54,213 | __main__ | : Log Setup Completed, called from calculus in log_setup:54
 calculus.py | [INFO] | 2022-10-18 22:44:54,213 | __main__ | : Inizio in calculus:24
 calculus.py | [INFO] | 2022-10-18 22:45:00,473 | __main__ | : Fine in calculus:61
+log_setup.py | [INFO] | 2024-11-18 22:23:40,061 | __main__ | : Log Setup Completed, called from calculus in log_setup:56
+calculus.py | [INFO] | 2024-11-18 22:23:40,061 | __main__ | : Inizio in calculus:25
+calculus.py | [INFO] | 2024-11-18 22:23:56,328 | __main__ | : Fine in calculus:61
+log_setup.py | [INFO] | 2024-11-18 22:28:39,987 | __main__ | : Log Setup Completed, called from calculus in log_setup:56
+calculus.py | [INFO] | 2024-11-18 22:28:39,987 | __main__ | : Inizio in calculus:23
+calculus.py | [INFO] | 2024-11-18 22:28:42,587 | __main__ | : Fine in calculus:59
+log_setup.py | [INFO] | 2024-11-18 22:29:16,530 | __main__ | : Log Setup Completed, called from calculus in log_setup:56
+calculus.py | [INFO] | 2024-11-18 22:29:16,530 | __main__ | : Inizio in calculus:21
+calculus.py | [INFO] | 2024-11-18 22:29:18,939 | __main__ | : Fine in calculus:57

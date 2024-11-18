@@ -1,15 +1,11 @@
 from logging import DEBUG
-from datetime import datetime, timedelta
-from tkinter import Label
 
-from numpy.core.shape_base import vstack
 from servizio import log_setup
 import os
 from time import perf_counter
 import os
 import numpy as np
 import pandas as pd
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 start = perf_counter()
@@ -21,7 +17,7 @@ os.chdir(dname)
 # Setta il log
 filename, _ = os.path.splitext(os.path.basename(__file__))
 logger = log_setup.logging_setup(
-    nomefile=filename, levelfile="DEBUG", name=__name__)
+    nomefile=filename, levelfile=DEBUG, name=__name__)
 logger.info("Inizio")
 
 PROVA = bool(os.environ.get("AMBIENTE_DI_PROVA") == "SI")

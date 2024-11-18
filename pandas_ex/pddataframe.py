@@ -15,9 +15,11 @@ print(type(my_series1))
 my_series3=my_series1+my_series2
 # Aggiunta di un elemento ad una serie, ho trovato solo append che funzioan tra serie, quindi
 # occorre prima trasformare in serie l'elemento da aggiungere
-my_series4=my_series1.append(pd.Series({"z": 7}))
+
+# my_series4=my_series1[len(my_series1)]=pd.Series({"z": 7})
+my_series4=my_series1._append(pd.Series({"z": 7}))
 print(my_series3)
-print(my_series4)
+print("my_series4", my_series4, sep="\n")
 print(my_series4.mean(), np.mean(my_series4))
 print(my_series4.std(ddof=True), np.std(my_series4, ddof=True))
 print(my_series4.std(ddof=False), np.std(my_series4, ddof=False))

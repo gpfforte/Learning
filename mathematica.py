@@ -10,7 +10,8 @@ dname = os.path.dirname(abspath)
 os.chdir(dname)
 print(plt.style.available)
 # plt.style.use("seaborn-v0_8")
-plt.style.use("ggplot")
+# plt.style.use("ggplot")
+plt.style.use("dark_background")
 
 fig1, (ax1, ax2, ax3) = plt.subplots(3, 1, sharex=True, figsize=(6, 6))
 
@@ -32,9 +33,10 @@ x = np.linspace(0, 10, 11)
 y = [3.9, 4.4, 10.8, 10.3, 11.2, 13.1, 14.1, 9.9, 13.9, 15.1, 12.5]
 
 
-# fit a linear curve an estimate its y-values and their error.
+# fit a linear curve and estimate its y-values and their error.
 a, b = np.polyfit(x, y, deg=1)
 y_est = a * x + b
+print("x.std()", x.std())
 y_err = x.std() * np.sqrt(
     1 / len(x) + (x - x.mean()) ** 2 / np.sum((x - x.mean()) ** 2)
 )
