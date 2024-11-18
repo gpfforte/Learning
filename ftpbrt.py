@@ -6,7 +6,7 @@ import os
 
 strServer = "ftp.brt.it"
 strUtente = "0040114"
-strPwd = "frat1815"
+strPwd = ""
 path="//carlidisk/trasporti/Trasporto secondario/Vettori/BRT/Consuntivi/"
 
 start = datetime.now()

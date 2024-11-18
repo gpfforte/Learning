@@ -1,6 +1,7 @@
 import memory_profiler as mem_profile
 import random
 import time
+from rich import print
 
 names = ['John', 'Corey', 'Adam', 'Steve', 'Rick', 'Thomas']
 majors = ['Math', 'Engineering', 'CompSci', 'Arts', 'Business']

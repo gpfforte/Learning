@@ -8,7 +8,9 @@ from matplotlib import pyplot as plt
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
-plt.style.use("seaborn")
+print(plt.style.available)
+# plt.style.use("seaborn-v0_8")
+plt.style.use("ggplot")
 
 fig1, (ax1, ax2, ax3) = plt.subplots(3, 1, sharex=True, figsize=(6, 6))
 

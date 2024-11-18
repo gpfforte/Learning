@@ -8,6 +8,7 @@ import os
 import numpy as np
 import holidays
 import datetime as dt
+from rich import print
 
 
 start = perf_counter()
