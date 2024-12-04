@@ -10,22 +10,6 @@
                 }
             ]
         }
-    ]
-}
-
-
-{
-    "dati": [
-        {
-            "chiave1": [
-                {
-                    "chiave2": [
-                        {"valore1": 10, "valore2": 20},
-                        {"valore1": 15, "valore2": 25}
-                    ]
-                }
-            ]
-        }
     ],
     "dote": [
         {
