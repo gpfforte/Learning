@@ -1,8 +1,9 @@
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'servizio'))
-import log_setup
+from servizio import log_setup
 import prova
+import logging
+
 
 # Setta la working directory al path dello script
 abspath = os.path.abspath(__file__)
@@ -14,10 +15,15 @@ logger = log_setup.logging_setup(
     nomefile=filename, levelfile="DEBUG", name=__name__)
 
 logger.info("Inizio")
+def main():
+    for item in range(10):
+        logger.info(item)
 
-for item in range(10):
-    logger.debug(item)
+    prova.main()
 
-prova.main()
+
 
 logger.info("Fine")
+
+if __name__ == "__main__":
+    main()

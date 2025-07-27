@@ -1,7 +1,8 @@
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'servizio'))
-import log_setup
+import logging
+
+import servizio.log_setup as log_setup
 
 
 # Setta la working directory al path dello script
@@ -18,7 +19,9 @@ logger.info(msg)
 
 def main():
     logger.info("Main in Prova")
-    pass
+
+
+
 
 if __name__=="__main__":
     main()

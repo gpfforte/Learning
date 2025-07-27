@@ -41,3 +41,193 @@ prova.py | [INFO] | 2021-07-01 11:26:46,513 | prova | : Main in Prova in prova:2
 log_setup.py | [INFO] | 2021-07-01 11:28:33,689 | prova | : Log Setup Completed, called from prova in log_setup:28
 prova.py | [INFO] | 2021-07-01 11:28:33,690 | prova | : Ciao in prova:17
 prova.py | [INFO] | 2021-07-01 11:28:33,693 | prova | : Main in Prova in prova:20
+log_setup.py | [DEBUG] | 2025-07-27 14:55:55,402 | prova | : Root Handlers: [] in log_setup:74
+log_setup.py | [DEBUG] | 2025-07-27 14:55:55,402 | prova | : Log Setup Completed, called from prova in log_setup:75
+log_setup.py | [DEBUG] | 2025-07-27 14:55:55,403 | prova | : main_logger: <Logger prova (DEBUG)> in log_setup:76
+log_setup.py | [DEBUG] | 2025-07-27 14:55:55,403 | prova | : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>] in log_setup:77
+prova.py | [INFO] | 2025-07-27 14:55:55,403 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 14:55:55,404 | prova | : Main in Prova in prova:20
+log_setup.py | [DEBUG] | 2025-07-27 14:57:06,992 | prova | : Root Handlers: [] in log_setup:74
+log_setup.py | [DEBUG] | 2025-07-27 14:57:06,992 | prova | : Log Setup Completed, called from prova in log_setup:75
+log_setup.py | [DEBUG] | 2025-07-27 14:57:06,992 | prova | : main_logger: <Logger prova (DEBUG)> in log_setup:76
+log_setup.py | [DEBUG] | 2025-07-27 14:57:06,992 | prova | : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>] in log_setup:77
+prova.py | [INFO] | 2025-07-27 14:57:06,992 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 14:57:06,993 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2025-07-27 14:58:31,371 | __main__ | : Log Setup Completed, called from prova in log_setup:56
+prova.py | [INFO] | 2025-07-27 14:58:31,371 | __main__ | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 14:58:31,372 | __main__ | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2025-07-27 14:58:53,287 | prova | : Log Setup Completed, called from prova in log_setup:56
+prova.py | [INFO] | 2025-07-27 14:58:53,287 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 14:58:53,288 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2025-07-27 14:59:38,300 | prova | : Log Setup Completed, called from prova in log_setup:56
+prova.py | [INFO] | 2025-07-27 14:59:38,300 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 14:59:38,301 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2025-07-27 15:01:30,107 | prova | : Log Setup Completed, called from prova in log_setup:56
+prova.py | [INFO] | 2025-07-27 15:01:30,107 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 15:01:30,108 | prova | : Main in Prova in prova:20
+log_setup.py | [INFO] | 2025-07-27 15:03:38,389 | prova | : Log Setup Completed, called from prova in log_setup:57
+prova.py | [INFO] | 2025-07-27 15:03:38,389 | prova | : Ciao in prova:17
+prova.py | [INFO] | 2025-07-27 15:03:38,391 | prova | : Main in Prova in prova:20
+log_setup.py         | [INFO] | 2025-07-27 15:05:17,601 | prova | : Log Setup Completed, called from prova in log_setup:57
+prova.py             | [INFO] | 2025-07-27 15:05:17,601 | prova | : Ciao in prova:17
+prova.py             | [INFO] | 2025-07-27 15:05:17,603 | prova | : Main in Prova in prova:20
+log_setup.py         | [INFO    ] | 2025-07-27 15:08:19,756 | prova      | in log_setup            : 57  : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:08:19,756 | prova      | in prova                : 17  : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:08:19,758 | prova      | in prova                : 20  : Main in Prova
+log_setup.py         | [INFO    ] | 2025-07-27 15:08:47,029 | prova      | in log_setup            : 57   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:08:47,029 | prova      | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:08:47,030 | prova      | in prova                : 20   : Main in Prova
+log_setup.py         | [INFO    ] | 2025-07-27 15:09:18,317 | __main__   | in log_setup            : 57   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:09:18,317 | __main__   | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:09:18,317 | __main__   | in prova                : 20   : Main in Prova
+log_setup.py         | [INFO    ] | 2025-07-27 15:18:11,942 | __main__   | in log_setup            : 57   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:18:11,942 | __main__   | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:18:11,942 | __main__   | in prova                : 20   : Main in Prova
+log_setup.py         | [INFO    ] | 2025-07-27 15:18:40,985 | prova      | in log_setup            : 57   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:18:40,985 | prova      | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:18:40,986 | prova      | in prova                : 20   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:24:48,785 | __main__   | in log_setup            : 58   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:24:48,785 | __main__   | in log_setup            : 59   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:24:48,785 | __main__   | in log_setup            : 60   : main_logger: <Logger __main__ (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:24:48,785 | __main__   | in log_setup            : 61   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:24:48,785 | __main__   | in log_setup            : 62   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:24:48,785 | __main__   | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:24:48,785 | __main__   | in prova                : 20   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:25:11,437 | __main__   | in log_setup            : 58   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:25:11,437 | __main__   | in log_setup            : 59   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:25:11,437 | __main__   | in log_setup            : 60   : main_logger: <Logger __main__ (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:25:11,437 | __main__   | in log_setup            : 61   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:25:11,438 | __main__   | in log_setup            : 62   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:25:11,438 | __main__   | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:25:11,438 | __main__   | in prova                : 20   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:07,517 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:07,517 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:07,518 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:07,518 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:30:07,518 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:30:07,518 | prova      | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:30:07,519 | prova      | in prova                : 20   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:13,992 | __main__   | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:13,992 | __main__   | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:13,992 | __main__   | in log_setup            : 65   : main_logger: <Logger __main__ (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:30:13,992 | __main__   | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:30:13,992 | __main__   | in log_setup            : 67   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:30:13,992 | __main__   | in prova                : 17   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:30:13,992 | __main__   | in prova                : 20   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:33:04,185 | __main__   | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:33:04,185 | __main__   | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:33:04,185 | __main__   | in log_setup            : 65   : main_logger: <Logger __main__ (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:33:04,185 | __main__   | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:33:04,186 | __main__   | in log_setup            : 67   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:33:04,186 | __main__   | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:33:04,186 | __main__   | in prova                : 21   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:34:16,038 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:34:16,038 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:34:16,038 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:34:16,038 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:34:16,038 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+prova.py             | [INFO    ] | 2025-07-27 15:34:16,038 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:34:16,040 | prova      | in prova                : 21   : Main in Prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:35:58,039 | __main__   | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:35:58,039 | __main__   | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:35:58,039 | __main__   | in log_setup            : 65   : main_logger: <Logger __main__ (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:35:58,039 | __main__   | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:35:58,039 | __main__   | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:35:58,039 | __main__   | in log_setup            : 75   : __main__
+prova.py             | [INFO    ] | 2025-07-27 15:35:58,040 | __main__   | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:35:58,040 | __main__   | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:35:58,040 | __main__   | in prova                : 30   : __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:36:01,891 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:36:01,891 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:36:01,892 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:36:01,892 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:36:01,892 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:36:01,892 | prova      | in log_setup            : 75   : prova
+prova.py             | [INFO    ] | 2025-07-27 15:36:01,892 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:36:01,894 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:36:01,894 | prova      | in prova                : 30   : prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:36:01,894 | prova      | in prova                : 30   : __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:37:00,449 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:37:00,449 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:37:00,449 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:37:00,449 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:37:00,449 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:37:00,449 | prova      | in log_setup            : 75   : logger_name: prova
+prova.py             | [INFO    ] | 2025-07-27 15:37:00,449 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:37:00,451 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:37:00,451 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:37:00,451 | prova      | in prova                : 30   : logger_name: __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:40:36,565 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:40:36,565 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:40:36,565 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:40:36,565 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:40:36,565 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:40:36,565 | prova      | in log_setup            : 75   : logger_name: prova
+prova.py             | [INFO    ] | 2025-07-27 15:40:36,565 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:40:36,567 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:40:36,568 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:40:36,568 | prova      | in prova                : 30   : logger_name: __main__
+log_example.py       | [DEBUG   ] | 2025-07-27 15:40:36,568 | prova      | in log_example          : 32   : Handlers for prova: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:44:31,972 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:44:31,973 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:44:31,973 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:44:31,973 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:44:31,973 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:44:31,973 | prova      | in log_setup            : 75   : logger_name: prova
+prova.py             | [INFO    ] | 2025-07-27 15:44:31,973 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:44:31,975 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:44:31,975 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:44:31,975 | prova      | in prova                : 30   : logger_name: __main__
+log_example.py       | [DEBUG   ] | 2025-07-27 15:44:31,975 | prova      | in log_example          : 32   : Handlers for prova: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:46:04,239 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:46:04,239 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:46:04,239 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:46:04,240 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:46:04,240 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:46:04,240 | prova      | in log_setup            : 75   : logger_name: prova
+prova.py             | [INFO    ] | 2025-07-27 15:46:04,240 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:46:04,241 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:46:04,241 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:46:04,241 | prova      | in prova                : 30   : logger_name: __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:48:38,197 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:48:38,198 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:48:38,198 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:48:38,198 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:48:38,198 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:48:38,198 | prova      | in log_setup            : 74   : logger_name: prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:48:38,198 | prova      | in log_setup            : 77   : Handlers for prova: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+prova.py             | [INFO    ] | 2025-07-27 15:48:38,198 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:48:38,200 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:48:38,200 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:48:38,200 | prova      | in prova                : 30   : logger_name: __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:49:20,117 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:49:20,117 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:49:20,117 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:49:20,117 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:49:20,117 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:49:20,117 | prova      | in log_setup            : 74   : logger_name: prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:49:20,118 | prova      | in log_setup            : 77   : Handlers for prova: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+prova.py             | [INFO    ] | 2025-07-27 15:49:20,118 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:49:20,119 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:49:20,119 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:49:20,119 | prova      | in prova                : 30   : logger_name: __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:50:10,143 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:50:10,143 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:50:10,143 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:50:10,143 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:50:10,143 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:50:10,144 | prova      | in log_setup            : 74   : logger_name: prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:50:10,144 | prova      | in log_setup            : 77   : Handlers for prova: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+prova.py             | [INFO    ] | 2025-07-27 15:50:10,144 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:50:10,146 | prova      | in prova                : 21   : Main in Prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:50:10,146 | prova      | in prova                : 30   : logger_name: prova
+prova.py             | [DEBUG   ] | 2025-07-27 15:50:10,146 | prova      | in prova                : 30   : logger_name: __main__
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:52:28,127 | prova      | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:52:28,127 | prova      | in log_setup            : 64   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:52:28,127 | prova      | in log_setup            : 65   : main_logger: <Logger prova (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:52:28,127 | prova      | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-07-27 15:52:28,128 | prova      | in log_setup            : 67   : Log Setup Completed, called from prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:52:28,128 | prova      | in log_setup            : 74   : logger_name: prova
+log_setup.py         | [DEBUG   ] | 2025-07-27 15:52:28,128 | prova      | in log_setup            : 77   : Handlers for prova: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/log_example/prova.log (NOTSET)>, <SMTPHandler (ERROR)>]
+prova.py             | [INFO    ] | 2025-07-27 15:52:28,128 | prova      | in prova                : 18   : Ciao
+prova.py             | [INFO    ] | 2025-07-27 15:52:28,130 | prova      | in prova                : 21   : Main in Prova
