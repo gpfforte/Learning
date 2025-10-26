@@ -1,6 +1,4 @@
-import sys
 import os
-import logging
 
 import servizio.log_setup as log_setup
 
