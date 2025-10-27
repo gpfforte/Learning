@@ -1,6 +1,7 @@
 import sys
 import random
-from PySide6.QtGui import QStandardItem, QStandardItemModel
+from PySide6.QtGui import QAction, QStandardItem, QStandardItemModel, QImage, QPixmap
+from PySide6.QtCore import Qt, QSize
 
 from PySide6.QtWidgets import (
     QApplication,
@@ -9,14 +10,30 @@ from PySide6.QtWidgets import (
     QMessageBox,
     QMainWindow,
     QPushButton,
+    QSizePolicy,
+    QStatusBar,
     QTabWidget,
     QTableView,
     QTableWidget,
     QTableWidgetItem,
+    QFileDialog,
+    QTextEdit,
     QVBoxLayout,
     QWidget,
 )
 
+"""
+Questo script implementa un'applicazione PySide6 che dimostra vari widget e layout UI.
+Presenta una finestra principale con una barra dei menu, una barra di stato e un widget a schede.
+Ogni scheda mostra diverse funzionalità:
+- Layout orizzontali e verticali con pulsanti.
+- Un QTableWidget per visualizzare e manipolare i dati.
+- Un QTableView con un QStandardItemModel per una gestione più avanzata dei dati della tabella.
+- Un QTextEdit multilinea per l'inserimento di testo.
+
+L'applicazione include anche interazioni di base come finestre di messaggio e aggiornamenti della barra di stato
+basati sulle azioni dell'utente.
+"""
 class MainWindow(QMainWindow):
     def __init__(self, background_color=None):
         super().__init__()
@@ -25,6 +42,39 @@ class MainWindow(QMainWindow):
 
         if background_color:
             self.setStyleSheet(f"background-color: {background_color};")
+
+        # --- Menu Bar ---
+        menu_bar = self.menuBar()
+        file_menu = menu_bar.addMenu("File")
+        edit_menu = menu_bar.addMenu("Edit")
+
+        # File menu actions
+        new_action = QAction("New", self)
+        open_action = QAction("Open", self)
+        save_action = QAction("Save", self)
+        exit_action = QAction("Exit", self)
+        exit_action.triggered.connect(self.close)
+
+        file_menu.addAction(new_action)
+        file_menu.addAction(open_action)
+        open_action.triggered.connect(self.open_text_file)
+        file_menu.addAction(save_action)
+        save_action.triggered.connect(self.save_text_file)
+        file_menu.addSeparator()
+        file_menu.addAction(exit_action)
+
+        # Edit menu actions
+        cut_action = QAction("Cut", self)
+        copy_action = QAction("Copy", self)
+        paste_action = QAction("Paste", self)
+
+        edit_menu.addAction(cut_action)
+        edit_menu.addAction(copy_action)
+        edit_menu.addAction(paste_action)
+
+        # --- Status Bar ---
+        self.status_bar = QStatusBar(self)
+        self.setStatusBar(self.status_bar)
 
         # Crea il gestore dei tab
         tabs = QTabWidget()
@@ -115,7 +165,64 @@ class MainWindow(QMainWindow):
         tab_quattro.setLayout(layout_tab_quattro)
         tabs.addTab(tab_quattro, "Tabella Dati (View)")
 
+        # --- Tab 5: Testo Multilinea ---
+        tab_cinque = QWidget()
+        layout_tab_cinque = QVBoxLayout()
+        self.testo_multilinea = QTextEdit()
+        self.testo_multilinea.setPlaceholderText("Inserisci il tuo testo qui...")
+        layout_tab_cinque.addWidget(self.testo_multilinea)
+        tab_cinque.setLayout(layout_tab_cinque)
+        tabs.addTab(tab_cinque, "Testo Multilinea")
+
+        # Connetti le azioni di modifica al QTextEdit
+        cut_action.triggered.connect(self.testo_multilinea.cut)
+        copy_action.triggered.connect(self.testo_multilinea.copy)
+        paste_action.triggered.connect(self.testo_multilinea.paste)
+
+        # --- Tab 6: Immagine da URL ---
+        tab_sei = QWidget()
+        layout_tab_sei = QVBoxLayout()
+        self.image_label = QLabel("Caricamento immagine...")
+        self.image_label.setAlignment(Qt.AlignCenter)
+        self.image_label.setScaledContents(False) # Ensure it doesn't scale contents automatically
+        self.image_label.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored) # Allow it to shrink
+        layout_tab_sei.addWidget(self.image_label)
+        tab_sei.setLayout(layout_tab_sei)
+        tabs.addTab(tab_sei, "Immagine da URL")
+
         self.setCentralWidget(tabs)
+        self.tabs = tabs # Make tabs an instance variable to access it in the slot
+        self.tabs.currentChanged.connect(self.update_status_bar_with_tab_name)
+
+        # Carica l'immagine locale all'avvio
+        local_image_path = "nasa-october-2025-4k-3840x2160-1.webp"
+        self.original_pixmap = None # Initialize original_pixmap
+        try:
+            image = QImage(local_image_path)
+            if not image.isNull():
+                self.original_pixmap = QPixmap.fromImage(image)
+                self.update_image_display() # Call a new method to handle initial display and resizing
+                self.status_bar.showMessage(f"Immagine '{local_image_path}' caricata con successo.", 3000)
+            else:
+                self.status_bar.showMessage(f"Impossibile caricare l'immagine da '{local_image_path}'.", 3000)
+                self.image_label.setText(f"Errore: Impossibile caricare l'immagine da '{local_image_path}'.")
+        except Exception as e:
+            self.status_bar.showMessage(f"Errore nel caricamento dell'immagine locale: {e}", 3000)
+            self.image_label.setText(f"Errore: {e}")
+
+    def update_image_display(self):
+        if self.original_pixmap and not self.original_pixmap.isNull():
+            if self.image_label.size().width() > 0 and self.image_label.size().height() > 0:
+                target_size = self.image_label.size()
+            else:
+                target_size = QSize(600, 400) # Default size if label is not yet laid out
+
+            scaled_pixmap = self.original_pixmap.scaled(target_size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            self.image_label.setPixmap(scaled_pixmap)
+
+    def resizeEvent(self, event):
+        self.update_image_display()
+        super().resizeEvent(event)
 
     def mostra_messaggio(self):
         """Crea e mostra una messagebox con il testo del bottone che l'ha chiamata."""
@@ -125,6 +232,7 @@ class MainWindow(QMainWindow):
         messaggio.setWindowTitle("Info Bottone")
         messaggio.setText(f"Hai cliccato il bottone: '{bottone_cliccato.text()}'")
         messaggio.exec()
+        self.status_bar.showMessage(f"Ultima azione: Hai cliccato il bottone: '{bottone_cliccato.text()}'", 3000)
 
     def riempi_tabella(self):
         """Popola la tabella con 10 righe e 10 colonne di dati casuali."""
@@ -150,10 +258,12 @@ class MainWindow(QMainWindow):
                 self.tabella.setItem(riga, colonna, item)
         
         self.tabella.resizeColumnsToContents()
+        self.status_bar.showMessage("Tabella riempita con dati casuali.", 3000)
 
     def pulisci_tabella(self):
         """Rimuove tutte le righe dalla tabella, lasciando gli header."""
         self.tabella.setRowCount(0)
+        self.status_bar.showMessage("Tabella pulita.", 3000)
 
     def mostra_selezione(self):
         """Mostra in una messagebox il valore o i valori selezionati nella tabella."""
@@ -193,9 +303,8 @@ class MainWindow(QMainWindow):
                     item = self.tabella.item(r, c)
                     if item and item.isSelected():
                         dati_selezionati.append(item.text())
-            testo_messaggio = "Valori selezionati:\n" + ", ".join(dati_selezionati)
-
         QMessageBox.information(self, "Dati Selezionati", testo_messaggio)
+        self.status_bar.showMessage("Selezione tabella mostrata.", 3000)
 
     def riempi_tabella_view(self):
         """Popola la QTableView usando un QStandardItemModel."""
@@ -222,10 +331,12 @@ class MainWindow(QMainWindow):
             self.modello.appendRow(riga_items)
         
         self.vista_tabella.resizeColumnsToContents()
+        self.status_bar.showMessage("Tabella (View) riempita con dati casuali.", 3000)
 
     def pulisci_tabella_view(self):
         """Rimuove tutte le righe dal modello."""
         self.modello.setRowCount(0)
+        self.status_bar.showMessage("Tabella (View) pulita.", 3000)
 
     def mostra_selezione_view(self):
         """Mostra in una messagebox il valore o i valori selezionati nella QTableView."""
@@ -256,16 +367,32 @@ class MainWindow(QMainWindow):
             dati_colonna = [self.modello.item(riga, colonna).text() for riga in range(self.modello.rowCount())]
             testo_messaggio = f"Colonna '{nome_colonna}' selezionata:\n" + "\n".join(dati_colonna)
 
-        # Altrimenti, mostra i dati delle celle selezionate
-        else:
-            dati_selezionati = []
-            # Usiamo una lista di indici già recuperata
-            for index in indexes:
-                dati_selezionati.append(index.data())
-            testo_messaggio = "Valori selezionati:\n" + ", ".join(dati_selezionati)
-
         QMessageBox.information(self, "Dati Selezionati", testo_messaggio)
+        self.status_bar.showMessage("Selezione tabella (View) mostrata.", 3000)
 
+    def update_status_bar_with_tab_name(self, index):
+        tab_name = self.tabs.tabText(index)
+        self.status_bar.showMessage(f"Tab selezionata: {tab_name}", 3000)
+
+    def open_text_file(self):
+        file_name, _ = QFileDialog.getOpenFileName(self, "Apri File di Testo", "", "File di Testo (*.txt);;Tutti i File (*)")
+        if file_name:
+            try:
+                with open(file_name, 'r') as f:
+                    self.testo_multilinea.setText(f.read())
+                self.status_bar.showMessage(f"File '{file_name}' aperto con successo.", 3000)
+            except Exception as e:
+                self.status_bar.showMessage(f"Errore nell'apertura del file: {e}", 3000)
+
+    def save_text_file(self):
+        file_name, _ = QFileDialog.getSaveFileName(self, "Salva File di Testo", "", "File di Testo (*.txt);;Tutti i File (*)")
+        if file_name:
+            try:
+                with open(file_name, 'w') as f:
+                    f.write(self.testo_multilinea.toPlainText())
+                self.status_bar.showMessage(f"File '{file_name}' salvato con successo.", 3000)
+            except Exception as e:
+                self.status_bar.showMessage(f"Errore nel salvataggio del file: {e}", 3000)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
