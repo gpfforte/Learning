@@ -16,3 +16,12 @@ try_tabnine.py | [INFO] | 2022-04-07 22:15:25,846 | __main__ | : Fine - Elapsed 
 log_setup.py | [INFO] | 2022-04-07 22:18:29,651 | __main__ | : Log Setup Completed, called from try_tabnine in log_setup:54
 try_tabnine.py | [INFO] | 2022-04-07 22:18:29,651 | __main__ | : Inizio in try_tabnine:19
 try_tabnine.py | [INFO] | 2022-04-07 22:18:29,671 | __main__ | : Fine - Elapsed Time: 0.015193100000000015 in try_tabnine:54
+log_setup.py         | [DEBUG   ] | 2025-10-28 21:35:20,897 | __main__   | in log_setup            : 63   : Root Handlers: []
+log_setup.py         | [DEBUG   ] | 2025-10-28 21:35:20,898 | __main__   | in log_setup            : 64   : Log Setup Completed, called from try_tabnine
+log_setup.py         | [DEBUG   ] | 2025-10-28 21:35:20,898 | __main__   | in log_setup            : 65   : main_logger: <Logger __main__ (DEBUG)>
+log_setup.py         | [DEBUG   ] | 2025-10-28 21:35:20,898 | __main__   | in log_setup            : 66   : Handlers:[<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/try_tabnine.log (DEBUG)>, <SMTPHandler (ERROR)>]
+log_setup.py         | [INFO    ] | 2025-10-28 21:35:20,898 | __main__   | in log_setup            : 67   : Log Setup Completed, called from try_tabnine
+log_setup.py         | [DEBUG   ] | 2025-10-28 21:35:20,898 | __main__   | in log_setup            : 74   : logger_name: __main__
+log_setup.py         | [DEBUG   ] | 2025-10-28 21:35:20,898 | __main__   | in log_setup            : 77   : Handlers for __main__: [<StreamHandler <stderr> (INFO)>, <RotatingFileHandler /home/gpf/Documents/Progetti/Learning/try_tabnine.log (DEBUG)>, <SMTPHandler (ERROR)>]
+try_tabnine.py       | [INFO    ] | 2025-10-28 21:35:20,898 | __main__   | in try_tabnine          : 20   : Inizio
+try_tabnine.py       | [INFO    ] | 2025-10-28 21:35:20,898 | __main__   | in try_tabnine          : 55   : Fine - Elapsed Time: 0.001376854000000094
