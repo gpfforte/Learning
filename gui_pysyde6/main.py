@@ -1,7 +1,7 @@
 import sys
 import random
 from PySide6.QtGui import QAction, QStandardItem, QStandardItemModel, QImage, QPixmap
-from PySide6.QtCore import Qt, QSize, QTimer
+from PySide6.QtCore import Qt, QSize, QTimer, QDate, QTime, QDateTime
 
 from PySide6.QtWidgets import (
     QApplication,
@@ -263,22 +263,30 @@ class MainWindow(QMainWindow):
         tab_nove = QWidget()
         layout_tab_nove = QVBoxLayout()
         date_time_group = QGroupBox("Date e Time Edits")
-        date_time_layout = QHBoxLayout()
+        date_time_layout = QVBoxLayout() # Modificato in QVBoxLayout per una migliore leggibilità
         self.date_edit = QDateEdit()
+        self.date_edit.setDate(QDate.currentDate()) # Imposta la data corrente
+        self.date_edit.setCalendarPopup(True) # Abilita il calendario a comparsa
+        self.date_edit.setDisplayFormat("dd/MM/yyyy") # Imposta il formato con anno a 4 cifre
         self.date_edit.dateChanged.connect(self.date_changed)
-        date_time_layout.addWidget(QLabel("Data:"))
+        date_time_layout.addWidget(QLabel("Data (con calendario a comparsa):"))
         date_time_layout.addWidget(self.date_edit)
         self.time_edit = QTimeEdit()
+        self.time_edit.setTime(QTime.currentTime()) # Imposta l'ora corrente
         self.time_edit.timeChanged.connect(self.time_changed)
         date_time_layout.addWidget(QLabel("Ora:"))
         date_time_layout.addWidget(self.time_edit)
         self.datetime_edit = QDateTimeEdit()
+        self.datetime_edit.setDateTime(QDateTime.currentDateTime()) # Imposta data e ora correnti
+        self.datetime_edit.setCalendarPopup(True) # Abilita il calendario a comparsa
+        self.datetime_edit.setDisplayFormat("dd/MM/yyyy hh:mm:ss") # Imposta il formato con anno a 4 cifre
         self.datetime_edit.dateTimeChanged.connect(self.datetime_changed)
-        date_time_layout.addWidget(QLabel("Data e Ora:"))
+        date_time_layout.addWidget(QLabel("Data e Ora (con calendario a comparsa):"))
         date_time_layout.addWidget(self.datetime_edit)
         date_time_group.setLayout(date_time_layout)
         layout_tab_nove.addWidget(date_time_group)
         self.calendar = QCalendarWidget()
+        self.calendar.setSelectedDate(QDate.currentDate()) # Imposta la data corrente
         self.calendar.selectionChanged.connect(self.calendar_date_changed)
         layout_tab_nove.addWidget(self.calendar)
         tab_nove.setLayout(layout_tab_nove)
@@ -297,9 +305,14 @@ class MainWindow(QMainWindow):
         progress_group.setLayout(progress_layout)
         layout_tab_dieci.addWidget(progress_group)
         splitter = QSplitter(Qt.Horizontal)
-        left_text = QTextEdit("Pannello Sinistro")
+        # Creiamo una tabella per il pannello sinistro
+        left_table = QTableWidget(5, 2)
+        left_table.setHorizontalHeaderLabels(["Proprietà", "Valore"])
+        for i in range(5):
+            left_table.setItem(i, 0, QTableWidgetItem(f"Dato {i+1}"))
+            left_table.setItem(i, 1, QTableWidgetItem(f"Valore casuale: {random.randint(1, 100)}"))
         right_text = QTextEdit("Pannello Destro")
-        splitter.addWidget(left_text)
+        splitter.addWidget(left_table)
         splitter.addWidget(right_text)
         layout_tab_dieci.addWidget(splitter)
         tab_dieci.setLayout(layout_tab_dieci)
